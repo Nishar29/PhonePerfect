@@ -105,12 +105,36 @@ function togglePriceAlert(phoneId) {
     removePriceAlert(phoneId);
     showToast('🔕 Price alert removed');
   } else {
-    const phone = PHONES.find(p => p.id === phoneId);
-    if (phone) {
-      const price = getPhonePrice(phone);
-      const target = Math.round(price * 0.9); // Alert at 10% drop
-      setPriceAlert(phoneId, target);
-      showToast(`🔔 Alert set! We'll notify when price drops below ₹${(target/1000).toFixed(0)}K`);
+    // Request notification permission if needed
+    if ("Notification" in window && Notification.permission !== "granted" && Notification.permission !== "denied") {
+      Notification.requestPermission().then(function (permission) {
+        if (permission === "granted") {
+          setAlertForPhone(phoneId);
+        } else {
+          showToast('⚠️ Notifications denied. Alert will only work while app is open.');
+          setAlertForPhone(phoneId);
+        }
+      });
+    } else {
+      setAlertForPhone(phoneId);
+    }
+  }
+}
+
+function setAlertForPhone(phoneId) {
+  const phone = PHONES.find(p => p.id === phoneId);
+  if (phone) {
+    const price = getPhonePrice(phone);
+    const target = Math.round(price * 0.9); // Alert at 10% drop
+    setPriceAlert(phoneId, target);
+    showToast(`🔔 Alert set! We'll notify when price drops below ₹${(target/1000).toFixed(0)}K`);
+    
+    // Test notification immediately if granted
+    if ("Notification" in window && Notification.permission === "granted") {
+      new Notification("Alert Set!", {
+        body: `We will notify you when ${phone.name} drops below ₹${(target/1000).toFixed(0)}K.`,
+        icon: phone.images && phone.images.length > 0 ? phone.images[0] : null
+      });
     }
   }
 }

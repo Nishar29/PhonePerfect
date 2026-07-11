@@ -392,6 +392,32 @@ function openCompareModal() {
           </div>
         </div>
       `).join('')}
+      
+      <!-- Added Numeric Comparisons -->
+      <div class="compare-spec-row">
+        <div class="compare-spec-label">RAM</div>
+        <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+          ${phonesToCompare.map(p => `
+            <div class="compare-spec-val ${p.ram_gb === Math.max(...phonesToCompare.map(x=>x.ram_gb||0)) ? 'compare-winner' : ''}">${p.ram_gb || '?'} GB</div>
+          `).join('')}
+        </div>
+      </div>
+      <div class="compare-spec-row">
+        <div class="compare-spec-label">Screen Size</div>
+        <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+          ${phonesToCompare.map(p => `
+            <div class="compare-spec-val ${p.screen_size === Math.max(...phonesToCompare.map(x=>x.screen_size||0)) ? 'compare-winner' : ''}">${p.screen_size || '?'} inches</div>
+          `).join('')}
+        </div>
+      </div>
+      <div class="compare-spec-row">
+        <div class="compare-spec-label">Price</div>
+        <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+          ${phonesToCompare.map(p => `
+            <div class="compare-spec-val ${p.price_numeric === Math.min(...phonesToCompare.map(x=>x.price_numeric||9999999)) ? 'compare-winner' : ''}">₹${p.price_numeric ? p.price_numeric.toLocaleString() : '?'}</div>
+          `).join('')}
+        </div>
+      </div>
     </div>
   `;
   
@@ -565,9 +591,15 @@ function openModal(phoneId) {
         <div class="modal-phone-price">${phone.price}</div>
         <div class="modal-phone-ip">${ipShort}</div>
       </div>
-      <div class="modal-overall-score">
-        <span class="modal-score-num">${overall}</span>
-        <span class="modal-score-label">/ 10</span>
+      </div>
+      <div class="modal-actions" style="display: flex; flex-direction: column; align-items: flex-end; gap: 8px;">
+        <div class="modal-overall-score">
+          <span class="modal-score-num">${overall}</span>
+          <span class="modal-score-label">/ 10</span>
+        </div>
+        <button class="compare-btn-primary" style="padding: 6px 12px; font-size: 0.8rem; background: #25D366; color: white; border: none; cursor: pointer; display: flex; align-items: center;" onclick="shareToWhatsApp('${phone.id}')">
+          <svg style="width:14px; height:14px; margin-right: 6px;" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> Share
+        </button>
       </div>
     </div>
 
@@ -634,9 +666,12 @@ function openModal(phoneId) {
 
     <!-- PRICE TRACKER -->
     <div class="price-tracker-container" style="background: var(--bg-main); border: 1px solid var(--border); padding: 16px; border-radius: 12px; margin-bottom: 24px;">
-      <h4 style="margin: 0 0 12px 0; font-size: 1rem; display: flex; justify-content: space-between; align-items: center;">
+      <h4 style="margin: 0 0 12px 0; font-size: 1rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
         <span>📉 Price History (6 Months)</span>
-        <button class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="togglePriceAlert('${phone.id}', ${phone.price_numeric})" id="alert-btn-${phone.id}">🔔 Set Alert</button>
+        <div style="display: flex; gap: 8px;">
+          <a href="https://www.amazon.in/s?k=${encodeURIComponent(phone.brand + ' ' + phone.name)}" target="_blank" class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; color: #ff9900; border-color: #ff9900;">🛒 Amazon Live</a>
+          <button class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="togglePriceAlert('${phone.id}')" id="alert-btn-${phone.id}">🔔 Set Alert</button>
+        </div>
       </h4>
       <canvas id="priceChart-${phone.id}" width="400" height="100" style="width: 100%; height: 100px; display: block;"></canvas>
     </div>
@@ -671,6 +706,8 @@ function openModal(phoneId) {
         </div>
       `).join('')}
     </div>
+    
+    ${renderRatingUI(phone.id)}
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
@@ -692,6 +729,21 @@ function closeModal(e) {
   if (e && e.target !== document.getElementById('modal-overlay')) return;
   document.getElementById('modal-overlay').classList.remove('open');
   document.body.style.overflow = '';
+}
+
+function shareToWhatsApp(phoneId) {
+  const phone = PHONES.find(p => p.id === phoneId);
+  if (!phone) return;
+  const overall = getOverallScore(phone);
+  let text = `Check out the ${phone.brand} ${phone.name} on PhonePerfect!\n\n`;
+  text += `⭐ Rating: ${overall}/10\n`;
+  text += `💰 Price: ${phone.price}\n\n`;
+  if (phone.pros && phone.pros.length > 0) {
+    text += `✅ Pros: ${phone.pros.join(', ')}\n`;
+  }
+  text += `\nFind it here: ${window.location.href.split('#')[0]}`;
+  const encodedText = encodeURIComponent(text);
+  window.open(`https://wa.me/?text=${encodedText}`, '_blank');
 }
 
 function formatSpecKey(key) {
@@ -1090,3 +1142,84 @@ generateRecommendations = function() {
     }
   }, 950);
 };
+
+
+// Voice Search Implementation
+function startVoiceSearch() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    alert('Voice search is not supported in this browser.');
+    return;
+  }
+  const recognition = new SpeechRecognition();
+  recognition.continuous = false;
+  recognition.lang = 'en-US'; // We will change this for regional languages later
+  recognition.interimResults = false;
+
+  const btn = document.getElementById('voice-search-btn');
+  const originalIcon = btn.innerText;
+  btn.innerText = '??';
+
+  recognition.onresult = function(event) {
+    const transcript = event.results[0][0].transcript;
+    const searchInput = document.getElementById('phone-search');
+    searchInput.value = transcript;
+    filterPhones(transcript);
+    btn.innerText = originalIcon;
+  };
+
+  recognition.onerror = function(event) {
+    console.error('Speech recognition error', event.error);
+    btn.innerText = originalIcon;
+  };
+
+  recognition.onend = function() {
+    btn.innerText = originalIcon;
+  };
+
+  recognition.start();
+}
+
+// Language Support
+const translations = {
+  en: { find: 'Find', phones: 'Phones', recommend: 'Get Recommendations', searchPlaceholder: '?? Search phone name...' },
+  hi: { find: '?????', phones: '????', recommend: '????????? ??????? ????', searchPlaceholder: '?? ???? ?? ??? ?????...' },
+  ta: { find: '????', phones: '???????', recommend: '?????????????? ?????????', searchPlaceholder: '?? ???? ????? ???...' },
+  te: { find: '???????', phones: '??????', recommend: '??????????? ???????', searchPlaceholder: '?? ???? ???? ???????...' }
+};
+
+function changeLanguage(lang) {
+  const t = translations[lang] || translations.en;
+  document.querySelector('a[href="#finder"] .bottom-nav-text').innerText = t.find;
+  document.querySelector('a[href="#phones-list"] .bottom-nav-text').innerText = t.phones;
+  const recBtn = document.querySelector('#recommend-btn span');
+  if(recBtn) recBtn.innerText = t.recommend;
+  const searchInput = document.getElementById('phone-search');
+  if(searchInput) searchInput.placeholder = t.searchPlaceholder;
+}
+
+
+// User Ratings System
+function renderRatingUI(phoneId) {
+  const savedRating = localStorage.getItem('rating_' + phoneId) || 0;
+  let starsHtml = '';
+  for (let i = 1; i <= 5; i++) {
+    starsHtml += `<span style='cursor:pointer; font-size:1.5rem; color:${i <= savedRating ? '#f59e0b' : 'var(--border)'};' onclick='saveRating("${phoneId}", ${i})'>★</span>`;
+  }
+  return `<div style='margin-top: 20px; text-align: center; background: var(--bg-card); padding: 16px; border-radius: 12px; border: 1px solid var(--border);'>
+    <div style='font-size: 0.9rem; color: var(--text-2); margin-bottom: 8px;'>Your Rating</div>
+    <div id='rating-stars-${phoneId}'>${starsHtml}</div>
+  </div>`;
+}
+
+function saveRating(phoneId, rating) {
+  localStorage.setItem('rating_' + phoneId, rating);
+  const starsDiv = document.getElementById('rating-stars-' + phoneId);
+  if(starsDiv) {
+    let starsHtml = '';
+    for (let i = 1; i <= 5; i++) {
+      starsHtml += `<span style='cursor:pointer; font-size:1.5rem; color:${i <= rating ? '#f59e0b' : 'var(--border)'};' onclick='saveRating("${phoneId}", ${i})'>★</span>`;
+    }
+    starsDiv.innerHTML = starsHtml;
+  }
+}

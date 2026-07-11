@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PhonePerfect – Smart Phone Recommender</title>
   <meta name="description" content="Find your perfect smartphone based on durability, camera, battery, charging speed, display, sound quality, and IP rating using real 2024 phone data." />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#111827">
+  <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3437/3437364.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -21,9 +24,17 @@
         <div class="logo-icon">📱</div>
         <span class="logo-text">Phone<span class="accent">Perfect</span></span>
       </div>
-      <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
-        🌙
-      </button>
+      <div style="display: flex; gap: 12px; align-items: center;">
+        <select id="lang-select" onchange="changeLanguage(this.value)" style="background: var(--bg-card); color: var(--text-1); border: 1px solid var(--border); border-radius: 8px; padding: 4px 8px; font-family: inherit; font-size: 0.9rem; cursor: pointer;">
+          <option value="en">English</option>
+          <option value="hi">हिंदी (Hindi)</option>
+          <option value="ta">தமிழ் (Tamil)</option>
+          <option value="te">తెలుగు (Telugu)</option>
+        </select>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+          🌓
+        </button>
+      </div>
     </div>
   </nav>
 
@@ -275,7 +286,10 @@
         </div>
       </div>
       <div class="phones-filter-bar">
-        <input type="text" class="phone-search" id="phone-search" placeholder="🔍 Search phone name..." oninput="filterPhones(this.value)" />
+        <div class="search-wrapper" style="position: relative; display: flex; align-items: center; max-width: 400px; width: 100%;">
+          <input type="text" class="phone-search" id="phone-search" placeholder="🔍 Search phone name..." oninput="filterPhones(this.value)" style="width: 100%; padding-right: 40px;" />
+          <button id="voice-search-btn" class="voice-search-btn" onclick="startVoiceSearch()" title="Voice Search" style="position: absolute; right: 10px; background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text-2);">🎙️</button>
+        </div>
         <div class="sort-btns">
           <button class="sort-btn active" onclick="sortPhones('overall', this)">Overall</button>
           <button class="sort-btn" onclick="sortPhones('camera', this)">Camera</button>
@@ -360,5 +374,16 @@
   <script src="ai-chat.js"></script>
   <script src="auto-updater.js"></script>
   <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js').then(registration => {
+          console.log('SW registered: ', registration.scope);
+        }).catch(registrationError => {
+          console.log('SW registration failed: ', registrationError);
+        });
+      });
+    }
+  </script>
 </body>
 </html>
