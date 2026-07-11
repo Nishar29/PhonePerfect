@@ -4,7 +4,7 @@
  */
 
 // In production, point this to your own GitHub repository's raw phones.json link
-const REMOTE_DATABASE_URL = "https://raw.githubusercontent.com/nisha-singh/PhonePerfect/main/phones.json";
+const REMOTE_DATABASE_URL = "https://raw.githubusercontent.com/Nishar29/PhonePerfect/main/phones.json";
 
 // We cache the remote database in localStorage so the app stays updated offline
 async function checkForDatabaseUpdates() {
