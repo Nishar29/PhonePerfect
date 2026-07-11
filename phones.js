@@ -10334,6 +10334,2256 @@ var PHONES = [
     "images": [
       "https://upload.wikimedia.org/wikipedia/commons/0/02/Nokia_wordmark.svg"
     ]
+  },
+  {
+    "id": "apple-iphone-17e",
+    "brand": "Apple",
+    "name": "iPhone 17e",
+    "price": "\u20b944,815",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1170 x 2532 pixels",
+      "processor": "Apple A19 (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 4005 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.3,
+      "camera": 7.5,
+      "battery": 9.5,
+      "charging": 9.6,
+      "display": 7.8,
+      "sound": 7.3,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 44815,
+    "price_history": [
+      44815,
+      42574,
+      40333,
+      38092,
+      35852,
+      33611
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-ipad-air-13-2026",
+    "brand": "Apple",
+    "name": "iPad Air 13 (2026)",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "2048 x 2732 pixels",
+      "processor": "Apple M4",
+      "camera": "12 MP",
+      "battery": "Li-Po 9705 mAh (36.59 Wh)",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 8.6,
+      "battery": 10.0,
+      "charging": 9.3,
+      "display": 7.1,
+      "sound": 8.6,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-ipad-air-11-2026",
+    "brand": "Apple",
+    "name": "iPad Air 11 (2026)",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1640 x 2360 pixels (~264 ppi density)",
+      "processor": "Apple M4",
+      "camera": "12 MP",
+      "battery": "Li-Po 7606 mAh (28.93 Wh)",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.1,
+      "camera": 6.7,
+      "battery": 7.3,
+      "charging": 9.7,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-2025",
+    "brand": "Apple",
+    "name": "iPad Pro 13 (2025)",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "2064 x 2752 pixels",
+      "processor": "Apple M5",
+      "camera": "12 MP",
+      "battery": "Li-Po 10290 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 9.4,
+      "battery": 8.6,
+      "charging": 9.7,
+      "display": 7.5,
+      "sound": 7.8,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-2025",
+    "brand": "Apple",
+    "name": "iPad Pro 11 (2025)",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1668 x 2420 pixels",
+      "processor": "Apple M5",
+      "camera": "12 MP",
+      "battery": "Li-Po 8160 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 8.2,
+      "battery": 9.4,
+      "charging": 7.9,
+      "display": 8.3,
+      "sound": 7.1,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-17-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 17 Pro Max",
+    "price": "\u20b977,958",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1320 x 2868 pixels",
+      "processor": "Apple A19 Pro (3 nm)",
+      "camera": "48 MP",
+      "battery": "Market-dependent versions:\u00b7 Li-Ion 4823 mAh - Nano SIM model\u00b7 Li-Ion 5088 mAh - eSIM only model",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.5,
+      "camera": 9.5,
+      "battery": 10,
+      "charging": 8.7,
+      "display": 8.2,
+      "sound": 8.9,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 77958,
+    "price_history": [
+      77958,
+      76398,
+      74060,
+      71721,
+      68603,
+      66264
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-17-pro",
+    "brand": "Apple",
+    "name": "iPhone 17 Pro",
+    "price": "\u20b973,704",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1206 x 2622 pixels",
+      "processor": "Apple A19 Pro (3 nm)",
+      "camera": "48 MP",
+      "battery": "Market-dependent versions:\u00b7 Li-Ion 3998 mAh - Nano SIM model\u00b7 Li-Ion 4252 mAh - eSIM only model",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 10.0,
+      "camera": 9.8,
+      "battery": 9.1,
+      "charging": 8.9,
+      "display": 9.6,
+      "sound": 8.4,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 73704,
+    "price_history": [
+      73704,
+      72229,
+      70018,
+      67807,
+      64859,
+      62648
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-air",
+    "brand": "Apple",
+    "name": "iPhone Air",
+    "price": "\u20b948,140",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1260 x 2736 pixels",
+      "processor": "Apple A19 Pro (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 3149 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.8,
+      "camera": 7.0,
+      "battery": 8.8,
+      "charging": 7.2,
+      "display": 7.5,
+      "sound": 7.5,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 48140,
+    "price_history": [
+      48140,
+      45733,
+      43326,
+      40919,
+      38512,
+      36105
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-17",
+    "brand": "Apple",
+    "name": "iPhone 17",
+    "price": "\u20b953,202",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1206 x 2622 pixels",
+      "processor": "Apple A19 (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 3692 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 8.6,
+      "battery": 9.5,
+      "charging": 10,
+      "display": 8.7,
+      "sound": 8.6,
+      "ip": 10
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 53202,
+    "price_history": [
+      53202,
+      52137,
+      50541,
+      48945,
+      46817,
+      45221
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-watch-ultra-3",
+    "brand": "Apple",
+    "name": "Watch Ultra 3",
+    "price": "\u20b919,089",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "514 x 422 pixels (~326 ppi density)",
+      "processor": "Apple S10",
+      "camera": "No",
+      "battery": "Li-Ion 599 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.2,
+      "camera": 6.8,
+      "battery": 7.4,
+      "charging": 7.6,
+      "display": 7.8,
+      "sound": 6.8,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "64GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 19089,
+    "price_history": [
+      19089,
+      18134,
+      17180,
+      16225,
+      15271,
+      14316
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-m47",
+    "brand": "Samsung",
+    "name": "Galaxy M47",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2340 pixels",
+      "processor": "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+      "camera": "50 MP",
+      "battery": "6000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.6,
+      "camera": 7.6,
+      "battery": 9.3,
+      "charging": 8.1,
+      "display": 7.9,
+      "sound": 7.5,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB 6GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a27",
+    "brand": "Samsung",
+    "name": "Galaxy A27",
+    "price": "\u20b923,126",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2340 pixels",
+      "processor": "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 7.5,
+      "battery": 8.9,
+      "charging": 7.7,
+      "display": 7.5,
+      "sound": 6.2,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB 6GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 23126,
+    "price_history": [
+      23126,
+      21969,
+      20813,
+      19657,
+      18500,
+      17344
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a57",
+    "brand": "Samsung",
+    "name": "Galaxy A57",
+    "price": "\u20b933,199",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2340 pixels",
+      "processor": "Exynos 1680 (4 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 7.4,
+      "battery": 7.4,
+      "charging": 7.1,
+      "display": 7.5,
+      "sound": 7.8,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 33199,
+    "price_history": [
+      33199,
+      31539,
+      29879,
+      28219,
+      26559,
+      24899
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a37",
+    "brand": "Samsung",
+    "name": "Galaxy A37",
+    "price": "\u20b924,858",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2340 pixels",
+      "processor": "Exynos 1480 (4 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 6.2,
+      "camera": 6.5,
+      "battery": 6.8,
+      "charging": 7.4,
+      "display": 6.9,
+      "sound": 7.9,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB 6GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 24858,
+    "price_history": [
+      24858,
+      23615,
+      22372,
+      21129,
+      19886,
+      18643
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-m17e",
+    "brand": "Samsung",
+    "name": "Galaxy M17e",
+    "price": "\u20b915,499",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "720 x 1600 pixels",
+      "processor": "Mediatek Dimensity 6300 (6 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 6000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 7.9,
+      "battery": 6.0,
+      "charging": 8.2,
+      "display": 6.5,
+      "sound": 7.9,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 15499,
+    "price_history": [
+      15499,
+      14724,
+      13949,
+      13174,
+      12399,
+      11624
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s26-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S26 Ultra",
+    "price": "\u20b983",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1440 x 3120 pixels",
+      "processor": "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm)",
+      "camera": "200 MP",
+      "battery": "Li-Ion 5000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 5.2,
+      "camera": 6.2,
+      "battery": 6.2,
+      "charging": 6.6,
+      "display": 5.3,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 83,
+    "price_history": [
+      83,
+      78,
+      74,
+      70,
+      66,
+      62
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s26+",
+    "brand": "Samsung",
+    "name": "Galaxy S26+",
+    "price": "\u20b973,040",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1440 x 3120 pixels",
+      "processor": "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm) - US/CNExynos 2600 (2 nm) - ROW",
+      "camera": "50 MP",
+      "battery": "Li-Ion 4900 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 10,
+      "battery": 10,
+      "charging": 9.3,
+      "display": 8.8,
+      "sound": 9.0,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 73040,
+    "price_history": [
+      73040,
+      71579,
+      69388,
+      67196,
+      64275,
+      62084
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s26",
+    "brand": "Samsung",
+    "name": "Galaxy S26",
+    "price": "\u20b958,930",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2340 pixels",
+      "processor": "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm) - US/CNExynos 2600 (2 nm) - ROW",
+      "camera": "50 MP",
+      "battery": "Li-Ion 4300 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 9.6,
+      "battery": 10,
+      "charging": 10,
+      "display": 9.3,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 58930,
+    "price_history": [
+      58930,
+      57751,
+      55983,
+      54215,
+      51858,
+      50090
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-f70e",
+    "brand": "Samsung",
+    "name": "Galaxy F70e",
+    "price": "\u20b913,517",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "720 x 1600 pixels",
+      "processor": "Mediatek Dimensity 6300 (6 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 6000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 6.3,
+      "camera": 6.7,
+      "battery": 5.1,
+      "charging": 7.3,
+      "display": 6.3,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 13517,
+    "price_history": [
+      13517,
+      12841,
+      12165,
+      11489,
+      10813,
+      10137
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a07",
+    "brand": "Samsung",
+    "name": "Galaxy A07",
+    "price": "\u20b918,533",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "720 x 1600 pixels",
+      "processor": "Mediatek Dimensity 6300 (6 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 6000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.0,
+      "camera": 6.7,
+      "battery": 7.0,
+      "charging": 8.5,
+      "display": 7.0,
+      "sound": 7.1,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 18533,
+    "price_history": [
+      18533,
+      17606,
+      16679,
+      15753,
+      14826,
+      13899
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-10a",
+    "brand": "Google",
+    "name": "Pixel 10a",
+    "price": "\u20b941,417",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2424 pixels",
+      "processor": "Google Tensor G4 (4 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Po 5100 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 8.8,
+      "battery": 7.3,
+      "charging": 7.9,
+      "display": 8.4,
+      "sound": 8.2,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 41417,
+    "price_history": [
+      41417,
+      39346,
+      37275,
+      35204,
+      33133,
+      31062
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-10-pro-fold",
+    "brand": "Google",
+    "name": "Pixel 10 Pro Fold",
+    "price": "\u20b983",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "2076 x 2152 pixels",
+      "processor": "Google Tensor G5 (3 nm)",
+      "camera": "48 MP",
+      "battery": "5015 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 6.0,
+      "camera": 5.7,
+      "battery": 6.8,
+      "charging": 7.5,
+      "display": 6.9,
+      "sound": 6.5,
+      "ip": 0
+    },
+    "ram_gb": 16,
+    "storage_options": "256GB 16GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 83,
+    "price_history": [
+      83,
+      78,
+      74,
+      70,
+      66,
+      62
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-10-pro-xl",
+    "brand": "Google",
+    "name": "Pixel 10 Pro XL",
+    "price": "\u20b951,459",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1344 x 2992 pixels",
+      "processor": "Google Tensor G5 (3 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 5200 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.9,
+      "camera": 8.3,
+      "battery": 9.4,
+      "charging": 8.6,
+      "display": 9.8,
+      "sound": 8.3,
+      "ip": 10
+    },
+    "ram_gb": 16,
+    "storage_options": "256GB 16GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 51459,
+    "price_history": [
+      51459,
+      50429,
+      48886,
+      47342,
+      45283,
+      43740
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-10-pro",
+    "brand": "Google",
+    "name": "Pixel 10 Pro",
+    "price": "\u20b953,117",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1280 x 2856 pixels",
+      "processor": "Google Tensor G5 (3 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 4870 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 10,
+      "battery": 10,
+      "charging": 10,
+      "display": 8.5,
+      "sound": 8.7,
+      "ip": 10
+    },
+    "ram_gb": 16,
+    "storage_options": "128GB 16GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 53117,
+    "price_history": [
+      53117,
+      52054,
+      50461,
+      48867,
+      46742,
+      45149
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-10",
+    "brand": "Google",
+    "name": "Pixel 10",
+    "price": "\u20b941,499",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2424 pixels",
+      "processor": "Google Tensor G5 (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 4970 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.9,
+      "camera": 8.6,
+      "battery": 7.4,
+      "charging": 7.8,
+      "display": 7.9,
+      "sound": 8.5,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 41499,
+    "price_history": [
+      41499,
+      39424,
+      37349,
+      35274,
+      33199,
+      31124
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-watch-4",
+    "brand": "Google",
+    "name": "Pixel Watch 4",
+    "price": "\u20b928,468",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "456 x 456 pixels (~320 ppi density)",
+      "processor": "Qualcomm Snapdragon W5 Gen 2 (4 nm)",
+      "camera": "No",
+      "battery": "Li-Ion 455 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.2,
+      "camera": 6.9,
+      "battery": 6.5,
+      "charging": 6.2,
+      "display": 7.2,
+      "sound": 6.2,
+      "ip": 5
+    },
+    "ram_gb": 2,
+    "storage_options": "32GB 2GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 28468,
+    "price_history": [
+      28468,
+      27044,
+      25621,
+      24197,
+      22774,
+      21351
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-9a",
+    "brand": "Google",
+    "name": "Pixel 9a",
+    "price": "\u20b924,939",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2424 pixels",
+      "processor": "Google Tensor G4 (4 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Po 5100 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 6.1,
+      "camera": 6.1,
+      "battery": 6.2,
+      "charging": 7.0,
+      "display": 6.8,
+      "sound": 7.8,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 24939,
+    "price_history": [
+      24939,
+      23692,
+      22445,
+      21198,
+      19951,
+      18704
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-9-pro-xl",
+    "brand": "Google",
+    "name": "Pixel 9 Pro XL",
+    "price": "\u20b943,159",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1344 x 2992 pixels",
+      "processor": "Google Tensor G4 (4 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 5060 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 9.4,
+      "battery": 7.8,
+      "charging": 9.5,
+      "display": 8.7,
+      "sound": 8.2,
+      "ip": 5
+    },
+    "ram_gb": 16,
+    "storage_options": "128GB 16GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 43159,
+    "price_history": [
+      43159,
+      41001,
+      38843,
+      36685,
+      34527,
+      32369
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-9-pro",
+    "brand": "Google",
+    "name": "Pixel 9 Pro",
+    "price": "\u20b939,416",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1280 x 2856 pixels",
+      "processor": "Google Tensor G4 (4 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 4700 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.6,
+      "camera": 7.4,
+      "battery": 9.3,
+      "charging": 7.2,
+      "display": 7.5,
+      "sound": 7.1,
+      "ip": 5
+    },
+    "ram_gb": 16,
+    "storage_options": "128GB 16GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 39416,
+    "price_history": [
+      39416,
+      37445,
+      35474,
+      33503,
+      31532,
+      29562
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-9",
+    "brand": "Google",
+    "name": "Pixel 9",
+    "price": "\u20b928,132",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2424 pixels",
+      "processor": "Google Tensor G4 (4 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 4700 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 6.8,
+      "camera": 8.0,
+      "battery": 8.9,
+      "charging": 6.2,
+      "display": 7.9,
+      "sound": 7.6,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Google",
+    "screen_size": 6.5,
+    "price_numeric": 28132,
+    "price_history": [
+      28132,
+      26725,
+      25318,
+      23912,
+      22505,
+      21099
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "oneplus-n6",
+    "brand": "OnePlus",
+    "name": "N6",
+    "price": "\u20b922,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "720 x 1570 pixels",
+      "processor": "Mediatek Dimensity 6360 Apex (6 nm)",
+      "camera": "50 MP",
+      "battery": "8000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 6.0,
+      "camera": 5.5,
+      "battery": 7.4,
+      "charging": 7.8,
+      "display": 7.1,
+      "sound": 8.0,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 22999,
+    "price_history": [
+      22999,
+      21849,
+      20699,
+      19549,
+      18399,
+      17249
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-pad-3-pro",
+    "brand": "OnePlus",
+    "name": "Pad 3 Pro",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "2400 x 3392 pixels (~315 ppi density)",
+      "processor": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+      "camera": "13 MP",
+      "battery": "13380 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.1,
+      "camera": 6.6,
+      "battery": 7.1,
+      "charging": 8.6,
+      "display": 7.8,
+      "sound": 8.9,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-turbo-6x-pro",
+    "brand": "OnePlus",
+    "name": "Turbo 6X Pro",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1272 x 2772 pixels",
+      "processor": "Mediatek Dimensity 7400 Super (4 nm)",
+      "camera": "50 MP",
+      "battery": "Si/C Li-Ion 8000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.3,
+      "camera": 8.4,
+      "battery": 8.6,
+      "charging": 9.6,
+      "display": 8.6,
+      "sound": 7.3,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-turbo-6x",
+    "brand": "OnePlus",
+    "name": "Turbo 6X",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2400 pixels",
+      "processor": "Mediatek Dimensity 7360 Super (4 nm)",
+      "camera": "50 MP",
+      "battery": "Si/C Li-Ion 7000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.6,
+      "camera": 7.3,
+      "battery": 8.2,
+      "charging": 8.8,
+      "display": 8.8,
+      "sound": 8.3,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-nord-ce6",
+    "brand": "OnePlus",
+    "name": "Nord CE6",
+    "price": "\u20b944,910",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1272 x 2772 pixels",
+      "processor": "Qualcomm SM7635-AC Snapdragon 7s Gen 4 (4 nm)",
+      "camera": "50 MP",
+      "battery": "7500 mAh - Global8000 mAh - India",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.7,
+      "camera": 8.3,
+      "battery": 8.1,
+      "charging": 7.0,
+      "display": 7.1,
+      "sound": 7.8,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 44910,
+    "price_history": [
+      44910,
+      42664,
+      40419,
+      38173,
+      35928,
+      33682
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-nord-ce6-lite",
+    "brand": "OnePlus",
+    "name": "Nord CE6 Lite",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1080 x 2400 pixels",
+      "processor": "Mediatek Dimensity 7400 Apex (4 nm)",
+      "camera": "50 MP",
+      "battery": "7000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.6,
+      "camera": 9.0,
+      "battery": 9.8,
+      "charging": 8.2,
+      "display": 7.8,
+      "sound": 7.4,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB 6GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-ace-6-ultra",
+    "brand": "OnePlus",
+    "name": "Ace 6 Ultra",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1272 x 2772 pixels",
+      "processor": "Mediatek Dimensity 9500 (3 nm)",
+      "camera": "50 MP",
+      "battery": "Si/C Li-Ion 8600 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.6,
+      "camera": 9.1,
+      "battery": 7.2,
+      "charging": 9.6,
+      "display": 7.4,
+      "sound": 8.5,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-pad-4",
+    "brand": "OnePlus",
+    "name": "Pad 4",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "2400 x 3392 pixels (~315 ppi density)",
+      "processor": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+      "camera": "13 MP",
+      "battery": "13380 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.9,
+      "camera": 8.2,
+      "battery": 9.2,
+      "charging": 7.8,
+      "display": 7.4,
+      "sound": 8.5,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-watch-4",
+    "brand": "OnePlus",
+    "name": "Watch 4",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "466 x 466 pixels (~310 ppi density)",
+      "processor": "Qualcomm Snapdragon W5 Gen 1 (4 nm)",
+      "camera": "No",
+      "battery": "Li-Ion 646 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.9,
+      "camera": 8.2,
+      "battery": 7.9,
+      "charging": 7.9,
+      "display": 7.5,
+      "sound": 7.3,
+      "ip": 5
+    },
+    "ram_gb": 2,
+    "storage_options": "32GB 2GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "oneplus-nord-6",
+    "brand": "OnePlus",
+    "name": "Nord 6",
+    "price": "\u20b937,710",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1272 x 2772 pixels",
+      "processor": "Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)",
+      "camera": "50 MP",
+      "battery": "Market-dependent versions:\u00b7 Si/C Li-Ion 7500 mAh - Global\u00b7 Si/C Li-Ion 9000 mAh - India",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.4,
+      "camera": 7.4,
+      "battery": 9.9,
+      "charging": 9.0,
+      "display": 8.0,
+      "sound": 7.5,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB 8GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 37710,
+    "price_history": [
+      37710,
+      35824,
+      33939,
+      32053,
+      30168,
+      28282
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-redmi-k90-ultra",
+    "brand": "Xiaomi",
+    "name": "Redmi K90 Ultra",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1280 x 2772 pixels",
+      "processor": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+      "camera": "50 MP",
+      "battery": "Si/C Li-Ion 8550 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 7.5,
+      "battery": 8.8,
+      "charging": 8.8,
+      "display": 7.5,
+      "sound": 7.8,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-redmi-17c",
+    "brand": "Xiaomi",
+    "name": "Redmi 17C",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "720 x 1640 pixels (~260 ppi density)",
+      "processor": "Mediatek Helio G81 Ultra (12 nm)",
+      "camera": "13 MP",
+      "battery": "5160 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.8,
+      "camera": 8.9,
+      "battery": 8.5,
+      "charging": 9.0,
+      "display": 7.7,
+      "sound": 8.7,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-17t-pro",
+    "brand": "Xiaomi",
+    "name": "17T Pro",
+    "price": "\u20b970,550",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1280 x 2772 pixels",
+      "processor": "Mediatek Dimensity 9500 (3 nm)",
+      "camera": "50 MP",
+      "battery": "Si/C Li-Ion 7000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.0,
+      "camera": 9.3,
+      "battery": 9.5,
+      "charging": 8.6,
+      "display": 9.2,
+      "sound": 8.1,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 70550,
+    "price_history": [
+      70550,
+      69139,
+      67022,
+      64906,
+      62084,
+      59967
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-17t",
+    "brand": "Xiaomi",
+    "name": "17T",
+    "price": "\u20b958,099",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1268 x 2756 pixels",
+      "processor": "Mediatek Dimensity 8500 Ultra (4 nm)",
+      "camera": "50 MP",
+      "battery": "Si/C Li-Ion 6500 mAh - GlobalSi/C Li-Ion 7000 mAh - China only",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 10,
+      "battery": 9.9,
+      "charging": 9.2,
+      "display": 8.9,
+      "sound": 8.2,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 58099,
+    "price_history": [
+      58099,
+      56937,
+      55194,
+      53451,
+      51127,
+      49384
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-watch-s5-46mm",
+    "brand": "Xiaomi",
+    "name": "Watch S5 46mm",
+    "price": "\u20b913,410",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "480 x 480 pixels (~323 ppi density)",
+      "processor": "Octa-core Processor",
+      "camera": "No",
+      "battery": "Li-Po 815 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 5.1,
+      "camera": 4.8,
+      "battery": 7.9,
+      "charging": 6.5,
+      "display": 6.2,
+      "sound": 5.8,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "Unspecified storage",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Octa-core",
+    "screen_size": 6.5,
+    "price_numeric": 13410,
+    "price_history": [
+      13410,
+      12739,
+      12069,
+      11398,
+      10728,
+      10057
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-17-max",
+    "brand": "Xiaomi",
+    "name": "17 Max",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1200 x 2608 pixels",
+      "processor": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+      "camera": "200 MP",
+      "battery": "Si/C Li-Ion 8000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.0,
+      "camera": 9.4,
+      "battery": 7.8,
+      "charging": 8.8,
+      "display": 9.0,
+      "sound": 8.1,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB 12GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-poco-pad-c1",
+    "brand": "Xiaomi",
+    "name": "Poco Pad C1",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "1280 x 2048 pixels (~268 ppi density)",
+      "processor": "Qualcomm Snapdragon 6s 4G Gen 2 (6 nm)",
+      "camera": "8 MP",
+      "battery": "Li-Po 7600 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.3,
+      "camera": 8.9,
+      "battery": 8.3,
+      "charging": 7.5,
+      "display": 7.5,
+      "sound": 8.5,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-black-shark-pad-se",
+    "brand": "Xiaomi",
+    "name": "Black Shark Pad SE",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "800 x 1280 pixels",
+      "processor": "Mediatek Helio G85 (12 nm)",
+      "camera": "8 MP",
+      "battery": "6600 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7.0,
+      "camera": 9.0,
+      "battery": 8.8,
+      "charging": 8.3,
+      "display": 8.2,
+      "sound": 7.6,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-poco-c81-pro",
+    "brand": "Xiaomi",
+    "name": "Poco C81 Pro",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "720 x 1600 pixels",
+      "processor": "Unisoc T7250 (12 nm)",
+      "camera": "13 MP",
+      "battery": "6000 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.8,
+      "camera": 9.3,
+      "battery": 9.8,
+      "charging": 9.9,
+      "display": 7.2,
+      "sound": 8.0,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Unisoc",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
+  },
+  {
+    "id": "xiaomi-poco-c81",
+    "brand": "Xiaomi",
+    "name": "Poco C81",
+    "price": "\u20b940,000",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Latest specs directly from GSMArena.",
+    "specs": {
+      "display": "720 x 1600 pixels",
+      "processor": "Unisoc T7250 (12 nm)",
+      "camera": "13 MP",
+      "battery": "6300 mAh",
+      "charging": "Fast Wired Charging",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 9.5,
+      "battery": 8.5,
+      "charging": 7.7,
+      "display": 7.7,
+      "sound": 8.5,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB 4GB RAM",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Unisoc",
+    "screen_size": 6.5,
+    "price_numeric": 40000,
+    "price_history": [
+      40000,
+      38000,
+      36000,
+      34000,
+      32000,
+      30000
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
+    ]
   }
 ];
 
