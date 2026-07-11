@@ -28,7 +28,7 @@ let compareList = []; // Max 3 IDs
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
 window.addEventListener('DOMContentLoaded', () => {
-  renderSliders();
+  updateWeightsFromTags();
   renderBrandFilters();
   renderAllPhonesGrid();
   setupNavScroll();
@@ -53,71 +53,43 @@ function setupNavScroll() {
 }
 
 // ─── SLIDERS ──────────────────────────────────────────────────────────────────
-function renderSliders() {
-  const grid = document.getElementById('sliders-grid');
-  grid.innerHTML = '';
-  CRITERIA.forEach(c => {
-    const val = userWeights[c.key];
-    grid.innerHTML += `
-      <div class="slider-card" id="scard-${c.key}">
-        <div class="slider-header">
-          <div class="slider-label-group">
-            <span class="slider-icon">${c.icon}</span>
-            <div>
-              <span class="slider-label">${c.label}</span>
-              <span class="slider-desc">${c.desc}</span>
-            </div>
-          </div>
-          <span class="slider-val" id="sval-${c.key}">${val}</span>
-        </div>
-        <input
-          type="range"
-          class="slider-track"
-          id="slider-${c.key}"
-          min="0" max="10" step="1"
-          value="${val}"
-          oninput="onSliderChange('${c.key}', this.value)"
-        />
-        <div class="slider-marks">
-          <span class="slider-mark">Not important</span>
-          <span class="slider-mark">Essential</span>
-        </div>
-      </div>
-    `;
-  });
-  updateSliderFills();
-}
+let selectedPriorities = [];
 
-function onSliderChange(key, val) {
-  userWeights[key] = parseInt(val);
-  document.getElementById('sval-' + key).textContent = val;
-  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
-  updateSliderFills();
-}
-
-function updateSliderFills() {
-  CRITERIA.forEach(c => {
-    const slider = document.getElementById('slider-' + c.key);
-    if (!slider) return;
-    const val = parseInt(slider.value);
-    const pct = (val / 10) * 100;
-    slider.style.background = `linear-gradient(to right, #8b5cf6 ${pct}%, rgba(255,255,255,0.08) ${pct}%)`;
-  });
-}
-
-// ─── PRESETS ──────────────────────────────────────────────────────────────────
-function applyPreset(name) {
-  userWeights = { ...PRESETS[name] };
-  CRITERIA.forEach(c => {
-    const slider = document.getElementById('slider-' + c.key);
-    if (slider) {
-      slider.value = userWeights[c.key];
-      document.getElementById('sval-' + c.key).textContent = userWeights[c.key];
+function togglePriority(key, element) {
+  const index = selectedPriorities.indexOf(key);
+  
+  if (index > -1) {
+    // Remove if already selected
+    selectedPriorities.splice(index, 1);
+    element.classList.remove('active');
+  } else {
+    // Add if less than 3 are selected
+    if (selectedPriorities.length >= 3) {
+      // Remove the oldest one
+      const oldest = selectedPriorities.shift();
+      const oldEl = document.querySelector(`.priority-tag[onclick*="${oldest}"]`);
+      if (oldEl) oldEl.classList.remove('active');
     }
+    selectedPriorities.push(key);
+    element.classList.add('active');
+  }
+  
+  updateWeightsFromTags();
+}
+
+function updateWeightsFromTags() {
+  // Reset all to base weight of 3
+  CRITERIA.forEach(c => {
+    userWeights[c.key] = 3; 
   });
-  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('preset-' + name)?.classList.add('active');
-  updateSliderFills();
+  
+  // Apply heavy weight to selected priorities
+  selectedPriorities.forEach(key => {
+    userWeights[key] = 10;
+  });
+  
+  // Re-calculate UI if results are showing
+  // But wait, the app recalculates live on button click. 
 }
 
 // ─── BUDGET ───────────────────────────────────────────────────────────────────
