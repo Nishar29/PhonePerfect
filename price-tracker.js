@@ -60,23 +60,69 @@ function renderSparkline(canvas, data, color = '#8b5cf6') {
   ctx.stroke();
 }
 
-// Generate simulated price history if not present
-function getPriceHistory(phone) {
-  if (phone.price_history && phone.price_history.length > 0) {
-    return phone.price_history;
+// Seeded random number generator
+function mulberry32(a) {
+  return function() {
+    var t = a += 0x6D2B79F5;
+    t = Math.imul(t ^ t >>> 15, t | 1);
+    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
   }
-  // Generate from price
-  const price = getPhonePrice(phone);
-  const cat = phone.priceCategory;
-  let decayRates;
-  if (cat >= 4) { // Flagship
-    decayRates = [1, 0.98, 0.95, 0.92, 0.88, 0.85];
-  } else if (cat >= 2) { // Mid-range
-    decayRates = [1, 0.97, 0.93, 0.88, 0.82, 0.78];
-  } else { // Budget
-    decayRates = [1, 0.95, 0.90, 0.85, 0.80, 0.75];
+}
+
+// Generate a daily simulated live price
+function getLivePrice(phone) {
+  const basePrice = getPhonePrice(phone);
+  // Hash the phone ID into an integer seed
+  let idHash = 0;
+  for (let i = 0; i < phone.id.length; i++) {
+    idHash = Math.imul(31, idHash) + phone.id.charCodeAt(i) | 0;
   }
-  return decayRates.map(r => Math.round(price * r));
+  
+  // Create a daily seed
+  const today = new Date();
+  const dateSeed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+  const seed = idHash + dateSeed;
+  
+  const rng = mulberry32(seed);
+  // Fluctuate between -3% and +1%
+  const fluctuation = (rng() * 0.04) - 0.03; 
+  return Math.round(basePrice * (1 + fluctuation));
+}
+
+// Generate a 30-day realistic price history
+function getPriceHistory(phone, days = 30) {
+  const basePrice = getPhonePrice(phone);
+  const cat = phone.priceCategory || 3;
+  
+  let idHash = 0;
+  for (let i = 0; i < phone.id.length; i++) {
+    idHash = Math.imul(31, idHash) + phone.id.charCodeAt(i) | 0;
+  }
+  
+  const history = [];
+  const today = new Date();
+  
+  // Base decay trajectory
+  const decayRate = cat >= 4 ? 0.90 : (cat >= 2 ? 0.85 : 0.80);
+  
+  for (let i = days - 1; i >= 0; i--) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    
+    const dateSeed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+    const rng = mulberry32(idHash + dateSeed);
+    
+    // Day progress (0 = 30 days ago, 1 = today)
+    const progress = 1 - (i / days);
+    
+    // Blend base decay with daily noise
+    const currentBase = basePrice * (1 - ((1 - decayRate) * (1 - progress)));
+    const noise = (rng() * 0.06) - 0.03; // +/- 3%
+    
+    history.push(Math.round(currentBase * (1 + noise)));
+  }
+  return history;
 }
 
 // Price alert system using localStorage

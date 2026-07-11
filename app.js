@@ -582,13 +582,23 @@ function openModal(phoneId) {
   const ipShort = getIPShort(phone);
   const chargingShort = getChargingShort(phone);
 
+  const basePriceNum = getPhonePrice(phone);
+  const livePriceNum = typeof getLivePrice === 'function' ? getLivePrice(phone) : basePriceNum;
+  const priceDiff = livePriceNum - basePriceNum;
+  let priceIndicator = '';
+  if (priceDiff > 0) priceIndicator = `<span style="color:#ef4444;font-size:0.8rem;margin-left:8px;">↑ ₹${priceDiff.toLocaleString('en-IN')} (Live)</span>`;
+  else if (priceDiff < 0) priceIndicator = `<span style="color:#10b981;font-size:0.8rem;margin-left:8px;">↓ ₹${Math.abs(priceDiff).toLocaleString('en-IN')} (Live)</span>`;
+  else priceIndicator = `<span style="color:#8b5cf6;font-size:0.8rem;margin-left:8px;">(Live)</span>`;
+
+  const displayPrice = `₹${livePriceNum.toLocaleString('en-IN')}`;
+
   document.getElementById('modal-content').innerHTML = `
     <div class="modal-phone-header">
       <div class="modal-phone-emoji">${phone.emoji}</div>
       <div class="modal-phone-meta">
         <div class="modal-phone-brand">${phone.brand}</div>
         <div class="modal-phone-name">${phone.name}</div>
-        <div class="modal-phone-price">${phone.price}</div>
+        <div class="modal-phone-price" style="display:flex;align-items:center;">${displayPrice} ${priceIndicator}</div>
         <div class="modal-phone-ip">${ipShort}</div>
       </div>
       </div>
@@ -667,9 +677,9 @@ function openModal(phoneId) {
     <!-- PRICE TRACKER -->
     <div class="price-tracker-container" style="background: var(--bg-main); border: 1px solid var(--border); padding: 16px; border-radius: 12px; margin-bottom: 24px;">
       <h4 style="margin: 0 0 12px 0; font-size: 1rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
-        <span>📉 Price History (6 Months)</span>
+        <span>📉 30-Day Price Trend</span>
         <div style="display: flex; gap: 8px;">
-          <a href="https://www.amazon.in/s?k=${encodeURIComponent(phone.brand + ' ' + phone.name)}" target="_blank" class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; color: #ff9900; border-color: #ff9900;">🛒 Amazon Live</a>
+          <a href="https://www.amazon.in/s?k=${encodeURIComponent(phone.brand + ' ' + phone.name)}" target="_blank" class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; color: #ff9900; border-color: #ff9900;">🛒 Amazon Search</a>
           <button class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="togglePriceAlert('${phone.id}')" id="alert-btn-${phone.id}">🔔 Set Alert</button>
         </div>
       </h4>
@@ -715,8 +725,10 @@ function openModal(phoneId) {
 
   // Render Price Chart
   setTimeout(() => {
-    if (typeof renderPriceChart === 'function' && phone.price_history) {
-      renderPriceChart(`priceChart-${phone.id}`, phone.price_history);
+    if (typeof getPriceHistory === 'function' && typeof renderSparkline === 'function') {
+      const history = getPriceHistory(phone, 30);
+      const canvas = document.getElementById(`priceChart-${phone.id}`);
+      if (canvas) renderSparkline(canvas, history, '#10b981');
     }
     if (typeof updateAlertBtnState === 'function') {
       updateAlertBtnState(phone.id);
