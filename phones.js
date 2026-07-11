@@ -14339,6 +14339,3913 @@ var PHONES = [
     "images": [
       "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ]
+  },
+  {
+    "id": "vivo-x100-pro",
+    "brand": "Vivo",
+    "name": "X100 Pro",
+    "price": "\u20b989,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "ZEISS-certified periscope cameras with 100x zoom.",
+    "specs": {
+      "display": "6.78-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 9300",
+      "camera": "50MP+50MP+64MP ZEISS",
+      "battery": "5400 mAh",
+      "charging": "100W Wired + 50W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 8.8,
+      "charging": 9.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 16,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 89999,
+    "price_history": [
+      89999,
+      88199,
+      85499,
+      82799,
+      79199,
+      76499
+    ],
+    "pros": [
+      "ZEISS optics",
+      "Massive 5400mAh battery",
+      "Premium AMOLED display"
+    ],
+    "cons": [
+      "Very expensive",
+      "Heavy build"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "vivo-x100",
+    "brand": "Vivo",
+    "name": "X100",
+    "price": "\u20b969,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Dimensity 9300 flagship with ZEISS triple camera.",
+    "specs": {
+      "display": "6.78-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 9300",
+      "camera": "50MP+50MP+50MP ZEISS",
+      "battery": "5000 mAh",
+      "charging": "120W Wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 8.4,
+      "camera": 7.9,
+      "battery": 8.4,
+      "charging": 8.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 69999,
+    "price_history": [
+      69999,
+      68599,
+      66499,
+      64399,
+      61599,
+      59499
+    ],
+    "pros": [
+      "Excellent cameras",
+      "120W charging",
+      "Dimensity 9300 powerhouse"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Average ultrawide"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "vivo-x90-pro",
+    "brand": "Vivo",
+    "name": "X90 Pro",
+    "price": "\u20b984,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Professional ZEISS photography system with IP68.",
+    "specs": {
+      "display": "6.78-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 9200 Plus",
+      "camera": "50MP+50MP+12MP ZEISS",
+      "battery": "4870 mAh",
+      "charging": "80W Wired + 50W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 8.8,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 84999,
+    "price_history": [
+      84999,
+      83299,
+      80749,
+      78199,
+      74799,
+      72249
+    ],
+    "pros": [
+      "ZEISS flagship camera",
+      "IP68 rated",
+      "Wireless charging"
+    ],
+    "cons": [
+      "Older chipset now",
+      "Price is high"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "vivo-v29-pro",
+    "brand": "Vivo",
+    "name": "V29 Pro",
+    "price": "\u20b935,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Aura light system for perfect portrait selfies.",
+    "specs": {
+      "display": "6.78-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 8200",
+      "camera": "50MP+8MP+2MP",
+      "battery": "4600 mAh",
+      "charging": "80W Wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 7.0,
+      "battery": 7.0,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 35999,
+    "price_history": [
+      35999,
+      34919,
+      33479,
+      31679,
+      29519,
+      28079
+    ],
+    "pros": [
+      "Aura light portrait",
+      "Slim design",
+      "120Hz AMOLED"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Average battery life"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "vivo-v29",
+    "brand": "Vivo",
+    "name": "V29",
+    "price": "\u20b930,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Ultra-slim flagship-style mid-ranger.",
+    "specs": {
+      "display": "6.78-inch AMOLED 120Hz",
+      "processor": "Snapdragon 778G",
+      "camera": "50MP+8MP+2MP",
+      "battery": "4600 mAh",
+      "charging": "44W Wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 7.0,
+      "battery": 7.0,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 30999,
+    "price_history": [
+      30999,
+      30069,
+      28829,
+      27279,
+      25419,
+      24179
+    ],
+    "pros": [
+      "Slim build",
+      "Good display",
+      "5G ready"
+    ],
+    "cons": [
+      "Slow charging for price",
+      "Average cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "vivo-t2-pro",
+    "brand": "Vivo",
+    "name": "T2 Pro",
+    "price": "\u20b921,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "80W charging speed in mid-range segment.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 7200",
+      "camera": "64MP+8MP+2MP",
+      "battery": "4600 mAh",
+      "charging": "80W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.2,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 21999,
+    "price_history": [
+      21999,
+      21339,
+      20459,
+      19359,
+      18039,
+      17159
+    ],
+    "pros": [
+      "Fast 80W charging",
+      "Bright AMOLED",
+      "Good performance"
+    ],
+    "cons": [
+      "No IP rating",
+      "Plastic build"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "vivo-y100a",
+    "brand": "Vivo",
+    "name": "Y100A",
+    "price": "\u20b920,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Beautiful AMOLED mid-ranger with Snapdragon.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "Snapdragon 695",
+      "camera": "64MP+2MP+2MP",
+      "battery": "4500 mAh",
+      "charging": "44W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.2,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 20999,
+    "price_history": [
+      20999,
+      20369,
+      19529,
+      18479,
+      17219,
+      16379
+    ],
+    "pros": [
+      "AMOLED display",
+      "Good cameras",
+      "Reliable chipset"
+    ],
+    "cons": [
+      "No IP rating",
+      "Basic design"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "vivo-y200e",
+    "brand": "Vivo",
+    "name": "Y200e",
+    "price": "\u20b915,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Budget 5G with AMOLED display.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "Snapdragon 4 Gen 1",
+      "camera": "50MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "44W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.8,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 15999,
+    "price_history": [
+      15999,
+      15199,
+      14399,
+      13599,
+      12799,
+      11999
+    ],
+    "pros": [
+      "AMOLED at budget price",
+      "5000mAh battery",
+      "5G ready"
+    ],
+    "cons": [
+      "Weak chipset",
+      "Basic cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "vivo-y78-5g",
+    "brand": "Vivo",
+    "name": "Y78 5G",
+    "price": "\u20b919,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Reliable 5G mid-ranger with solid battery.",
+    "specs": {
+      "display": "6.64-inch IPS LCD 120Hz",
+      "processor": "Snapdragon 695",
+      "camera": "64MP+2MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "44W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 5.9,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.64,
+    "price_numeric": 19999,
+    "price_history": [
+      19999,
+      19399,
+      18599,
+      17599,
+      16399,
+      15599
+    ],
+    "pros": [
+      "Large battery",
+      "5G connectivity",
+      "Decent camera"
+    ],
+    "cons": [
+      "LCD display",
+      "Average performance"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
+    ]
+  },
+  {
+    "id": "iqoo-12-5g",
+    "brand": "iQOO",
+    "name": "12 5G",
+    "price": "\u20b952,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Snapdragon 8 Gen 3 gaming flagship at mid-range price.",
+    "specs": {
+      "display": "6.78-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8 Gen 3",
+      "camera": "50MP+64MP+50MP",
+      "battery": "5000 mAh",
+      "charging": "120W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 7.4,
+      "camera": 7.9,
+      "battery": 8.4,
+      "charging": 8.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 52999,
+    "price_history": [
+      52999,
+      51939,
+      50349,
+      48759,
+      46639,
+      45049
+    ],
+    "pros": [
+      "Snapdragon 8 Gen 3",
+      "144Hz AMOLED",
+      "Fastest charging flagship"
+    ],
+    "cons": [
+      "No wireless charging",
+      "No IP rating",
+      "Gaming focused design"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "iqoo-11-5g",
+    "brand": "iQOO",
+    "name": "11 5G",
+    "price": "\u20b959,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Performance beast with 120W charging.",
+    "specs": {
+      "display": "6.78-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP+13MP+8MP",
+      "battery": "5000 mAh",
+      "charging": "120W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 7.4,
+      "camera": 7.9,
+      "battery": 8.4,
+      "charging": 8.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 16,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 59999,
+    "price_history": [
+      59999,
+      58799,
+      56999,
+      55199,
+      52799,
+      50999
+    ],
+    "pros": [
+      "Snapdragon 8 Gen 2",
+      "Great performance",
+      "144Hz display"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Average cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "iqoo-neo-9-pro",
+    "brand": "iQOO",
+    "name": "Neo 9 Pro",
+    "price": "\u20b935,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Snapdragon 8 Gen 2 in a budget-friendly package.",
+    "specs": {
+      "display": "6.78-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5160 mAh",
+      "charging": "120W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.0,
+      "battery": 7.0,
+      "charging": 8.1,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 35999,
+    "price_history": [
+      35999,
+      34919,
+      33479,
+      31679,
+      29519,
+      28079
+    ],
+    "pros": [
+      "Flagship chipset",
+      "Huge battery",
+      "144Hz display"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Camera could be better"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "iqoo-neo-9",
+    "brand": "iQOO",
+    "name": "Neo 9",
+    "price": "\u20b929,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Dimensity 9300 at an unbeatable price.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 9300",
+      "camera": "50MP+2MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "80W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 29999,
+    "price_history": [
+      29999,
+      29099,
+      27899,
+      26399,
+      24599,
+      23399
+    ],
+    "pros": [
+      "Dimensity 9300 value pick",
+      "5000mAh battery",
+      "80W charging"
+    ],
+    "cons": [
+      "No ultrawide",
+      "No wireless charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "iqoo-z9-turbo",
+    "brand": "iQOO",
+    "name": "Z9 Turbo",
+    "price": "\u20b924,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Best performance under 25K with Snapdragon 7 Gen 3.",
+    "specs": {
+      "display": "6.67-inch AMOLED 144Hz",
+      "processor": "Snapdragon 7 Gen 3",
+      "camera": "50MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "80W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 24999,
+    "price_history": [
+      24999,
+      24249,
+      23249,
+      21999,
+      20499,
+      19499
+    ],
+    "pros": [
+      "Snapdragon 7 Gen 3",
+      "Fast 80W charging",
+      "Value pick"
+    ],
+    "cons": [
+      "No ultra-wide camera",
+      "Plastic design"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "iqoo-z9s",
+    "brand": "iQOO",
+    "name": "Z9s",
+    "price": "\u20b920,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Affordable AMOLED phone with large battery.",
+    "specs": {
+      "display": "6.77-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 7300",
+      "camera": "50MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "44W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.77,
+    "price_numeric": 20999,
+    "price_history": [
+      20999,
+      20369,
+      19529,
+      18479,
+      17219,
+      16379
+    ],
+    "pros": [
+      "AMOLED display",
+      "5000mAh battery",
+      "Good value"
+    ],
+    "cons": [
+      "No fast charging",
+      "Average performance"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "iqoo-z7-pro",
+    "brand": "iQOO",
+    "name": "Z7 Pro",
+    "price": "\u20b924,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Slim premium mid-ranger with bright AMOLED.",
+    "specs": {
+      "display": "6.78-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 7200",
+      "camera": "64MP+2MP+2MP",
+      "battery": "4500 mAh",
+      "charging": "67W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.2,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 24999,
+    "price_history": [
+      24999,
+      24249,
+      23249,
+      21999,
+      20499,
+      19499
+    ],
+    "pros": [
+      "Premium AMOLED",
+      "Fast 67W charging",
+      "Slim design"
+    ],
+    "cons": [
+      "Small battery",
+      "Average processor"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "iqoo-z6-lite",
+    "brand": "iQOO",
+    "name": "Z6 Lite",
+    "price": "\u20b913,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Budget 5G with great battery life.",
+    "specs": {
+      "display": "6.56-inch IPS LCD 90Hz",
+      "processor": "Snapdragon 4 Gen 1",
+      "camera": "50MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "18W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.56,
+    "price_numeric": 13999,
+    "price_history": [
+      13999,
+      13299,
+      12599,
+      11899,
+      11199,
+      10499
+    ],
+    "pros": [
+      "5G connectivity",
+      "Large battery",
+      "Budget friendly"
+    ],
+    "cons": [
+      "LCD display",
+      "Slow charging",
+      "Low RAM"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "oppo-find-x6-pro",
+    "brand": "Oppo",
+    "name": "Find X6 Pro",
+    "price": "\u20b989,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Hasselblad-certified photography with 6x periscope zoom.",
+    "specs": {
+      "display": "6.82-inch AMOLED 120Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP+50MP+6x Periscope Hasselblad",
+      "battery": "5000 mAh",
+      "charging": "100W Wired + 50W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 9.2,
+      "charging": 9.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.82,
+    "price_numeric": 89999,
+    "price_history": [
+      89999,
+      88199,
+      85499,
+      82799,
+      79199,
+      76499
+    ],
+    "pros": [
+      "Hasselblad cameras",
+      "IP68",
+      "100W charging"
+    ],
+    "cons": [
+      "Very expensive",
+      "Heavy"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
+    ]
+  },
+  {
+    "id": "oppo-reno-11-pro",
+    "brand": "Oppo",
+    "name": "Reno 11 Pro",
+    "price": "\u20b939,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Portrait specialist with periscope-style zoom.",
+    "specs": {
+      "display": "6.7-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 8200",
+      "camera": "50MP+32MP+12MP",
+      "battery": "4600 mAh",
+      "charging": "80W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.0,
+      "battery": 7.0,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.7,
+    "price_numeric": 39999,
+    "price_history": [
+      39999,
+      38799,
+      37199,
+      35199,
+      32799,
+      31199
+    ],
+    "pros": [
+      "64MP portrait camera",
+      "Premium build",
+      "80W fast charging"
+    ],
+    "cons": [
+      "No wireless charging",
+      "No IP rating"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
+    ]
+  },
+  {
+    "id": "oppo-reno-11",
+    "brand": "Oppo",
+    "name": "Reno 11",
+    "price": "\u20b931,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Stylish mid-ranger with capable cameras.",
+    "specs": {
+      "display": "6.7-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 7050",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "67W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.0,
+      "battery": 7.5,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.7,
+    "price_numeric": 31999,
+    "price_history": [
+      31999,
+      31039,
+      29759,
+      28159,
+      26239,
+      24959
+    ],
+    "pros": [
+      "Beautiful design",
+      "67W charging",
+      "Good cameras"
+    ],
+    "cons": [
+      "Average chipset",
+      "No wireless charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
+    ]
+  },
+  {
+    "id": "oppo-reno-10-pro-plus",
+    "brand": "Oppo",
+    "name": "Reno 10 Pro Plus",
+    "price": "\u20b954,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "5x periscope zoom at a competitive price.",
+    "specs": {
+      "display": "6.74-inch AMOLED 120Hz",
+      "processor": "Snapdragon 8 Plus Gen 1",
+      "camera": "50MP+32MP+5x Periscope",
+      "battery": "4700 mAh",
+      "charging": "100W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 7.4,
+      "camera": 7.9,
+      "battery": 7.9,
+      "charging": 8.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.74,
+    "price_numeric": 54999,
+    "price_history": [
+      54999,
+      53899,
+      52249,
+      50599,
+      48399,
+      46749
+    ],
+    "pros": [
+      "5x periscope zoom",
+      "100W charging",
+      "Flagship chipset"
+    ],
+    "cons": [
+      "No wireless charging",
+      "No IP rating"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
+    ]
+  },
+  {
+    "id": "oppo-f25-pro",
+    "brand": "Oppo",
+    "name": "F25 Pro",
+    "price": "\u20b924,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Water-resistant mid-ranger with 64MP camera.",
+    "specs": {
+      "display": "6.7-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 7050",
+      "camera": "64MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "67W Wired",
+      "ipRating": "IP65"
+    },
+    "scores": {
+      "durability": 6.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.7,
+    "price_numeric": 24999,
+    "price_history": [
+      24999,
+      24249,
+      23249,
+      21999,
+      20499,
+      19499
+    ],
+    "pros": [
+      "IP65 rating",
+      "64MP camera",
+      "5000mAh battery"
+    ],
+    "cons": [
+      "Average chipset",
+      "No NFC"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
+    ]
+  },
+  {
+    "id": "oppo-a79",
+    "brand": "Oppo",
+    "name": "A79",
+    "price": "\u20b917,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Budget 5G with excellent battery backup.",
+    "specs": {
+      "display": "6.72-inch IPS LCD 90Hz",
+      "processor": "MediaTek Helio G96",
+      "camera": "50MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "33W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.72,
+    "price_numeric": 17999,
+    "price_history": [
+      17999,
+      17099,
+      16199,
+      15299,
+      14399,
+      13499
+    ],
+    "pros": [
+      "5G connectivity",
+      "5000mAh battery",
+      "Affordable"
+    ],
+    "cons": [
+      "LCD display",
+      "Weak processor",
+      "Slow charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
+    ]
+  },
+  {
+    "id": "oppo-a58",
+    "brand": "Oppo",
+    "name": "A58",
+    "price": "\u20b916,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Reliable budget phone for everyday tasks.",
+    "specs": {
+      "display": "6.72-inch IPS LCD 90Hz",
+      "processor": "MediaTek Helio G85",
+      "camera": "50MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "33W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.72,
+    "price_numeric": 16999,
+    "price_history": [
+      16999,
+      16149,
+      15299,
+      14449,
+      13599,
+      12749
+    ],
+    "pros": [
+      "Big screen",
+      "Large battery",
+      "Affordable"
+    ],
+    "cons": [
+      "No 5G",
+      "Weak processor",
+      "Slow charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-edge-50-pro",
+    "brand": "Motorola",
+    "name": "Edge 50 Pro",
+    "price": "\u20b931,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "125W TurboPower charging \u2014 0 to 100% in 32 minutes.",
+    "specs": {
+      "display": "6.7-inch pOLED 144Hz",
+      "processor": "Snapdragon 7s Gen 2",
+      "camera": "50MP+13MP+10MP",
+      "battery": "4500 mAh",
+      "charging": "125W Wired + 50W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 7.0,
+      "battery": 7.0,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 31999,
+    "price_history": [
+      31999,
+      31039,
+      29759,
+      28159,
+      26239,
+      24959
+    ],
+    "pros": [
+      "125W charging",
+      "IP68",
+      "Wireless charging"
+    ],
+    "cons": [
+      "Average cameras",
+      "Battery life suffers with 125W"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-edge-50-ultra",
+    "brand": "Motorola",
+    "name": "Edge 50 Ultra",
+    "price": "\u20b959,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Ultra-slim flagship with curved pOLED and IP68.",
+    "specs": {
+      "display": "6.67-inch pOLED 144Hz",
+      "processor": "Snapdragon 8s Gen 3",
+      "camera": "50MP+50MP+10MP",
+      "battery": "4500 mAh",
+      "charging": "125W Wired + 50W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.4,
+      "camera": 7.9,
+      "battery": 7.9,
+      "charging": 7.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 59999,
+    "price_history": [
+      59999,
+      58799,
+      56999,
+      55199,
+      52799,
+      50999
+    ],
+    "pros": [
+      "8s Gen 3 performance",
+      "125W charging",
+      "IP68"
+    ],
+    "cons": [
+      "Average camera system",
+      "Smaller battery"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-edge-50-fusion",
+    "brand": "Motorola",
+    "name": "Edge 50 Fusion",
+    "price": "\u20b921,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "IP68-rated pOLED phone under 25K.",
+    "specs": {
+      "display": "6.67-inch pOLED 144Hz",
+      "processor": "Snapdragon 7s Gen 2",
+      "camera": "50MP+13MP",
+      "battery": "5000 mAh",
+      "charging": "68W Wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 10
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 21999,
+    "price_history": [
+      21999,
+      21339,
+      20459,
+      19359,
+      18039,
+      17159
+    ],
+    "pros": [
+      "IP68 mid-ranger",
+      "Great display",
+      "Large battery"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Average processor speed"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-g84",
+    "brand": "Motorola",
+    "name": "G84",
+    "price": "\u20b918,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "pOLED display with 12GB RAM in budget segment.",
+    "specs": {
+      "display": "6.55-inch pOLED 120Hz",
+      "processor": "Snapdragon 695",
+      "camera": "50MP+8MP",
+      "battery": "5000 mAh",
+      "charging": "33W Wired",
+      "ipRating": "IP52"
+    },
+    "scores": {
+      "durability": 6.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.55,
+    "price_numeric": 18999,
+    "price_history": [
+      18999,
+      18429,
+      17669,
+      16719,
+      15579,
+      14819
+    ],
+    "pros": [
+      "pOLED display",
+      "Large RAM",
+      "Good battery"
+    ],
+    "cons": [
+      "Average performance",
+      "Slow charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-g54",
+    "brand": "Motorola",
+    "name": "G54",
+    "price": "\u20b913,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Massive 6000mAh battery for 2-day life.",
+    "specs": {
+      "display": "6.5-inch IPS LCD 120Hz",
+      "processor": "MediaTek Dimensity 7020",
+      "camera": "50MP+2MP",
+      "battery": "6000 mAh",
+      "charging": "20W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.3,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.5,
+    "price_numeric": 13999,
+    "price_history": [
+      13999,
+      13299,
+      12599,
+      11899,
+      11199,
+      10499
+    ],
+    "pros": [
+      "6000mAh battery",
+      "5G connectivity",
+      "Affordable"
+    ],
+    "cons": [
+      "LCD display",
+      "Slow charging",
+      "Average cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-g34",
+    "brand": "Motorola",
+    "name": "G34",
+    "price": "\u20b99,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Most affordable 5G phone in India.",
+    "specs": {
+      "display": "6.5-inch IPS LCD 120Hz",
+      "processor": "Snapdragon 695",
+      "camera": "50MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "18W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.5,
+    "price_numeric": 9999,
+    "price_history": [
+      9999,
+      9499,
+      8999,
+      8499,
+      7999,
+      7499
+    ],
+    "pros": [
+      "5G on budget",
+      "Decent performance",
+      "Snapdragon chipset"
+    ],
+    "cons": [
+      "Low RAM",
+      "LCD display",
+      "Slow charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-g64",
+    "brand": "Motorola",
+    "name": "G64",
+    "price": "\u20b917,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Budget 5G with industry-best battery life.",
+    "specs": {
+      "display": "6.5-inch IPS LCD 120Hz",
+      "processor": "MediaTek Dimensity 7025",
+      "camera": "50MP+2MP",
+      "battery": "6000 mAh",
+      "charging": "33W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.3,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.5,
+    "price_numeric": 17999,
+    "price_history": [
+      17999,
+      17099,
+      16199,
+      15299,
+      14399,
+      13499
+    ],
+    "pros": [
+      "6000mAh massive battery",
+      "5G",
+      "Affordable"
+    ],
+    "cons": [
+      "LCD only",
+      "Average cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-razr-50-ultra",
+    "brand": "Motorola",
+    "name": "Razr 50 Ultra",
+    "price": "\u20b989,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Motorola's most premium flip phone with 3.6-inch cover screen.",
+    "specs": {
+      "display": "6.9-inch pOLED 165Hz Foldable",
+      "processor": "Snapdragon 8s Gen 3",
+      "camera": "50MP+50MP",
+      "battery": "3800 mAh",
+      "charging": "45W Wired + 15W Wireless",
+      "ipRating": "IP48"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 8.8,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.9,
+    "price_numeric": 89999,
+    "price_history": [
+      89999,
+      88199,
+      85499,
+      82799,
+      79199,
+      76499
+    ],
+    "pros": [
+      "Flip foldable",
+      "Huge cover screen",
+      "Premium design"
+    ],
+    "cons": [
+      "Small battery for price",
+      "Expensive"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "realme-gt-5-pro",
+    "brand": "Realme",
+    "name": "GT 5 Pro",
+    "price": "\u20b949,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Snapdragon 8 Gen 3 with 1TB storage at mid-range price.",
+    "specs": {
+      "display": "6.78-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8 Gen 3",
+      "camera": "50MP+50MP+36MP",
+      "battery": "5400 mAh",
+      "charging": "100W Wired + 50W Wireless",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 7.4,
+      "camera": 7.9,
+      "battery": 7.9,
+      "charging": 8.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 16,
+    "storage_options": "256GB / 512GB / 1TB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 49999,
+    "price_history": [
+      49999,
+      48999,
+      47499,
+      45999,
+      43999,
+      42499
+    ],
+    "pros": [
+      "Snapdragon 8 Gen 3",
+      "Massive storage options",
+      "Periscope zoom"
+    ],
+    "cons": [
+      "No IP rating",
+      "No MicroSD"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "realme-gt-neo-5-se",
+    "brand": "Realme",
+    "name": "GT Neo 5 SE",
+    "price": "\u20b929,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "100W charging fills up in just 29 minutes.",
+    "specs": {
+      "display": "6.74-inch AMOLED 144Hz",
+      "processor": "Snapdragon 7+ Gen 2",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "100W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.0,
+      "battery": 7.5,
+      "charging": 8.1,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.74,
+    "price_numeric": 29999,
+    "price_history": [
+      29999,
+      29099,
+      27899,
+      26399,
+      24599,
+      23399
+    ],
+    "pros": [
+      "100W super charging",
+      "Snapdragon 7+ Gen 2",
+      "144Hz display"
+    ],
+    "cons": [
+      "No wireless charging",
+      "No IP rating"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "realme-gt-neo-5",
+    "brand": "Realme",
+    "name": "GT Neo 5",
+    "price": "\u20b936,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "150W charging \u2014 fully charged in 15 minutes!",
+    "specs": {
+      "display": "6.74-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8+ Gen 1",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "150W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.0,
+      "battery": 7.5,
+      "charging": 8.1,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 16,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.74,
+    "price_numeric": 36999,
+    "price_history": [
+      36999,
+      35889,
+      34409,
+      32559,
+      30339,
+      28859
+    ],
+    "pros": [
+      "150W fastest charging",
+      "Great performance",
+      "144Hz AMOLED"
+    ],
+    "cons": [
+      "No IP rating",
+      "No wireless charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "realme-gt-neo-3t",
+    "brand": "Realme",
+    "name": "GT Neo 3T",
+    "price": "\u20b929,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Flagship-grade Snapdragon 870 with 80W charging.",
+    "specs": {
+      "display": "6.62-inch AMOLED 120Hz",
+      "processor": "Snapdragon 870",
+      "camera": "64MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "80W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.0,
+      "battery": 7.5,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.62,
+    "price_numeric": 29999,
+    "price_history": [
+      29999,
+      29099,
+      27899,
+      26399,
+      24599,
+      23399
+    ],
+    "pros": [
+      "Snapdragon 870 power",
+      "80W charging",
+      "Good cameras"
+    ],
+    "cons": [
+      "Older chipset",
+      "No IP"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "realme-c67",
+    "brand": "Realme",
+    "name": "C67",
+    "price": "\u20b914,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "108MP camera for sharp photos on a budget.",
+    "specs": {
+      "display": "6.72-inch IPS LCD 120Hz",
+      "processor": "Snapdragon 685",
+      "camera": "108MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "33W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 6.1,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.72,
+    "price_numeric": 14999,
+    "price_history": [
+      14999,
+      14249,
+      13499,
+      12749,
+      11999,
+      11249
+    ],
+    "pros": [
+      "108MP camera",
+      "Large battery",
+      "Affordable"
+    ],
+    "cons": [
+      "No 5G",
+      "LCD display",
+      "Slow charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "realme-c65",
+    "brand": "Realme",
+    "name": "C65",
+    "price": "\u20b910,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Fastest charging in budget segment at 45W.",
+    "specs": {
+      "display": "6.67-inch IPS LCD 90Hz",
+      "processor": "MediaTek Helio G85",
+      "camera": "50MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "45W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 10999,
+    "price_history": [
+      10999,
+      10449,
+      9899,
+      9349,
+      8799,
+      8249
+    ],
+    "pros": [
+      "45W fast charging",
+      "5000mAh battery",
+      "Budget-friendly"
+    ],
+    "cons": [
+      "No 5G",
+      "Very low RAM",
+      "Average camera"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "realme-narzo-70-pro",
+    "brand": "Realme",
+    "name": "Narzo 70 Pro",
+    "price": "\u20b919,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "AMOLED display with 5G at an affordable price.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 7050",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "45W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 19999,
+    "price_history": [
+      19999,
+      19399,
+      18599,
+      17599,
+      16399,
+      15599
+    ],
+    "pros": [
+      "AMOLED display",
+      "5G connectivity",
+      "Large battery"
+    ],
+    "cons": [
+      "No IP rating",
+      "Average cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "realme-p2-pro",
+    "brand": "Realme",
+    "name": "P2 Pro",
+    "price": "\u20b922,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Snapdragon 7s Gen 2 mid-ranger with fast charging.",
+    "specs": {
+      "display": "6.7-inch AMOLED 120Hz",
+      "processor": "Snapdragon 7s Gen 2",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "80W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 22999,
+    "price_history": [
+      22999,
+      22309,
+      21389,
+      20239,
+      18859,
+      17939
+    ],
+    "pros": [
+      "Snapdragon 7s Gen 2",
+      "80W charging",
+      "AMOLED"
+    ],
+    "cons": [
+      "No IP rating",
+      "Average design"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "nokia-g42",
+    "brand": "Nokia",
+    "name": "G42",
+    "price": "\u20b914,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Sustainable phone with user-repairable design.",
+    "specs": {
+      "display": "6.56-inch IPS LCD 90Hz",
+      "processor": "Snapdragon 480+",
+      "camera": "50MP+2MP+2MP",
+      "battery": "4500 mAh",
+      "charging": "18W Wired",
+      "ipRating": "IP52"
+    },
+    "scores": {
+      "durability": 5.8,
+      "camera": 5.3,
+      "battery": 5.3,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.56,
+    "price_numeric": 14999,
+    "price_history": [
+      14999,
+      14249,
+      13499,
+      12749,
+      11999,
+      11249
+    ],
+    "pros": [
+      "Repairable design",
+      "5G connectivity",
+      "IP52 dust resistant"
+    ],
+    "cons": [
+      "Slow charging",
+      "Basic cameras",
+      "Low RAM"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Nokia_wordmark.svg"
+    ]
+  },
+  {
+    "id": "nokia-c32",
+    "brand": "Nokia",
+    "name": "C32",
+    "price": "\u20b98,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Ultra-affordable phone with 2-day battery life.",
+    "specs": {
+      "display": "6.52-inch IPS LCD",
+      "processor": "MediaTek Helio G37",
+      "camera": "50MP+2MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "10W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 3,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.52,
+    "price_numeric": 8999,
+    "price_history": [
+      8999,
+      8549,
+      8099,
+      7649,
+      7199,
+      6749
+    ],
+    "pros": [
+      "Huge battery",
+      "Affordable price",
+      "Large screen"
+    ],
+    "cons": [
+      "Very slow charging",
+      "Very low RAM",
+      "No 5G"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Nokia_wordmark.svg"
+    ]
+  },
+  {
+    "id": "sony-xperia-1-v",
+    "brand": "Sony",
+    "name": "Xperia 1 V",
+    "price": "\u20b9109,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "The world's first 4K OLED smartphone display.",
+    "specs": {
+      "display": "6.5-inch 4K OLED 120Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "52MP+12MP+12MP",
+      "battery": "5000 mAh",
+      "charging": "30W Wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 9.2,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.5,
+    "price_numeric": 109999,
+    "price_history": [
+      109999,
+      107799,
+      104499,
+      101199,
+      96799,
+      93499
+    ],
+    "pros": [
+      "4K OLED display",
+      "IP68",
+      "Pro cinema cameras"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Very expensive",
+      "Heavy"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg"
+    ]
+  },
+  {
+    "id": "sony-xperia-5-v",
+    "brand": "Sony",
+    "name": "Xperia 5 V",
+    "price": "\u20b984,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Compact flagship with cinema-grade cameras.",
+    "specs": {
+      "display": "6.1-inch AMOLED 120Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "52MP+12MP",
+      "battery": "5000 mAh",
+      "charging": "30W Wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 9.2,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.1,
+    "price_numeric": 84999,
+    "price_history": [
+      84999,
+      83299,
+      80749,
+      78199,
+      74799,
+      72249
+    ],
+    "pros": [
+      "Compact flagship",
+      "IP68",
+      "Pro cameras"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Expensive",
+      "No ultrawide zoom"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg"
+    ]
+  },
+  {
+    "id": "sony-xperia-10-v",
+    "brand": "Sony",
+    "name": "Xperia 10 V",
+    "price": "\u20b944,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Slim compact phone with IP68 and headphone jack.",
+    "specs": {
+      "display": "6.1-inch OLED 60Hz",
+      "processor": "Snapdragon 695",
+      "camera": "48MP+8MP+12MP",
+      "battery": "5000 mAh",
+      "charging": "30W Wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 7.0,
+      "battery": 7.5,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 10
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.1,
+    "price_numeric": 44999,
+    "price_history": [
+      44999,
+      43649,
+      41849,
+      39599,
+      36899,
+      35099
+    ],
+    "pros": [
+      "IP68 rated",
+      "Compact size",
+      "3.5mm headphone jack"
+    ],
+    "cons": [
+      "60Hz display",
+      "Slow charging",
+      "Expensive for specs"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg"
+    ]
+  },
+  {
+    "id": "asus-rog-phone-8-pro",
+    "brand": "Asus",
+    "name": "ROG Phone 8 Pro",
+    "price": "\u20b999,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Ultimate gaming smartphone with 24GB RAM.",
+    "specs": {
+      "display": "6.78-inch AMOLED 165Hz",
+      "processor": "Snapdragon 8 Gen 3",
+      "camera": "50MP+13MP+32MP",
+      "battery": "5500 mAh",
+      "charging": "65W Wired + 15W Wireless",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 8.8,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 0
+    },
+    "ram_gb": 24,
+    "storage_options": "1TB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 99999,
+    "price_history": [
+      99999,
+      97999,
+      94999,
+      91999,
+      87999,
+      84999
+    ],
+    "pros": [
+      "Snapdragon 8 Gen 3",
+      "24GB RAM",
+      "Massive battery"
+    ],
+    "cons": [
+      "Gaming aesthetic not for everyone",
+      "Expensive"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg"
+    ]
+  },
+  {
+    "id": "asus-rog-phone-7",
+    "brand": "Asus",
+    "name": "ROG Phone 7",
+    "price": "\u20b969,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "6000mAh gaming powerhouse with 165Hz display.",
+    "specs": {
+      "display": "6.78-inch AMOLED 165Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP+13MP+5MP",
+      "battery": "6000 mAh",
+      "charging": "65W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 8.8,
+      "battery": 8.8,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 0
+    },
+    "ram_gb": 16,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 69999,
+    "price_history": [
+      69999,
+      68599,
+      66499,
+      64399,
+      61599,
+      59499
+    ],
+    "pros": [
+      "6000mAh battery",
+      "Snapdragon 8 Gen 2",
+      "165Hz display"
+    ],
+    "cons": [
+      "Huge and heavy",
+      "Gaming looks"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg"
+    ]
+  },
+  {
+    "id": "asus-zenfone-10",
+    "brand": "Asus",
+    "name": "Zenfone 10",
+    "price": "\u20b959,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Smallest flagship Android phone in 2023.",
+    "specs": {
+      "display": "5.92-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP+13MP",
+      "battery": "4300 mAh",
+      "charging": "30W Wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.4,
+      "camera": 7.9,
+      "battery": 7.9,
+      "charging": 7.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 10
+    },
+    "ram_gb": 16,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 5.92,
+    "price_numeric": 59999,
+    "price_history": [
+      59999,
+      58799,
+      56999,
+      55199,
+      52799,
+      50999
+    ],
+    "pros": [
+      "Ultra-compact flagship",
+      "IP68",
+      "Snapdragon 8 Gen 2"
+    ],
+    "cons": [
+      "Small battery",
+      "Pricey"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg"
+    ]
+  },
+  {
+    "id": "honor-magic-5-pro",
+    "brand": "Honor",
+    "name": "Magic 5 Pro",
+    "price": "\u20b974,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Flagship triple 50MP cameras with IP68 protection.",
+    "specs": {
+      "display": "6.81-inch AMOLED 120Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "54MP+50MP+50MP",
+      "battery": "5100 mAh",
+      "charging": "66W Wired + 50W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 8.8,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.81,
+    "price_numeric": 74999,
+    "price_history": [
+      74999,
+      73499,
+      71249,
+      68999,
+      65999,
+      63749
+    ],
+    "pros": [
+      "IP68",
+      "50W wireless charging",
+      "Triple flagship cameras"
+    ],
+    "cons": [
+      "Expensive",
+      "Limited availability"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Honor_logo.svg"
+    ]
+  },
+  {
+    "id": "honor-magic-v2",
+    "brand": "Honor",
+    "name": "Magic V2",
+    "price": "\u20b999,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "World's thinnest foldable phone at 9.9mm folded.",
+    "specs": {
+      "display": "7.92-inch inner OLED 120Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP+50MP+20MP",
+      "battery": "5000 mAh",
+      "charging": "66W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 8.8,
+      "battery": 9.2,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 0
+    },
+    "ram_gb": 16,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 7.92,
+    "price_numeric": 99999,
+    "price_history": [
+      99999,
+      97999,
+      94999,
+      91999,
+      87999,
+      84999
+    ],
+    "pros": [
+      "Thinnest foldable",
+      "Powerful chipset",
+      "Large inner screen"
+    ],
+    "cons": [
+      "Very expensive",
+      "No IP rating"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Honor_logo.svg"
+    ]
+  },
+  {
+    "id": "honor-x9b",
+    "brand": "Honor",
+    "name": "X9b",
+    "price": "\u20b924,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Massive 5800mAh battery with IP53 protection.",
+    "specs": {
+      "display": "6.78-inch AMOLED 120Hz",
+      "processor": "Snapdragon 6 Gen 1",
+      "camera": "108MP+5MP+2MP",
+      "battery": "5800 mAh",
+      "charging": "35W Wired",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 6.7,
+      "camera": 7.0,
+      "battery": 6.2,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 24999,
+    "price_history": [
+      24999,
+      24249,
+      23249,
+      21999,
+      20499,
+      19499
+    ],
+    "pros": [
+      "5800mAh massive battery",
+      "108MP camera",
+      "IP53"
+    ],
+    "cons": [
+      "No fast wireless charging",
+      "Average main camera color"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Honor_logo.svg"
+    ]
+  },
+  {
+    "id": "honor-x8b",
+    "brand": "Honor",
+    "name": "X8b",
+    "price": "\u20b918,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Slim and premium design with 108MP camera.",
+    "specs": {
+      "display": "6.7-inch AMOLED 90Hz",
+      "processor": "Snapdragon 685",
+      "camera": "108MP+5MP+2MP",
+      "battery": "4500 mAh",
+      "charging": "35W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 6.1,
+      "battery": 5.3,
+      "charging": 5.3,
+      "display": 5.8,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 18999,
+    "price_history": [
+      18999,
+      18049,
+      17099,
+      16149,
+      15199,
+      14249
+    ],
+    "pros": [
+      "108MP camera",
+      "Slim design",
+      "AMOLED display"
+    ],
+    "cons": [
+      "No 5G",
+      "Average battery"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Honor_logo.svg"
+    ]
+  },
+  {
+    "id": "poco-f6-pro",
+    "brand": "Poco",
+    "name": "F6 Pro",
+    "price": "\u20b949,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Flagship Snapdragon 8 Gen 2 at a mid-range price.",
+    "specs": {
+      "display": "6.67-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "120W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 7.4,
+      "camera": 7.9,
+      "battery": 8.4,
+      "charging": 8.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 49999,
+    "price_history": [
+      49999,
+      48999,
+      47499,
+      45999,
+      43999,
+      42499
+    ],
+    "pros": [
+      "Snapdragon 8 Gen 2",
+      "120W fast charging",
+      "144Hz AMOLED"
+    ],
+    "cons": [
+      "No wireless charging",
+      "No IP rating"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Poco_logo.svg"
+    ]
+  },
+  {
+    "id": "poco-f6",
+    "brand": "Poco",
+    "name": "F6",
+    "price": "\u20b929,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Best performance per rupee in its segment.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "Snapdragon 7s Gen 3",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "90W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.0,
+      "battery": 7.5,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 29999,
+    "price_history": [
+      29999,
+      29099,
+      27899,
+      26399,
+      24599,
+      23399
+    ],
+    "pros": [
+      "Value flagship",
+      "90W charging",
+      "Snapdragon 7s Gen 3"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Camera could be better"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Poco_logo.svg"
+    ]
+  },
+  {
+    "id": "poco-m6-pro",
+    "brand": "Poco",
+    "name": "M6 Pro",
+    "price": "\u20b918,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Premium AMOLED with fast charging under 20K.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "MediaTek Helio G99 Ultra",
+      "camera": "64MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "67W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 18999,
+    "price_history": [
+      18999,
+      18429,
+      17669,
+      16719,
+      15579,
+      14819
+    ],
+    "pros": [
+      "AMOLED display",
+      "67W fast charging",
+      "Large storage"
+    ],
+    "cons": [
+      "No 5G",
+      "Average processor"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Poco_logo.svg"
+    ]
+  },
+  {
+    "id": "poco-x6-pro",
+    "brand": "Poco",
+    "name": "X6 Pro",
+    "price": "\u20b928,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Dimensity 8300 Ultra flagship killer.",
+    "specs": {
+      "display": "6.67-inch AMOLED 144Hz",
+      "processor": "MediaTek Dimensity 8300 Ultra",
+      "camera": "64MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "67W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.0,
+      "battery": 7.5,
+      "charging": 7.0,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 28999,
+    "price_history": [
+      28999,
+      28129,
+      26969,
+      25519,
+      23779,
+      22619
+    ],
+    "pros": [
+      "Dimensity 8300 Ultra",
+      "Fast 67W charging",
+      "144Hz AMOLED"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Camera disappoints"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Poco_logo.svg"
+    ]
+  },
+  {
+    "id": "poco-x6",
+    "brand": "Poco",
+    "name": "X6",
+    "price": "\u20b922,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Snapdragon mid-ranger with great display.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "Snapdragon 7s Gen 2",
+      "camera": "64MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "67W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 22999,
+    "price_history": [
+      22999,
+      22309,
+      21389,
+      20239,
+      18859,
+      17939
+    ],
+    "pros": [
+      "Snapdragon 7s Gen 2",
+      "67W charging",
+      "Premium display"
+    ],
+    "cons": [
+      "Camera mediocre",
+      "No wireless charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Poco_logo.svg"
+    ]
+  },
+  {
+    "id": "poco-c75",
+    "brand": "Poco",
+    "name": "C75",
+    "price": "\u20b99,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Largest screen in ultra-budget segment.",
+    "specs": {
+      "display": "6.88-inch IPS LCD 120Hz",
+      "processor": "MediaTek Helio G91",
+      "camera": "50MP+2MP",
+      "battery": "5160 mAh",
+      "charging": "18W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.3,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.88,
+    "price_numeric": 9999,
+    "price_history": [
+      9999,
+      9499,
+      8999,
+      8499,
+      7999,
+      7499
+    ],
+    "pros": [
+      "Large 6.88-inch screen",
+      "5160mAh battery",
+      "Budget-friendly"
+    ],
+    "cons": [
+      "Slow charging",
+      "No 5G",
+      "Basic camera"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Poco_logo.svg"
+    ]
+  },
+  {
+    "id": "nothing-phone-2",
+    "brand": "Nothing",
+    "name": "Phone (2)",
+    "price": "\u20b944,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Transparent design with advanced Glyph notification system.",
+    "specs": {
+      "display": "6.7-inch AMOLED 120Hz",
+      "processor": "Snapdragon 8+ Gen 1",
+      "camera": "50MP+50MP",
+      "battery": "4700 mAh",
+      "charging": "45W Wired + 15W Wireless",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 8.4,
+      "camera": 7.9,
+      "battery": 7.9,
+      "charging": 7.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 44999,
+    "price_history": [
+      44999,
+      44099,
+      42749,
+      41399,
+      39599,
+      38249
+    ],
+    "pros": [
+      "Unique Glyph interface",
+      "Wireless charging",
+      "Clean NothingOS"
+    ],
+    "cons": [
+      "Glyph is a gimmick to some",
+      "Average cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/Nothing_Logo.svg"
+    ]
+  },
+  {
+    "id": "nothing-phone-2a-plus",
+    "brand": "Nothing",
+    "name": "Phone (2a) Plus",
+    "price": "\u20b925,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Slightly more powerful variant of Phone 2a.",
+    "specs": {
+      "display": "6.7-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 7350 Pro",
+      "camera": "50MP+50MP",
+      "battery": "5000 mAh",
+      "charging": "50W Wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 6.7,
+      "camera": 6.2,
+      "battery": 6.7,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.7,
+    "price_numeric": 25999,
+    "price_history": [
+      25999,
+      25219,
+      24179,
+      22879,
+      21319,
+      20279
+    ],
+    "pros": [
+      "Upgraded chipset",
+      "Clean NothingOS",
+      "Glyph"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Incremental upgrade"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/Nothing_Logo.svg"
+    ]
+  },
+  {
+    "id": "redmi-note-13-pro-plus",
+    "brand": "Redmi",
+    "name": "Note 13 Pro Plus",
+    "price": "\u20b930,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "IP68 + 200MP camera + 120W charging in one phone.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 7200 Ultra",
+      "camera": "200MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "120W Wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 7.8,
+      "battery": 7.5,
+      "charging": 8.1,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 30999,
+    "price_history": [
+      30999,
+      30069,
+      28829,
+      27279,
+      25419,
+      24179
+    ],
+    "pros": [
+      "IP68 water resistance",
+      "200MP camera",
+      "120W charging"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Curved glass can crack"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Redmi_logo.svg"
+    ]
+  },
+  {
+    "id": "redmi-note-13-pro",
+    "brand": "Redmi",
+    "name": "Note 13 Pro",
+    "price": "\u20b924,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Snapdragon with 200MP flagship-grade camera.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "Snapdragon 7s Gen 2",
+      "camera": "200MP+8MP+2MP",
+      "battery": "5100 mAh",
+      "charging": "67W Wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 6.7,
+      "camera": 7.0,
+      "battery": 6.2,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 24999,
+    "price_history": [
+      24999,
+      24249,
+      23249,
+      21999,
+      20499,
+      19499
+    ],
+    "pros": [
+      "200MP main camera",
+      "5100mAh battery",
+      "IP54"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Average zoom camera"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Redmi_logo.svg"
+    ]
+  },
+  {
+    "id": "redmi-note-13",
+    "brand": "Redmi",
+    "name": "Note 13",
+    "price": "\u20b915,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "108MP AMOLED with IP54 at budget pricing.",
+    "specs": {
+      "display": "6.67-inch AMOLED 120Hz",
+      "processor": "Snapdragon 685",
+      "camera": "108MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "33W Wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 5.8,
+      "camera": 6.1,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.8,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 15999,
+    "price_history": [
+      15999,
+      15199,
+      14399,
+      13599,
+      12799,
+      11999
+    ],
+    "pros": [
+      "108MP camera",
+      "AMOLED display",
+      "IP54 rating"
+    ],
+    "cons": [
+      "No 5G",
+      "Slow charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Redmi_logo.svg"
+    ]
+  },
+  {
+    "id": "redmi-k70-pro",
+    "brand": "Redmi",
+    "name": "K70 Pro",
+    "price": "\u20b944,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Snapdragon 8 Gen 3 flagship killer.",
+    "specs": {
+      "display": "6.67-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8 Gen 3",
+      "camera": "50MP+50MP+12MP",
+      "battery": "5000 mAh",
+      "charging": "120W Wired + 50W Wireless",
+      "ipRating": "IP64"
+    },
+    "scores": {
+      "durability": 8.4,
+      "camera": 7.9,
+      "battery": 8.4,
+      "charging": 8.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 16,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 44999,
+    "price_history": [
+      44999,
+      44099,
+      42749,
+      41399,
+      39599,
+      38249
+    ],
+    "pros": [
+      "Snapdragon 8 Gen 3",
+      "144Hz AMOLED",
+      "120W charging"
+    ],
+    "cons": [
+      "No IP68 (only IP64)",
+      "Gaming-focused design"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Redmi_logo.svg"
+    ]
+  },
+  {
+    "id": "redmi-k60-pro",
+    "brand": "Redmi",
+    "name": "K60 Pro",
+    "price": "\u20b939,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Best value flagship with IP68 + Snapdragon 8 Gen 2.",
+    "specs": {
+      "display": "6.67-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP+8MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "120W Wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 7.5,
+      "camera": 7.0,
+      "battery": 7.5,
+      "charging": 8.1,
+      "display": 7.5,
+      "sound": 7.0,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 39999,
+    "price_history": [
+      39999,
+      38799,
+      37199,
+      35199,
+      32799,
+      31199
+    ],
+    "pros": [
+      "IP68",
+      "Snapdragon 8 Gen 2",
+      "120W fast charging"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Camera not best in class"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Redmi_logo.svg"
+    ]
+  },
+  {
+    "id": "redmi-a3",
+    "brand": "Redmi",
+    "name": "A3",
+    "price": "\u20b97,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Most affordable smartphone for basic users.",
+    "specs": {
+      "display": "6.71-inch IPS LCD 90Hz",
+      "processor": "MediaTek Helio G36",
+      "camera": "8MP",
+      "battery": "5000 mAh",
+      "charging": "10W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 3,
+    "storage_options": "64GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.71,
+    "price_numeric": 7999,
+    "price_history": [
+      7999,
+      7599,
+      7199,
+      6799,
+      6399,
+      5999
+    ],
+    "pros": [
+      "Ultra-affordable",
+      "Large battery",
+      "Basic needs covered"
+    ],
+    "cons": [
+      "Very weak chipset",
+      "Weak camera",
+      "Slow charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Redmi_logo.svg"
+    ]
+  },
+  {
+    "id": "huawei-p60-pro",
+    "brand": "Huawei",
+    "name": "P60 Pro",
+    "price": "\u20b989,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "World-class Leica camera without Google services.",
+    "specs": {
+      "display": "6.67-inch OLED 120Hz",
+      "processor": "Kirin 9200+",
+      "camera": "48MP+13MP+48MP Periscope",
+      "battery": "4815 mAh",
+      "charging": "88W Wired + 50W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 8.8,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Kirin",
+    "screen_size": 6.67,
+    "price_numeric": 89999,
+    "price_history": [
+      89999,
+      88199,
+      85499,
+      82799,
+      79199,
+      76499
+    ],
+    "pros": [
+      "Amazing low-light camera",
+      "IP68",
+      "Wireless charging"
+    ],
+    "cons": [
+      "No 5G",
+      "No Google services",
+      "Expensive"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e8/Huawei_Logo.svg"
+    ]
+  },
+  {
+    "id": "huawei-mate-60-pro",
+    "brand": "Huawei",
+    "name": "Mate 60 Pro",
+    "price": "\u20b999,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Supports satellite calls \u2014 unprecedented on a smartphone.",
+    "specs": {
+      "display": "6.82-inch LTPO OLED 120Hz",
+      "processor": "Kirin 9000s",
+      "camera": "50MP+13MP+12MP",
+      "battery": "4600 mAh",
+      "charging": "66W Wired + 50W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 8.8,
+      "battery": 8.8,
+      "charging": 8.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Kirin",
+    "screen_size": 6.82,
+    "price_numeric": 99999,
+    "price_history": [
+      99999,
+      97999,
+      94999,
+      91999,
+      87999,
+      84999
+    ],
+    "pros": [
+      "Satellite communication",
+      "IP68",
+      "Kirin 9000s"
+    ],
+    "cons": [
+      "No Google services",
+      "Limited availability",
+      "Expensive"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e8/Huawei_Logo.svg"
+    ]
+  },
+  {
+    "id": "lenovo-legion-phone-duel-3",
+    "brand": "Lenovo",
+    "name": "Legion Phone Duel 3",
+    "price": "\u20b964,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Dual charging ports for true gaming battery management.",
+    "specs": {
+      "display": "6.67-inch AMOLED 144Hz",
+      "processor": "Snapdragon 8+ Gen 1",
+      "camera": "64MP+16MP",
+      "battery": "5500 mAh",
+      "charging": "68W Wired x2",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 7.4,
+      "camera": 7.9,
+      "battery": 7.9,
+      "charging": 7.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 0
+    },
+    "ram_gb": 18,
+    "storage_options": "512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 64999,
+    "price_history": [
+      64999,
+      63699,
+      61749,
+      59799,
+      57199,
+      55249
+    ],
+    "pros": [
+      "18GB RAM",
+      "Dual-port charging",
+      "Pop-up camera"
+    ],
+    "cons": [
+      "Gaming design only",
+      "Heavy",
+      "Unusual pop-up selfie camera"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/28/Lenovo_logo_2015.svg"
+    ]
+  },
+  {
+    "id": "lenovo-thinkphone",
+    "brand": "Lenovo",
+    "name": "ThinkPhone",
+    "price": "\u20b949,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "ThinkPad-inspired business phone with Moto connectivity.",
+    "specs": {
+      "display": "6.6-inch pOLED 144Hz",
+      "processor": "Snapdragon 8+ Gen 1",
+      "camera": "50MP+13MP+2MP",
+      "battery": "5000 mAh",
+      "charging": "68W Wired + 15W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.4,
+      "camera": 7.9,
+      "battery": 8.4,
+      "charging": 7.9,
+      "display": 8.4,
+      "sound": 7.9,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.6,
+    "price_numeric": 49999,
+    "price_history": [
+      49999,
+      48999,
+      47499,
+      45999,
+      43999,
+      42499
+    ],
+    "pros": [
+      "Business-grade security",
+      "IP68",
+      "Wireless charging"
+    ],
+    "cons": [
+      "Niche design appeal",
+      "Pricey"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/28/Lenovo_logo_2015.svg"
+    ]
+  },
+  {
+    "id": "tcl-50-pro",
+    "brand": "TCL",
+    "name": "50 Pro",
+    "price": "\u20b919,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Value AMOLED phone with 108MP camera.",
+    "specs": {
+      "display": "6.78-inch AMOLED 120Hz",
+      "processor": "MediaTek Dimensity 6300",
+      "camera": "108MP+5MP+2MP",
+      "battery": "5010 mAh",
+      "charging": "33W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.7,
+      "camera": 7.0,
+      "battery": 6.2,
+      "charging": 6.2,
+      "display": 6.7,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 19999,
+    "price_history": [
+      19999,
+      19399,
+      18599,
+      17599,
+      16399,
+      15599
+    ],
+    "pros": [
+      "108MP camera",
+      "AMOLED display",
+      "5G ready"
+    ],
+    "cons": [
+      "No fast wireless charging",
+      "Average chipset"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+    ]
+  },
+  {
+    "id": "tcl-40-se",
+    "brand": "TCL",
+    "name": "40 SE",
+    "price": "\u20b98,999",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Ultra-budget smartphone for first-time buyers.",
+    "specs": {
+      "display": "6.75-inch IPS LCD 90Hz",
+      "processor": "Unisoc T606",
+      "camera": "13MP",
+      "battery": "5000 mAh",
+      "charging": "10W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 5.3,
+      "battery": 5.8,
+      "charging": 5.3,
+      "display": 5.0,
+      "sound": 5.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Unisoc",
+    "screen_size": 6.75,
+    "price_numeric": 8999,
+    "price_history": [
+      8999,
+      8549,
+      8099,
+      7649,
+      7199,
+      6749
+    ],
+    "pros": [
+      "Very affordable",
+      "Large screen",
+      "Big battery"
+    ],
+    "cons": [
+      "Very weak processor",
+      "Slow charging",
+      "Basic cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+    ]
   }
 ];
 
