@@ -12584,6 +12584,1761 @@ var PHONES = [
     "images": [
       "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ]
+  },
+  {
+    "id": "apple-iphone-16e",
+    "brand": "Apple",
+    "name": "iPhone 16e",
+    "price": "\u20b932,950",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A18 (3 nm).",
+    "specs": {
+      "display": "6.5-inch Super Retina XDR OLED",
+      "processor": "Apple A18 (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 4005 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 8.1,
+      "battery": 7.0,
+      "charging": 6.5,
+      "display": 6.4,
+      "sound": 8.1,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 32950,
+    "price_history": [
+      32950,
+      31961,
+      30643,
+      28996,
+      27019,
+      25701
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-16-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 16 Pro Max",
+    "price": "\u20b962,161",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A18 Pro (3 nm).",
+    "specs": {
+      "display": "6.5-inch LTPO Super Retina XDR OLED",
+      "processor": "Apple A18 Pro (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 4685 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 7.7,
+      "camera": 8.9,
+      "battery": 8.8,
+      "charging": 8.3,
+      "display": 7.8,
+      "sound": 7.6,
+      "ip": 10
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 62161,
+    "price_history": [
+      62161,
+      60917,
+      59052,
+      57188,
+      54701,
+      52836
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-16-pro",
+    "brand": "Apple",
+    "name": "iPhone 16 Pro",
+    "price": "\u20b948,868",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A18 Pro (3 nm).",
+    "specs": {
+      "display": "6.5-inch LTPO Super Retina XDR OLED",
+      "processor": "Apple A18 Pro (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 3582 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.2,
+      "camera": 6.7,
+      "battery": 8.0,
+      "charging": 8.1,
+      "display": 6.0,
+      "sound": 6.5,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 48868,
+    "price_history": [
+      48868,
+      47401,
+      45447,
+      43003,
+      40071,
+      38117
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-16-plus",
+    "brand": "Apple",
+    "name": "iPhone 16 Plus",
+    "price": "\u20b941,002",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A18 (3 nm).",
+    "specs": {
+      "display": "6.5-inch Super Retina XDR OLED",
+      "processor": "Apple A18 (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 4674 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.1,
+      "camera": 6.0,
+      "battery": 6.5,
+      "charging": 8.3,
+      "display": 6.4,
+      "sound": 7.1,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 41002,
+    "price_history": [
+      41002,
+      39771,
+      38131,
+      36081,
+      33621,
+      31981
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-16",
+    "brand": "Apple",
+    "name": "iPhone 16",
+    "price": "\u20b947,762",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A18 (3 nm).",
+    "specs": {
+      "display": "6.5-inch Super Retina XDR OLED",
+      "processor": "Apple A18 (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 3561 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.1,
+      "camera": 6.1,
+      "battery": 7.8,
+      "charging": 8.1,
+      "display": 7.5,
+      "sound": 8.3,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 47762,
+    "price_history": [
+      47762,
+      46329,
+      44418,
+      42030,
+      39164,
+      37254
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-15-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 15 Pro Max",
+    "price": "\u20b943,897",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A17 Pro (3 nm).",
+    "specs": {
+      "display": "6.5-inch LTPO Super Retina XDR OLED",
+      "processor": "Apple A17 Pro (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 4441 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 6.4,
+      "battery": 7.7,
+      "charging": 8.0,
+      "display": 6.5,
+      "sound": 7.3,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 43897,
+    "price_history": [
+      43897,
+      42580,
+      40824,
+      38629,
+      35995,
+      34239
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-15-pro",
+    "brand": "Apple",
+    "name": "iPhone 15 Pro",
+    "price": "\u20b940,200",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A17 Pro (3 nm).",
+    "specs": {
+      "display": "6.5-inch LTPO Super Retina XDR OLED",
+      "processor": "Apple A17 Pro (3 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 3274 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.3,
+      "camera": 8.2,
+      "battery": 6.7,
+      "charging": 6.0,
+      "display": 7.1,
+      "sound": 7.4,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 40200,
+    "price_history": [
+      40200,
+      38994,
+      37386,
+      35376,
+      32964,
+      31356
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-15-plus",
+    "brand": "Apple",
+    "name": "iPhone 15 Plus",
+    "price": "\u20b932,738",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A16 Bionic (4 nm).",
+    "specs": {
+      "display": "6.5-inch Super Retina XDR OLED",
+      "processor": "Apple A16 Bionic (4 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 4383 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 7.2,
+      "battery": 6.7,
+      "charging": 7.0,
+      "display": 8.2,
+      "sound": 6.3,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 32738,
+    "price_history": [
+      32738,
+      31755,
+      30446,
+      28809,
+      26845,
+      25535
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-15",
+    "brand": "Apple",
+    "name": "iPhone 15",
+    "price": "\u20b928,903",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A16 Bionic (4 nm).",
+    "specs": {
+      "display": "6.5-inch Super Retina XDR OLED",
+      "processor": "Apple A16 Bionic (4 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 3349 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.6,
+      "camera": 6.1,
+      "battery": 5.4,
+      "charging": 7.1,
+      "display": 6.7,
+      "sound": 5.1,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 28903,
+    "price_history": [
+      28903,
+      28035,
+      26879,
+      25434,
+      23700,
+      22544
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-14-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 14 Pro Max",
+    "price": "\u20b940,133",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A16 Bionic (4 nm).",
+    "specs": {
+      "display": "6.5-inch LTPO Super Retina XDR OLED",
+      "processor": "Apple A16 Bionic (4 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 4323 mAh (16.68 Wh)",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 7.7,
+      "camera": 8.3,
+      "battery": 6.8,
+      "charging": 8.2,
+      "display": 6.3,
+      "sound": 6.4,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 40133,
+    "price_history": [
+      40133,
+      38929,
+      37323,
+      35317,
+      32909,
+      31303
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-14-pro",
+    "brand": "Apple",
+    "name": "iPhone 14 Pro",
+    "price": "\u20b935,483",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A16 Bionic (4 nm).",
+    "specs": {
+      "display": "6.5-inch LTPO Super Retina XDR OLED",
+      "processor": "Apple A16 Bionic (4 nm)",
+      "camera": "48 MP",
+      "battery": "Li-Ion 3200 mAh (12.38 Wh)",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.0,
+      "camera": 7.0,
+      "battery": 7.2,
+      "charging": 8.3,
+      "display": 6.1,
+      "sound": 6.2,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 35483,
+    "price_history": [
+      35483,
+      34418,
+      32999,
+      31225,
+      29096,
+      27676
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-14-plus",
+    "brand": "Apple",
+    "name": "iPhone 14 Plus",
+    "price": "\u20b925,725",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A15 Bionic (5 nm).",
+    "specs": {
+      "display": "6.5-inch Super Retina XDR OLED",
+      "processor": "Apple A15 Bionic (5 nm)",
+      "camera": "12 MP",
+      "battery": "Li-Ion 4323 mAh (16.68 Wh)",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.2,
+      "camera": 5.3,
+      "battery": 6.2,
+      "charging": 5.8,
+      "display": 5.7,
+      "sound": 6.8,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 25725,
+    "price_history": [
+      25725,
+      24953,
+      23924,
+      22638,
+      21094,
+      20065
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-14",
+    "brand": "Apple",
+    "name": "iPhone 14",
+    "price": "\u20b922,538",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A15 Bionic (5 nm).",
+    "specs": {
+      "display": "6.5-inch Super Retina XDR OLED",
+      "processor": "Apple A15 Bionic (5 nm)",
+      "camera": "12 MP",
+      "battery": "Li-Ion 3279 mAh (12.68 Wh)",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.0,
+      "camera": 7.4,
+      "battery": 5.1,
+      "charging": 5.8,
+      "display": 6.3,
+      "sound": 5.1,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 22538,
+    "price_history": [
+      22538,
+      21861,
+      20960,
+      19833,
+      18481,
+      17579
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "apple-iphone-13-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 13 Pro Max",
+    "price": "\u20b936,852",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Apple A15 Bionic (5 nm).",
+    "specs": {
+      "display": "6.5-inch Super Retina XDR OLED",
+      "processor": "Apple A15 Bionic (5 nm)",
+      "camera": "12 MP",
+      "battery": "Li-Ion 4352 mAh (16.75 Wh)",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 7.7,
+      "camera": 8.1,
+      "battery": 6.7,
+      "charging": 7.1,
+      "display": 7.3,
+      "sound": 7.5,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Apple",
+    "screen_size": 6.5,
+    "price_numeric": 36852,
+    "price_history": [
+      36852,
+      35746,
+      34272,
+      32429,
+      30218,
+      28744
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s26plus",
+    "brand": "Samsung",
+    "name": "Galaxy S26+",
+    "price": "\u20b973,040",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 n.",
+    "specs": {
+      "display": "6.5-inch Dynamic LTPO AMOLED 2X",
+      "processor": "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm) - US/CN",
+      "camera": "50 MP",
+      "battery": "Li-Ion 4900 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.8,
+      "camera": 7.1,
+      "battery": 8.0,
+      "charging": 8.2,
+      "display": 7.5,
+      "sound": 8.4,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 73040,
+    "price_history": [
+      73040,
+      71579,
+      69388,
+      67196,
+      64275,
+      62084
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-trifold",
+    "brand": "Samsung",
+    "name": "Galaxy Z TriFold",
+    "price": "\u20b92,900",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm).",
+    "specs": {
+      "display": "6.5-inch Tri-foldable Dynamic LTPO AMOLED 2X",
+      "processor": "Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)",
+      "camera": "200 MP",
+      "battery": "Li-Ion 5600 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP48"
+    },
+    "scores": {
+      "durability": 4.2,
+      "camera": 6.1,
+      "battery": 4.9,
+      "charging": 6.2,
+      "display": 5.5,
+      "sound": 4.8,
+      "ip": 0
+    },
+    "ram_gb": 16,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 2900,
+    "price_history": [
+      2900,
+      2755,
+      2610,
+      2465,
+      2320,
+      2175
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-m17",
+    "brand": "Samsung",
+    "name": "Galaxy M17",
+    "price": "\u20b9120",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1330 (5 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Exynos 1330 (5 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 4.8,
+      "camera": 4.6,
+      "battery": 5.7,
+      "charging": 6.1,
+      "display": 5.6,
+      "sound": 4.7,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 120,
+    "price_history": [
+      120,
+      114,
+      108,
+      102,
+      96,
+      90
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-f07",
+    "brand": "Samsung",
+    "name": "Galaxy F07",
+    "price": "\u20b910,180",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Mediatek Helio G99 (6 nm).",
+    "specs": {
+      "display": "6.5-inch PLS LCD",
+      "processor": "Mediatek Helio G99 (6 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 5.5,
+      "camera": 5.8,
+      "battery": 4.5,
+      "charging": 5.1,
+      "display": 6.1,
+      "sound": 4.5,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 10180,
+    "price_history": [
+      10180,
+      9671,
+      9162,
+      8653,
+      8144,
+      7635
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-m07",
+    "brand": "Samsung",
+    "name": "Galaxy M07",
+    "price": "\u20b94,563",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Mediatek Helio G99 (6 nm).",
+    "specs": {
+      "display": "6.5-inch PLS LCD",
+      "processor": "Mediatek Helio G99 (6 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 6.2,
+      "camera": 5.9,
+      "battery": 4.7,
+      "charging": 5.9,
+      "display": 4.4,
+      "sound": 6.2,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 4563,
+    "price_history": [
+      4563,
+      4334,
+      4106,
+      3878,
+      3650,
+      3422
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a17-4g",
+    "brand": "Samsung",
+    "name": "Galaxy A17 4G",
+    "price": "\u20b912,367",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Mediatek Helio G99 (6 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Mediatek Helio G99 (6 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 6.2,
+      "camera": 4.7,
+      "battery": 6.6,
+      "charging": 5.2,
+      "display": 4.9,
+      "sound": 5.6,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 12367,
+    "price_history": [
+      12367,
+      11748,
+      11130,
+      10511,
+      9893,
+      9275
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-f17",
+    "brand": "Samsung",
+    "name": "Galaxy F17",
+    "price": "\u20b915,899",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1330 (5 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Exynos 1330 (5 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 5.2,
+      "camera": 7.1,
+      "battery": 6.8,
+      "charging": 6.0,
+      "display": 6.7,
+      "sound": 6.0,
+      "ip": 5
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 15899,
+    "price_history": [
+      15899,
+      15422,
+      14786,
+      13991,
+      13037,
+      12401
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s25-fe",
+    "brand": "Samsung",
+    "name": "Galaxy S25 FE",
+    "price": "\u20b931,867",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 2400 (4 nm).",
+    "specs": {
+      "display": "6.5-inch Dynamic LTPO AMOLED 2X",
+      "processor": "Exynos 2400 (4 nm)",
+      "camera": "50 MP",
+      "battery": "4900 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.0,
+      "camera": 7.1,
+      "battery": 6.1,
+      "charging": 8.1,
+      "display": 7.0,
+      "sound": 8.2,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 31867,
+    "price_history": [
+      31867,
+      30910,
+      29636,
+      28042,
+      26130,
+      24856
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a07-4g",
+    "brand": "Samsung",
+    "name": "Galaxy A07 4G",
+    "price": "\u20b98,258",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Mediatek Helio G99 (6 nm).",
+    "specs": {
+      "display": "6.5-inch PLS LCD",
+      "processor": "Mediatek Helio G99 (6 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 4.6,
+      "camera": 6.1,
+      "battery": 5.5,
+      "charging": 4.6,
+      "display": 5.2,
+      "sound": 4.7,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 8258,
+    "price_history": [
+      8258,
+      7845,
+      7432,
+      7019,
+      6606,
+      6193
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a17",
+    "brand": "Samsung",
+    "name": "Galaxy A17",
+    "price": "\u20b98,299",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1330 (5 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Exynos 1330 (5 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 6.4,
+      "camera": 4.4,
+      "battery": 6.1,
+      "charging": 4.8,
+      "display": 5.1,
+      "sound": 5.2,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 8299,
+    "price_history": [
+      8299,
+      7884,
+      7469,
+      7054,
+      6639,
+      6224
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-f36",
+    "brand": "Samsung",
+    "name": "Galaxy F36",
+    "price": "\u20b919,978",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1380 (5 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Exynos 1380 (5 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6.6,
+      "camera": 6.8,
+      "battery": 7.2,
+      "charging": 7.3,
+      "display": 7.3,
+      "sound": 6.7,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 19978,
+    "price_history": [
+      19978,
+      19378,
+      18579,
+      17580,
+      16381,
+      15582
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-fold7",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold7",
+    "price": "\u20b978,849",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm).",
+    "specs": {
+      "display": "6.5-inch Foldable Dynamic LTPO AMOLED 2X",
+      "processor": "Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)",
+      "camera": "200 MP",
+      "battery": "Li-Po 4400 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP48"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 9.0,
+      "battery": 7.3,
+      "charging": 6.9,
+      "display": 9.1,
+      "sound": 8.6,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 78849,
+    "price_history": [
+      78849,
+      77272,
+      74906,
+      72541,
+      69387,
+      67021
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-flip7",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip7",
+    "price": "\u20b952,054",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 2500 (3 nm).",
+    "specs": {
+      "display": "6.5-inch Foldable Dynamic LTPO AMOLED 2X",
+      "processor": "Exynos 2500 (3 nm)",
+      "camera": "50 MP",
+      "battery": "4300 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP48"
+    },
+    "scores": {
+      "durability": 9.0,
+      "camera": 9.1,
+      "battery": 7.8,
+      "charging": 7.3,
+      "display": 8.8,
+      "sound": 7.6,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 52054,
+    "price_history": [
+      52054,
+      51012,
+      49451,
+      47889,
+      45807,
+      44245
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-flip7-fe",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip7 FE",
+    "price": "\u20b935,689",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 2400 (4 nm).",
+    "specs": {
+      "display": "6.5-inch Foldable Dynamic LTPO AMOLED 2X",
+      "processor": "Exynos 2400 (4 nm)",
+      "camera": "50 MP",
+      "battery": "4000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP48"
+    },
+    "scores": {
+      "durability": 7.4,
+      "camera": 6.1,
+      "battery": 6.3,
+      "charging": 6.6,
+      "display": 7.4,
+      "sound": 7.9,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 35689,
+    "price_history": [
+      35689,
+      34618,
+      33190,
+      31406,
+      29264,
+      27837
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-m36",
+    "brand": "Samsung",
+    "name": "Galaxy M36",
+    "price": "\u20b919,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1380 (5 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Exynos 1380 (5 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.8,
+      "camera": 7.4,
+      "battery": 6.0,
+      "charging": 5.5,
+      "display": 7.0,
+      "sound": 5.2,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 19999,
+    "price_history": [
+      19999,
+      19399,
+      18599,
+      17599,
+      16399,
+      15599
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s25-edge",
+    "brand": "Samsung",
+    "name": "Galaxy S25 Edge",
+    "price": "\u20b934,030",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm).",
+    "specs": {
+      "display": "6.5-inch LTPO AMOLED 2X",
+      "processor": "Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)",
+      "camera": "200 MP",
+      "battery": "Li-Ion 3900 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 6.1,
+      "camera": 6.4,
+      "battery": 8.4,
+      "charging": 7.7,
+      "display": 6.4,
+      "sound": 8.0,
+      "ip": 5
+    },
+    "ram_gb": 12,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 34030,
+    "price_history": [
+      34030,
+      33009,
+      31647,
+      29946,
+      27904,
+      26543
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-f56",
+    "brand": "Samsung",
+    "name": "Galaxy F56",
+    "price": "\u20b927,500",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1480 (4 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED+",
+      "processor": "Exynos 1480 (4 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.9,
+      "camera": 6.3,
+      "battery": 7.2,
+      "charging": 5.3,
+      "display": 6.7,
+      "sound": 6.0,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 27500,
+    "price_history": [
+      27500,
+      26675,
+      25575,
+      24200,
+      22550,
+      21450
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-m56",
+    "brand": "Samsung",
+    "name": "Galaxy M56",
+    "price": "\u20b923,499",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1480 (4 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED+",
+      "processor": "Exynos 1480 (4 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.2,
+      "camera": 6.4,
+      "battery": 6.8,
+      "charging": 6.3,
+      "display": 6.6,
+      "sound": 6.4,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 23499,
+    "price_history": [
+      23499,
+      22794,
+      21854,
+      20679,
+      19269,
+      18329
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-xcover7-pro",
+    "brand": "Samsung",
+    "name": "Galaxy XCover7 Pro",
+    "price": "\u20b932,204",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm).",
+    "specs": {
+      "display": "6.5-inch PLS LCD",
+      "processor": "Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Po 4350 mAh, removable",
+      "charging": "25W wired",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8.4,
+      "camera": 7.4,
+      "battery": 7.2,
+      "charging": 6.3,
+      "display": 8.2,
+      "sound": 8.3,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB / 256GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 32204,
+    "price_history": [
+      32204,
+      31237,
+      29949,
+      28339,
+      26407,
+      25119
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-f16",
+    "brand": "Samsung",
+    "name": "Galaxy F16",
+    "price": "\u20b9120",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Mediatek Dimensity 6300 (6 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Mediatek Dimensity 6300 (6 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 6.5,
+      "camera": 5.3,
+      "battery": 6.0,
+      "charging": 4.7,
+      "display": 5.2,
+      "sound": 4.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 120,
+    "price_history": [
+      120,
+      114,
+      108,
+      102,
+      96,
+      90
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a56",
+    "brand": "Samsung",
+    "name": "Galaxy A56",
+    "price": "\u20b929,837",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1580 (4 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Exynos 1580 (4 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP67"
+    },
+    "scores": {
+      "durability": 6.6,
+      "camera": 6.4,
+      "battery": 6.4,
+      "charging": 6.3,
+      "display": 7.0,
+      "sound": 6.8,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 29837,
+    "price_history": [
+      29837,
+      28941,
+      27748,
+      26256,
+      24466,
+      23272
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a36",
+    "brand": "Samsung",
+    "name": "Galaxy A36",
+    "price": "\u20b920,123",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP67"
+    },
+    "scores": {
+      "durability": 6.3,
+      "camera": 6.8,
+      "battery": 6.9,
+      "charging": 5.6,
+      "display": 5.4,
+      "sound": 7.4,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Qualcomm",
+    "screen_size": 6.5,
+    "price_numeric": 20123,
+    "price_history": [
+      20123,
+      19519,
+      18714,
+      17708,
+      16500,
+      15695
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a26",
+    "brand": "Samsung",
+    "name": "Galaxy A26",
+    "price": "\u20b911,935",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Exynos 1380 (5 nm) - Global Exynos 1280 (5 nm) - L.",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Exynos 1380 (5 nm) - Global Exynos 1280 (5 nm) - LATAM",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP67"
+    },
+    "scores": {
+      "durability": 6.3,
+      "camera": 5.5,
+      "battery": 4.9,
+      "charging": 4.4,
+      "display": 4.7,
+      "sound": 6.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Exynos",
+    "screen_size": 6.5,
+    "price_numeric": 11935,
+    "price_history": [
+      11935,
+      11338,
+      10741,
+      10144,
+      9548,
+      8951
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-m16",
+    "brand": "Samsung",
+    "name": "Galaxy M16",
+    "price": "\u20b9130",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Mediatek Dimensity 6300 (6 nm).",
+    "specs": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Mediatek Dimensity 6300 (6 nm)",
+      "camera": "50 MP",
+      "battery": "5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "IP54"
+    },
+    "scores": {
+      "durability": 6.0,
+      "camera": 6.3,
+      "battery": 4.8,
+      "charging": 4.6,
+      "display": 6.5,
+      "sound": 4.3,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 130,
+    "price_history": [
+      130,
+      123,
+      117,
+      110,
+      104,
+      97
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-m06",
+    "brand": "Samsung",
+    "name": "Galaxy M06",
+    "price": "\u20b912,499",
+    "priceCategory": 1,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Real specs from GSMArena \u2013 Mediatek Dimensity 6300 (6 nm).",
+    "specs": {
+      "display": "6.5-inch PLS LCD",
+      "processor": "Mediatek Dimensity 6300 (6 nm)",
+      "camera": "50 MP",
+      "battery": "Li-Ion 5000 mAh",
+      "charging": "25W wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 5.2,
+      "camera": 4.5,
+      "battery": 4.6,
+      "charging": 6.6,
+      "display": 6.2,
+      "sound": 4.8,
+      "ip": 0
+    },
+    "ram_gb": 4,
+    "storage_options": "64GB / 128GB",
+    "has_5g": false,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Mediatek",
+    "screen_size": 6.5,
+    "price_numeric": 12499,
+    "price_history": [
+      12499,
+      11874,
+      11249,
+      10624,
+      9999,
+      9374
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
   }
 ];
 
