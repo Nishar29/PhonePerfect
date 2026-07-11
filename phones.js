@@ -3,8 +3,8 @@ var PHONES = [
     "id": "iphone16promax",
     "name": "iPhone 16 Pro Max",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹159,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b9159,900",
     "priceCategory": 5,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -29,11 +29,7 @@ var PHONES = [
       "processor": 9.9
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 8,
     "storage_options": "256GB / 512GB / 1TB",
@@ -65,8 +61,8 @@ var PHONES = [
     "id": "iphone16pro",
     "name": "iPhone 16 Pro",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹119,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b9119,900",
     "priceCategory": 5,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -91,11 +87,7 @@ var PHONES = [
       "processor": 9.9
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB / 512GB / 1TB",
@@ -127,8 +119,8 @@ var PHONES = [
     "id": "iphone16plus",
     "name": "iPhone 16 Plus",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹89,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b989,900",
     "priceCategory": 4,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -153,11 +145,7 @@ var PHONES = [
       "processor": 9.6
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=307&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB / 512GB",
@@ -189,8 +177,8 @@ var PHONES = [
     "id": "iphone16",
     "name": "iPhone 16",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹79,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b979,900",
     "priceCategory": 4,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -215,11 +203,7 @@ var PHONES = [
       "processor": 9.6
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB / 512GB",
@@ -251,8 +235,8 @@ var PHONES = [
     "id": "iphone15promax",
     "name": "iPhone 15 Pro Max",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹134,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b9134,900",
     "priceCategory": 5,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -277,11 +261,7 @@ var PHONES = [
       "processor": 9.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 8,
     "storage_options": "256GB / 512GB / 1TB",
@@ -313,8 +293,8 @@ var PHONES = [
     "id": "iphone15pro",
     "name": "iPhone 15 Pro",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹109,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b9109,900",
     "priceCategory": 5,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -339,11 +319,7 @@ var PHONES = [
       "processor": 9.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB / 512GB / 1TB",
@@ -375,8 +351,8 @@ var PHONES = [
     "id": "iphone15",
     "name": "iPhone 15",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹69,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b969,900",
     "priceCategory": 3,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -401,11 +377,7 @@ var PHONES = [
       "processor": 9.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 6,
     "storage_options": "128GB / 256GB / 512GB",
@@ -437,8 +409,8 @@ var PHONES = [
     "id": "iphone14pro",
     "name": "iPhone 14 Pro",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹109,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b9109,900",
     "priceCategory": 5,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -463,11 +435,7 @@ var PHONES = [
       "processor": 9.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 6,
     "storage_options": "128GB / 256GB / 512GB / 1TB",
@@ -499,8 +467,8 @@ var PHONES = [
     "id": "iphone14",
     "name": "iPhone 14",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹59,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b959,900",
     "priceCategory": 3,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -525,11 +493,7 @@ var PHONES = [
       "processor": 8.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 6,
     "storage_options": "128GB / 256GB / 512GB",
@@ -561,8 +525,8 @@ var PHONES = [
     "id": "iphone13",
     "name": "iPhone 13",
     "brand": "Apple",
-    "emoji": "🍎",
-    "price": "₹49,900",
+    "emoji": "\ud83c\udf4e",
+    "price": "\u20b949,900",
     "priceCategory": 2,
     "uniqueFeature": "Apple signature experience",
     "specs": {
@@ -587,11 +551,7 @@ var PHONES = [
       "processor": 8.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.dpOYfGXDde6LSR0HNGpRHAHaHa?w=159&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.A5zA7_4gNazi9AKPnQv29gAAAA?w=297&h=167&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.sn7t5xAeB0u0aMdAy_I_zQAAAA?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.HA4VThYYhnFDAiyLoAhC4AHaE7?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.4g5zymbuLqx2iiOiXu0KaAHaEK?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     ],
     "ram_gb": 4,
     "storage_options": "128GB / 256GB / 512GB",
@@ -623,8 +583,8 @@ var PHONES = [
     "id": "galaxys25ultra",
     "name": "Galaxy S25 Ultra",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹129,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b9129,999",
     "priceCategory": 5,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -649,11 +609,7 @@ var PHONES = [
       "processor": 10.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB / 1TB",
@@ -685,8 +641,8 @@ var PHONES = [
     "id": "galaxys24ultra",
     "name": "Galaxy S24 Ultra",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹119,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b9119,999",
     "priceCategory": 5,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -711,11 +667,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB / 1TB",
@@ -747,8 +699,8 @@ var PHONES = [
     "id": "galaxys24plus",
     "name": "Galaxy S24+",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹89,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b989,999",
     "priceCategory": 4,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -773,11 +725,7 @@ var PHONES = [
       "processor": 9.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB",
@@ -809,8 +757,8 @@ var PHONES = [
     "id": "galaxys24",
     "name": "Galaxy S24",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹69,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b969,999",
     "priceCategory": 3,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -835,11 +783,7 @@ var PHONES = [
       "processor": 9.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -871,8 +815,8 @@ var PHONES = [
     "id": "galaxyzfold6",
     "name": "Galaxy Z Fold 6",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹164,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b9164,999",
     "priceCategory": 5,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -897,11 +841,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB / 1TB",
@@ -933,8 +873,8 @@ var PHONES = [
     "id": "galaxyzflip6",
     "name": "Galaxy Z Flip 6",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹109,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b9109,999",
     "priceCategory": 5,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -959,11 +899,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB",
@@ -995,8 +931,8 @@ var PHONES = [
     "id": "galaxys23ultra",
     "name": "Galaxy S23 Ultra",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹99,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b999,999",
     "priceCategory": 4,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -1021,11 +957,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB / 1TB",
@@ -1057,8 +989,8 @@ var PHONES = [
     "id": "galaxys23fe",
     "name": "Galaxy S23 FE",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹49,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b949,999",
     "priceCategory": 2,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -1083,11 +1015,7 @@ var PHONES = [
       "processor": 8.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -1119,8 +1047,8 @@ var PHONES = [
     "id": "galaxya55",
     "name": "Galaxy A55",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹39,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b939,999",
     "priceCategory": 2,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -1145,11 +1073,7 @@ var PHONES = [
       "processor": 7.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -1181,8 +1105,8 @@ var PHONES = [
     "id": "galaxya35",
     "name": "Galaxy A35",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹29,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b929,999",
     "priceCategory": 1,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -1207,11 +1131,7 @@ var PHONES = [
       "processor": 7.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -1243,8 +1163,8 @@ var PHONES = [
     "id": "galaxym55",
     "name": "Galaxy M55",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹26,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b926,999",
     "priceCategory": 1,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -1269,11 +1189,7 @@ var PHONES = [
       "processor": 7.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -1305,8 +1221,8 @@ var PHONES = [
     "id": "galaxym34",
     "name": "Galaxy M34",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹17,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b917,999",
     "priceCategory": 0,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -1331,11 +1247,7 @@ var PHONES = [
       "processor": 6.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 6,
     "storage_options": "64GB / 128GB",
@@ -1367,8 +1279,8 @@ var PHONES = [
     "id": "galaxym14",
     "name": "Galaxy M14",
     "brand": "Samsung",
-    "emoji": "🌌",
-    "price": "₹12,999",
+    "emoji": "\ud83c\udf0c",
+    "price": "\u20b912,999",
     "priceCategory": 0,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -1393,11 +1305,7 @@ var PHONES = [
       "processor": 6.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 4,
     "storage_options": "64GB / 128GB",
@@ -1429,8 +1337,8 @@ var PHONES = [
     "id": "pixel9proxl",
     "name": "Pixel 9 Pro XL",
     "brand": "Google",
-    "emoji": "🔍",
-    "price": "₹129,999",
+    "emoji": "\ud83d\udd0d",
+    "price": "\u20b9129,999",
     "priceCategory": 5,
     "uniqueFeature": "Google signature experience",
     "specs": {
@@ -1455,11 +1363,7 @@ var PHONES = [
       "processor": 8.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.HgH-NjiOdFOrkmwjsZCCfAHaHl?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.DoYuESoRecI9l-vyqdrEnQHaE-?w=247&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.4nvEh3FxPfy6nYJnPP2XLAHaDt?w=315&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1OmqVMG57-1hNj3csJQGnAHaHa?w=165&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.BZsSefXZUoJfKUmImuBxYgHaEK?w=286&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
     ],
     "ram_gb": 16,
     "storage_options": "128GB / 256GB / 512GB / 1TB",
@@ -1491,8 +1395,8 @@ var PHONES = [
     "id": "pixel9pro",
     "name": "Pixel 9 Pro",
     "brand": "Google",
-    "emoji": "🔍",
-    "price": "₹109,999",
+    "emoji": "\ud83d\udd0d",
+    "price": "\u20b9109,999",
     "priceCategory": 5,
     "uniqueFeature": "Google signature experience",
     "specs": {
@@ -1517,11 +1421,7 @@ var PHONES = [
       "processor": 8.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.HgH-NjiOdFOrkmwjsZCCfAHaHl?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.DoYuESoRecI9l-vyqdrEnQHaE-?w=247&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.4nvEh3FxPfy6nYJnPP2XLAHaDt?w=315&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1OmqVMG57-1hNj3csJQGnAHaHa?w=165&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.BZsSefXZUoJfKUmImuBxYgHaEK?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
     ],
     "ram_gb": 16,
     "storage_options": "128GB / 256GB / 512GB / 1TB",
@@ -1553,8 +1453,8 @@ var PHONES = [
     "id": "pixel9",
     "name": "Pixel 9",
     "brand": "Google",
-    "emoji": "🔍",
-    "price": "₹79,999",
+    "emoji": "\ud83d\udd0d",
+    "price": "\u20b979,999",
     "priceCategory": 4,
     "uniqueFeature": "Google signature experience",
     "specs": {
@@ -1579,11 +1479,7 @@ var PHONES = [
       "processor": 8.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.HgH-NjiOdFOrkmwjsZCCfAHaHl?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.DoYuESoRecI9l-vyqdrEnQHaE-?w=247&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.4nvEh3FxPfy6nYJnPP2XLAHaDt?w=315&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1OmqVMG57-1hNj3csJQGnAHaHa?w=165&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.BZsSefXZUoJfKUmImuBxYgHaEK?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "128GB / 256GB",
@@ -1615,8 +1511,8 @@ var PHONES = [
     "id": "pixel8pro",
     "name": "Pixel 8 Pro",
     "brand": "Google",
-    "emoji": "🔍",
-    "price": "₹99,999",
+    "emoji": "\ud83d\udd0d",
+    "price": "\u20b999,999",
     "priceCategory": 4,
     "uniqueFeature": "Google signature experience",
     "specs": {
@@ -1641,11 +1537,7 @@ var PHONES = [
       "processor": 8.5
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.HgH-NjiOdFOrkmwjsZCCfAHaHl?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.DoYuESoRecI9l-vyqdrEnQHaE-?w=247&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.4nvEh3FxPfy6nYJnPP2XLAHaDt?w=315&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1OmqVMG57-1hNj3csJQGnAHaHa?w=165&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.BZsSefXZUoJfKUmImuBxYgHaEK?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "128GB / 256GB / 512GB / 1TB",
@@ -1677,8 +1569,8 @@ var PHONES = [
     "id": "pixel8",
     "name": "Pixel 8",
     "brand": "Google",
-    "emoji": "🔍",
-    "price": "₹69,999",
+    "emoji": "\ud83d\udd0d",
+    "price": "\u20b969,999",
     "priceCategory": 3,
     "uniqueFeature": "Google signature experience",
     "specs": {
@@ -1703,11 +1595,7 @@ var PHONES = [
       "processor": 8.5
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.HgH-NjiOdFOrkmwjsZCCfAHaHl?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.DoYuESoRecI9l-vyqdrEnQHaE-?w=247&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.4nvEh3FxPfy6nYJnPP2XLAHaDt?w=315&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1OmqVMG57-1hNj3csJQGnAHaHa?w=165&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.BZsSefXZUoJfKUmImuBxYgHaEK?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -1739,8 +1627,8 @@ var PHONES = [
     "id": "pixel8a",
     "name": "Pixel 8a",
     "brand": "Google",
-    "emoji": "🔍",
-    "price": "₹49,999",
+    "emoji": "\ud83d\udd0d",
+    "price": "\u20b949,999",
     "priceCategory": 2,
     "uniqueFeature": "Google signature experience",
     "specs": {
@@ -1765,11 +1653,7 @@ var PHONES = [
       "processor": 8.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.HgH-NjiOdFOrkmwjsZCCfAHaHl?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.DoYuESoRecI9l-vyqdrEnQHaE-?w=247&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.4nvEh3FxPfy6nYJnPP2XLAHaDt?w=315&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1OmqVMG57-1hNj3csJQGnAHaHa?w=165&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.BZsSefXZUoJfKUmImuBxYgHaEK?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -1801,8 +1685,8 @@ var PHONES = [
     "id": "pixel7a",
     "name": "Pixel 7a",
     "brand": "Google",
-    "emoji": "🔍",
-    "price": "₹39,999",
+    "emoji": "\ud83d\udd0d",
+    "price": "\u20b939,999",
     "priceCategory": 2,
     "uniqueFeature": "Google signature experience",
     "specs": {
@@ -1827,11 +1711,7 @@ var PHONES = [
       "processor": 7.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.HgH-NjiOdFOrkmwjsZCCfAHaHl?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.DoYuESoRecI9l-vyqdrEnQHaE-?w=247&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.4nvEh3FxPfy6nYJnPP2XLAHaDt?w=315&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1OmqVMG57-1hNj3csJQGnAHaHa?w=165&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.BZsSefXZUoJfKUmImuBxYgHaEK?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB",
@@ -1863,8 +1743,8 @@ var PHONES = [
     "id": "xiaomi14ultra",
     "name": "Xiaomi 14 Ultra",
     "brand": "Xiaomi",
-    "emoji": "🟠",
-    "price": "₹99,999",
+    "emoji": "\ud83d\udfe0",
+    "price": "\u20b999,999",
     "priceCategory": 4,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -1889,11 +1769,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=244&h=183&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 16,
     "storage_options": "256GB / 512GB / 1TB",
@@ -1925,8 +1801,8 @@ var PHONES = [
     "id": "xiaomi14",
     "name": "Xiaomi 14",
     "brand": "Xiaomi",
-    "emoji": "🟠",
-    "price": "₹69,999",
+    "emoji": "\ud83d\udfe0",
+    "price": "\u20b969,999",
     "priceCategory": 3,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -1951,11 +1827,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB",
@@ -1987,8 +1859,8 @@ var PHONES = [
     "id": "redminote13proplus",
     "name": "Redmi Note 13 Pro+",
     "brand": "Xiaomi",
-    "emoji": "🟠",
-    "price": "₹29,999",
+    "emoji": "\ud83d\udfe0",
+    "price": "\u20b929,999",
     "priceCategory": 1,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -2013,11 +1885,7 @@ var PHONES = [
       "processor": 7.5
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=244&h=183&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB / 512GB",
@@ -2049,8 +1917,8 @@ var PHONES = [
     "id": "redminote13pro",
     "name": "Redmi Note 13 Pro",
     "brand": "Xiaomi",
-    "emoji": "🟠",
-    "price": "₹24,999",
+    "emoji": "\ud83d\udfe0",
+    "price": "\u20b924,999",
     "priceCategory": 1,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -2075,11 +1943,7 @@ var PHONES = [
       "processor": 7.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB / 512GB",
@@ -2111,8 +1975,8 @@ var PHONES = [
     "id": "pocof6",
     "name": "POCO F6",
     "brand": "Xiaomi",
-    "emoji": "🟠",
-    "price": "₹29,999",
+    "emoji": "\ud83d\udfe0",
+    "price": "\u20b929,999",
     "priceCategory": 1,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -2137,11 +2001,7 @@ var PHONES = [
       "processor": 9.0
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB / 512GB",
@@ -2173,8 +2033,8 @@ var PHONES = [
     "id": "pocox6pro",
     "name": "POCO X6 Pro",
     "brand": "Xiaomi",
-    "emoji": "🟠",
-    "price": "₹24,999",
+    "emoji": "\ud83d\udfe0",
+    "price": "\u20b924,999",
     "priceCategory": 1,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -2199,11 +2059,7 @@ var PHONES = [
       "processor": 8.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB / 512GB",
@@ -2235,8 +2091,8 @@ var PHONES = [
     "id": "pocom6pro5g",
     "name": "POCO M6 Pro 5G",
     "brand": "Xiaomi",
-    "emoji": "🟠",
-    "price": "₹10,999",
+    "emoji": "\ud83d\udfe0",
+    "price": "\u20b910,999",
     "priceCategory": 0,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -2261,11 +2117,7 @@ var PHONES = [
       "processor": 6.5
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 4,
     "storage_options": "64GB / 128GB",
@@ -2297,8 +2149,8 @@ var PHONES = [
     "id": "redmi13c5g",
     "name": "Redmi 13C 5G",
     "brand": "Xiaomi",
-    "emoji": "🟠",
-    "price": "₹11,999",
+    "emoji": "\ud83d\udfe0",
+    "price": "\u20b911,999",
     "priceCategory": 0,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -2323,11 +2175,7 @@ var PHONES = [
       "processor": 6.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 6,
     "storage_options": "128GB / 256GB",
@@ -2359,8 +2207,8 @@ var PHONES = [
     "id": "oneplus12",
     "name": "OnePlus 12",
     "brand": "OnePlus",
-    "emoji": "🔴",
-    "price": "₹64,999",
+    "emoji": "\ud83d\udd34",
+    "price": "\u20b964,999",
     "priceCategory": 3,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -2385,11 +2233,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.9HxuMBPdOrtWn_-56GPIGgHaL2?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.JdvV7qdxNc0oPt_bGautOwHaFi?w=212&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.lPj7w1XK0WAfbiWsWvkDdAHaGr?w=173&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1cBX9xqb9bHSaFZfi07sPgHaD4?w=301&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.lcJ5oPwhpNHm9JHxHfCOFAHaGX?w=217&h=186&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 12,
     "storage_options": "128GB / 256GB / 512GB",
@@ -2421,8 +2265,8 @@ var PHONES = [
     "id": "oneplus12r",
     "name": "OnePlus 12R",
     "brand": "OnePlus",
-    "emoji": "🔴",
-    "price": "₹39,999",
+    "emoji": "\ud83d\udd34",
+    "price": "\u20b939,999",
     "priceCategory": 2,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -2447,11 +2291,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.Y2jP6Vq6buudu3sFxOXRZAHaKd?w=132&h=187&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.1s2caWj6avyEZpiv7HPQfAHaJz?w=140&h=187&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.XwwNf_z2Zd9CdxiJm2RNdQHaHa?w=176&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.buDDMFNTCBk5Y7QCbzwV6wHaJ4?w=139&h=185&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.fNjyX8tStQpE2hyOudGpKAHaHa?w=185&h=185&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -2483,8 +2323,8 @@ var PHONES = [
     "id": "oneplus11",
     "name": "OnePlus 11",
     "brand": "OnePlus",
-    "emoji": "🔴",
-    "price": "₹54,999",
+    "emoji": "\ud83d\udd34",
+    "price": "\u20b954,999",
     "priceCategory": 3,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -2509,11 +2349,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.DddvvaLZ0h8_ifcrnrDpyQHaEK?w=307&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.yhYJ67ocQ5zqp1sKXi8voQHaFj?w=230&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.DjlCFtNGGE110kZztVE3GwHaEv?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.fd_ccHyqhNU7-7O74xNC7gHaHa?w=172&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.tuLAz8Tdh-tOlHuZP0hU2AHaE8?w=238&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -2545,8 +2381,8 @@ var PHONES = [
     "id": "nord4",
     "name": "Nord 4",
     "brand": "OnePlus",
-    "emoji": "🔴",
-    "price": "₹29,999",
+    "emoji": "\ud83d\udd34",
+    "price": "\u20b929,999",
     "priceCategory": 1,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -2571,11 +2407,7 @@ var PHONES = [
       "processor": 8.5
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.5Ho4cmVsuvQIKrDzXcMrQgHaKu?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.qCuyMM7SgI_P10Rk_SosfQHaDe?w=288&h=164&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.a3s0Ivg5zGL2q9qN2Ob8igHaDG?w=288&h=146&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.NnkCrnNx7CDF2WLKqDswnAHaBZ?w=289&h=66&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.Gdr0GudNVKV8HtPjqIXgJAHaGW?w=137&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -2607,8 +2439,8 @@ var PHONES = [
     "id": "nordce4",
     "name": "Nord CE 4",
     "brand": "OnePlus",
-    "emoji": "🔴",
-    "price": "₹24,999",
+    "emoji": "\ud83d\udd34",
+    "price": "\u20b924,999",
     "priceCategory": 1,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -2633,11 +2465,7 @@ var PHONES = [
       "processor": 7.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIF.sUmHIS07GR22pWaG3iXBJQ?w=278&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIF.rNzSrdLcmEVWgTNmgujBcg?w=283&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th?id=OIF.Bxxp0MwIgC61m%2brocepy5Q&w=184&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th?id=OIF.xDsGQk%2b7P8H%2bbPFVSld%2f4Q&w=235&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIF.fCCEEElmsI3IN4PSt4SU0g?w=285&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -2669,8 +2497,8 @@ var PHONES = [
     "id": "nordce3lite",
     "name": "Nord CE 3 Lite",
     "brand": "OnePlus",
-    "emoji": "🔴",
-    "price": "₹17,999",
+    "emoji": "\ud83d\udd34",
+    "price": "\u20b917,999",
     "priceCategory": 0,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -2695,11 +2523,7 @@ var PHONES = [
       "processor": 6.8
     },
     "images": [
-      "https://tse1.mm.bing.net/th/id/OIP.nfMt8NYaR3S-i5A1xN22kAHaHa?w=108&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.mQCFR6abF2Bu01hlKBFhEgHaDt?w=289&h=174&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.SmTZj4SdfvQCkC5UWrnOIwHaGN?w=178&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.E7ckmndaVeOFO2r0rfGpJAHaEK?w=225&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.gOTR5_mR2BSV-6sZ31zyuAHaEK?w=259&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB",
@@ -2731,8 +2555,8 @@ var PHONES = [
     "id": "vivox100pro",
     "name": "Vivo X100 Pro",
     "brand": "Vivo",
-    "emoji": "🔵",
-    "price": "₹89,999",
+    "emoji": "\ud83d\udd35",
+    "price": "\u20b989,999",
     "priceCategory": 4,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -2757,11 +2581,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.OED1dnn6XNVVPaGQJBnKngHaFj?w=188&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.ZQVkQ9HuOzfVNcUETRGhVwHaFd?w=209&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.6jKc1PjlJlcYIYX4kSKYOgHaE7?w=248&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.t7uShaq5LzC6W5PsRJ_o7AHaFH?w=239&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.aU-SNKjVJGyZcoeg5AVv1wHaFl?w=218&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 16,
     "storage_options": "256GB / 512GB",
@@ -2793,8 +2613,8 @@ var PHONES = [
     "id": "vivox100",
     "name": "Vivo X100",
     "brand": "Vivo",
-    "emoji": "🔵",
-    "price": "₹63,999",
+    "emoji": "\ud83d\udd35",
+    "price": "\u20b963,999",
     "priceCategory": 3,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -2819,11 +2639,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse3.mm.bing.net/th?id=OIF.qb354B99vKZ4Ja1T65%2fi2g&w=272&h=110&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIF.t3Nmb3CIHZxsYBkRGFDecA?w=211&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIF.z9nksevb2CSLUFTqtJUWLg?w=249&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIF.VM1PqQW6ZFoTU5pLRIEkSg?w=248&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIF.8yrWO6rE7PaWiSzY5TtENg?w=137&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB",
@@ -2855,8 +2671,8 @@ var PHONES = [
     "id": "vivov30pro",
     "name": "Vivo V30 Pro",
     "brand": "Vivo",
-    "emoji": "🔵",
-    "price": "₹41,999",
+    "emoji": "\ud83d\udd35",
+    "price": "\u20b941,999",
     "priceCategory": 2,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -2881,11 +2697,7 @@ var PHONES = [
       "processor": 8.0
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.TWUABM63iqmZ57UVlpnO_wHaJj?w=194&h=250&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.lDLQO26Mq4GGTj-uwXmATgHaEK?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.7J-tAEkE8ohJO_ZLns3GhwHaEK?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.9sMRMLK_NXvCI0mMHnSVngHaFP?w=210&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.dd4OEA0X26tUupaJm1QLlAHaEi?w=242&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -2917,8 +2729,8 @@ var PHONES = [
     "id": "iqoo12",
     "name": "iQOO 12",
     "brand": "Vivo",
-    "emoji": "🔵",
-    "price": "₹52,999",
+    "emoji": "\ud83d\udd35",
+    "price": "\u20b952,999",
     "priceCategory": 3,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -2943,11 +2755,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.k_7WwUkAtJhDACj8we5LCwHaJh?w=194&h=250&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.ZsCnzjlyPFytKj1tzsLFpgHaJ4?w=194&h=259&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.UXb1rWuQXrgYnurymzqMJAHaJ4?w=194&h=259&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.CatV4fdvll1T9BULoLmImwHaJ3?w=194&h=259&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP._-tfPXYgTsuq6M76MochdQHaLH?w=194&h=291&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB",
@@ -2979,8 +2787,8 @@ var PHONES = [
     "id": "iqooneo9pro",
     "name": "iQOO Neo 9 Pro",
     "brand": "Vivo",
-    "emoji": "🔵",
-    "price": "₹35,999",
+    "emoji": "\ud83d\udd35",
+    "price": "\u20b935,999",
     "priceCategory": 2,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -3005,8 +2813,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse1.mm.bing.net/th/id/OIP.skhAycI6xfVNjmAtFNB1QQHaFj?w=267&h=200&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIF.tCXa7JEIa3GBzjqoJBs5Gg?w=200&h=200&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -3038,8 +2845,8 @@ var PHONES = [
     "id": "iqooz9",
     "name": "iQOO Z9",
     "brand": "Vivo",
-    "emoji": "🔵",
-    "price": "₹19,999",
+    "emoji": "\ud83d\udd35",
+    "price": "\u20b919,999",
     "priceCategory": 0,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -3064,11 +2871,7 @@ var PHONES = [
       "processor": 7.8
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.-K2FDK5KXesGszRHqitRxgHaHa?w=161&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.82fXWKikOO12YPJ8T5hebwHaHa?w=161&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.tU-lrgKUisZp0O2f1d8hYgHaDm?w=312&h=170&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.iwRCxbt6J1yhMDDVlFKkvQHaHa?w=161&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.whyBH6NNLAHGqSZj1qvPAAHaHa?w=164&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -3100,8 +2903,8 @@ var PHONES = [
     "id": "vivot2x",
     "name": "Vivo T2x",
     "brand": "Vivo",
-    "emoji": "🔵",
-    "price": "₹12,999",
+    "emoji": "\ud83d\udd35",
+    "price": "\u20b912,999",
     "priceCategory": 0,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -3126,11 +2929,7 @@ var PHONES = [
       "processor": 6.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.bOP9PckR1RTB6ZieU5T_pwHaLG?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.t4hIoX_oCW6eWHExvfrUigHaE7?w=257&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.c4WFFT7Hrbnv_GdyoniE_AHaLH?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jJbTh7Wup57JGxIXwEQdiAHaE7?w=257&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.ywrXw7qjQ4_ban7c5BkbsQHaJ4?w=123&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 4,
     "storage_options": "64GB / 128GB",
@@ -3162,8 +2961,8 @@ var PHONES = [
     "id": "oppofindx7ultra",
     "name": "Oppo Find X7 Ultra",
     "brand": "Oppo",
-    "emoji": "🟢",
-    "price": "₹99,999",
+    "emoji": "\ud83d\udfe2",
+    "price": "\u20b999,999",
     "priceCategory": 4,
     "uniqueFeature": "Oppo signature experience",
     "specs": {
@@ -3188,11 +2987,7 @@ var PHONES = [
       "processor": 9.8
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.wZ7GIC9_zoWZyxbp2Hlq6AHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1VhCgTuzNt-qwqoS4EYLDQHaGW?w=258&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.siv3vvflgXwLuZGzF7_pNgHaHa?w=221&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.Co6N_VmDrAP5KkNhc6lYqgHaF1?w=281&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.7HUuBNVLO3bH2cuwfRiGUAHaGM?w=174&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
     ],
     "ram_gb": 16,
     "storage_options": "256GB / 512GB / 1TB",
@@ -3224,8 +3019,8 @@ var PHONES = [
     "id": "opporeno11pro",
     "name": "Oppo Reno 11 Pro",
     "brand": "Oppo",
-    "emoji": "🟢",
-    "price": "₹39,999",
+    "emoji": "\ud83d\udfe2",
+    "price": "\u20b939,999",
     "priceCategory": 2,
     "uniqueFeature": "Oppo signature experience",
     "specs": {
@@ -3250,11 +3045,7 @@ var PHONES = [
       "processor": 8.0
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.wZ7GIC9_zoWZyxbp2Hlq6AHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1VhCgTuzNt-qwqoS4EYLDQHaGW?w=258&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.siv3vvflgXwLuZGzF7_pNgHaHa?w=221&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.Co6N_VmDrAP5KkNhc6lYqgHaF1?w=281&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.7HUuBNVLO3bH2cuwfRiGUAHaGM?w=174&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB",
@@ -3286,8 +3077,8 @@ var PHONES = [
     "id": "oppof25pro",
     "name": "Oppo F25 Pro",
     "brand": "Oppo",
-    "emoji": "🟢",
-    "price": "₹23,999",
+    "emoji": "\ud83d\udfe2",
+    "price": "\u20b923,999",
     "priceCategory": 1,
     "uniqueFeature": "Oppo signature experience",
     "specs": {
@@ -3312,11 +3103,7 @@ var PHONES = [
       "processor": 7.2
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.wZ7GIC9_zoWZyxbp2Hlq6AHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1VhCgTuzNt-qwqoS4EYLDQHaGW?w=258&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.siv3vvflgXwLuZGzF7_pNgHaHa?w=221&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.Co6N_VmDrAP5KkNhc6lYqgHaF1?w=281&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.7HUuBNVLO3bH2cuwfRiGUAHaGM?w=174&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -3348,8 +3135,8 @@ var PHONES = [
     "id": "motoedge50pro",
     "name": "Moto Edge 50 Pro",
     "brand": "Motorola",
-    "emoji": "🦇",
-    "price": "₹29,999",
+    "emoji": "\ud83e\udd87",
+    "price": "\u20b929,999",
     "priceCategory": 1,
     "uniqueFeature": "Motorola signature experience",
     "specs": {
@@ -3374,11 +3161,7 @@ var PHONES = [
       "processor": 7.8
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.f1diMGVzoXQpdrVj0VJl_QHaEj?w=318&h=196&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.WiqOSGrYKgPTZkkJcxP9UwHaHa?w=170&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.8Z3qDZdsEznG-MLQgNvwswHaHa?w=170&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.HYnn99QxNX9pOGvhCOiywwHaHJ?w=176&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.Yps_3Kd9XOX2imoCH12RFQHaIO?w=153&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -3410,8 +3193,8 @@ var PHONES = [
     "id": "motoedge50fusion",
     "name": "Moto Edge 50 Fusion",
     "brand": "Motorola",
-    "emoji": "🦇",
-    "price": "₹22,999",
+    "emoji": "\ud83e\udd87",
+    "price": "\u20b922,999",
     "priceCategory": 1,
     "uniqueFeature": "Motorola signature experience",
     "specs": {
@@ -3436,11 +3219,7 @@ var PHONES = [
       "processor": 7.5
     },
     "images": [
-      "https://tse1.mm.bing.net/th/id/OIF.eR25Tw188cJpVCO2LrXXNw?w=138&h=184&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th?id=OIF.SE88L5F%2fGrpbmStsXWiUKQ&w=185&h=184&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.6GfAzuQTjT7_qq6Tb62ZXQHaEK?w=328&h=184&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.CcrWoeG2E2q6TluFTAoSTAHaEK?w=329&h=184&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.59Dc6Ap3sHrCOfd32_nI-gHaEK?w=304&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -3472,8 +3251,8 @@ var PHONES = [
     "id": "motog34",
     "name": "Moto G34",
     "brand": "Motorola",
-    "emoji": "🦇",
-    "price": "₹10,999",
+    "emoji": "\ud83e\udd87",
+    "price": "\u20b910,999",
     "priceCategory": 0,
     "uniqueFeature": "Motorola signature experience",
     "specs": {
@@ -3498,11 +3277,7 @@ var PHONES = [
       "processor": 6.5
     },
     "images": [
-      "https://tse1.mm.bing.net/th/id/OIP.Hd795y66Z6zHcaDjkU7HewHaGg?w=225&h=198&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.yWN4B0E8_v5d94SI8ZyL5wHaF7?w=247&h=198&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.yvb0w8org4z1hkwuDACylwHaGm?w=222&h=198&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.KHnGyYokCoxR5nLKaw7dqwHaJl?w=154&h=198&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.TWJ0-v-tuG8Ic1YPLIrDeAHaJl?w=119&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
     ],
     "ram_gb": 4,
     "storage_options": "64GB / 128GB",
@@ -3535,7 +3310,7 @@ var PHONES = [
     "name": "Galaxy S23+",
     "brand": "Samsung",
     "emoji": "??",
-    "price": "₹74,999",
+    "price": "\u20b974,999",
     "priceCategory": 4,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -3560,11 +3335,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "256GB / 512GB",
@@ -3597,7 +3368,7 @@ var PHONES = [
     "name": "Galaxy S23",
     "brand": "Samsung",
     "emoji": "??",
-    "price": "₹59,999",
+    "price": "\u20b959,999",
     "priceCategory": 3,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -3622,11 +3393,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -3659,7 +3426,7 @@ var PHONES = [
     "name": "Galaxy Z Fold 5",
     "brand": "Samsung",
     "emoji": "??",
-    "price": "₹154,999",
+    "price": "\u20b9154,999",
     "priceCategory": 5,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -3684,11 +3451,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB / 1TB",
@@ -3721,7 +3484,7 @@ var PHONES = [
     "name": "Galaxy Z Flip 5",
     "brand": "Samsung",
     "emoji": "??",
-    "price": "₹99,999",
+    "price": "\u20b999,999",
     "priceCategory": 4,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -3746,11 +3509,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "256GB / 512GB",
@@ -3783,7 +3542,7 @@ var PHONES = [
     "name": "Galaxy A54",
     "brand": "Samsung",
     "emoji": "??",
-    "price": "₹34,999",
+    "price": "\u20b934,999",
     "priceCategory": 1,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -3808,11 +3567,7 @@ var PHONES = [
       "processor": 7.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -3845,7 +3600,7 @@ var PHONES = [
     "name": "Galaxy A34",
     "brand": "Samsung",
     "emoji": "??",
-    "price": "₹24,999",
+    "price": "\u20b924,999",
     "priceCategory": 1,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -3870,11 +3625,7 @@ var PHONES = [
       "processor": 6.8
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -3907,7 +3658,7 @@ var PHONES = [
     "name": "Galaxy F14",
     "brand": "Samsung",
     "emoji": "??",
-    "price": "₹11,999",
+    "price": "\u20b911,999",
     "priceCategory": 0,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -3932,11 +3683,7 @@ var PHONES = [
       "processor": 6.0
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 4,
     "storage_options": "64GB / 128GB",
@@ -3969,7 +3716,7 @@ var PHONES = [
     "name": "Galaxy A14",
     "brand": "Samsung",
     "emoji": "??",
-    "price": "₹13,999",
+    "price": "\u20b913,999",
     "priceCategory": 0,
     "uniqueFeature": "Samsung signature experience",
     "specs": {
@@ -3994,11 +3741,7 @@ var PHONES = [
       "processor": 5.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.ED5e-2huWiXfqvXgeTkVGAHaHa?w=133&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.EGVF9mKtmb_WeuA6CzlfEAHaGk?w=189&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.IhEzGslw_J9aLL-oNVHIaQHaJ3?w=125&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.nyuM-xjcir_DkYQFL5uSNwHaE8?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._SWRVeMOuh9RtXomr8iHkgHaHa?w=162&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
     ],
     "ram_gb": 4,
     "storage_options": "64GB / 128GB",
@@ -4031,7 +3774,7 @@ var PHONES = [
     "name": "Xiaomi 13 Pro",
     "brand": "Xiaomi",
     "emoji": "??",
-    "price": "₹79,999",
+    "price": "\u20b979,999",
     "priceCategory": 4,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -4056,11 +3799,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=244&h=183&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB",
@@ -4093,7 +3832,7 @@ var PHONES = [
     "name": "Xiaomi 13",
     "brand": "Xiaomi",
     "emoji": "??",
-    "price": "₹59,999",
+    "price": "\u20b959,999",
     "priceCategory": 3,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -4118,11 +3857,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4155,7 +3890,7 @@ var PHONES = [
     "name": "Redmi Note 13",
     "brand": "Xiaomi",
     "emoji": "??",
-    "price": "₹17,999",
+    "price": "\u20b917,999",
     "priceCategory": 0,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -4180,11 +3915,7 @@ var PHONES = [
       "processor": 7.0
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 6,
     "storage_options": "128GB / 256GB",
@@ -4217,7 +3948,7 @@ var PHONES = [
     "name": "Redmi Note 12 Pro+",
     "brand": "Xiaomi",
     "emoji": "??",
-    "price": "₹27,999",
+    "price": "\u20b927,999",
     "priceCategory": 1,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -4242,11 +3973,7 @@ var PHONES = [
       "processor": 7.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4279,7 +4006,7 @@ var PHONES = [
     "name": "POCO F6 Pro",
     "brand": "Xiaomi",
     "emoji": "??",
-    "price": "₹39,999",
+    "price": "\u20b939,999",
     "priceCategory": 2,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -4304,11 +4031,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB",
@@ -4341,7 +4064,7 @@ var PHONES = [
     "name": "POCO F5",
     "brand": "Xiaomi",
     "emoji": "??",
-    "price": "₹27,999",
+    "price": "\u20b927,999",
     "priceCategory": 1,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -4366,11 +4089,7 @@ var PHONES = [
       "processor": 8.5
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rPFdNob95ne1yKyV_FLxSAHaFj?w=256&h=191&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4403,7 +4122,7 @@ var PHONES = [
     "name": "POCO X6",
     "brand": "Xiaomi",
     "emoji": "??",
-    "price": "₹19,999",
+    "price": "\u20b919,999",
     "priceCategory": 0,
     "uniqueFeature": "Xiaomi signature experience",
     "specs": {
@@ -4428,11 +4147,7 @@ var PHONES = [
       "processor": 7.8
     },
     "images": [
-      "https://tse1.mm.bing.net/th/id/OIP.Dr2ztXP2Plvh4OKumvYUDgHaLH?w=194&h=291&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.5qGRDcIBbzeZ1QAmq8oHPwHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.V_14EutqahqJZwDBp9el6AHaHa?w=131&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.jfo5N0w3fWbyDUVzhtlZ2gHaD4?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.d-Iiwv3A1aMMwMvktwvtSwHaHa?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4465,7 +4180,7 @@ var PHONES = [
     "name": "OnePlus 11R",
     "brand": "OnePlus",
     "emoji": "??",
-    "price": "₹34,999",
+    "price": "\u20b934,999",
     "priceCategory": 1,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -4490,11 +4205,7 @@ var PHONES = [
       "processor": 8.8
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.V_xZp7PnXZE4PJWDs87EsQHaHa?w=110&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.UfkBnbOtGvrfJ9soPgy9NAHaD4?w=288&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.-SWKxCrkpkd8DeokpbognQHaEK?w=267&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.jzXfY3vDcLtL1QtgpwVUSAHaE8?w=225&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.mFhFTq6si1gQIg41Z_62qAAAAA?w=176&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4527,7 +4238,7 @@ var PHONES = [
     "name": "OnePlus Open",
     "brand": "OnePlus",
     "emoji": "??",
-    "price": "₹139,999",
+    "price": "\u20b9139,999",
     "priceCategory": 5,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -4552,11 +4263,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse1.mm.bing.net/th/id/OIP.LKnWMF_Jn9pTzjd-oajF0wHaKe?w=194&h=274&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.anj69lS06uahqBaep7kY8gHaHa?w=105&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.yXOkRU3IrD-kYpGGwmimgQAAAA?w=160&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.0wtrIrxpogamzE9wMFyA9QHaHa?w=146&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP._yZaFlOkuYjsYz_D6rhLxgHaGp?w=122&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 16,
     "storage_options": "256GB / 512GB",
@@ -4589,7 +4296,7 @@ var PHONES = [
     "name": "Nord CE 3",
     "brand": "OnePlus",
     "emoji": "??",
-    "price": "₹22,999",
+    "price": "\u20b922,999",
     "priceCategory": 1,
     "uniqueFeature": "OnePlus signature experience",
     "specs": {
@@ -4614,8 +4321,7 @@ var PHONES = [
       "processor": 7.5
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.WUN5VOiuMCKgh7Mw7-xaVQHaFm?w=265&h=200&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.-sYXFN1VYA4IG3GdHL9AVwHaHa?w=200&h=200&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4648,7 +4354,7 @@ var PHONES = [
     "name": "Vivo X90 Pro",
     "brand": "Vivo",
     "emoji": "??",
-    "price": "₹84,999",
+    "price": "\u20b984,999",
     "priceCategory": 4,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -4673,11 +4379,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.hEqXS7okhTVPUsTZ2D85OwHaD5?w=262&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.6fz93DhAUMewmZ9bTjN2mwHaHa?w=147&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.z2PXJ1te9b8iukRy1RiXvwHaEK?w=261&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.SWROLnVp69nYUutdV6SjVgHaE8?w=220&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.wuK-_F_ysVUEyjkpAc_UQQHaD4?w=342&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 12,
     "storage_options": "256GB",
@@ -4710,7 +4412,7 @@ var PHONES = [
     "name": "Vivo X90",
     "brand": "Vivo",
     "emoji": "??",
-    "price": "₹59,999",
+    "price": "\u20b959,999",
     "priceCategory": 3,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -4735,11 +4437,7 @@ var PHONES = [
       "processor": 9.2
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.xyqTW0H3QfIcp_gtzEa2UQHaFu?w=221&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.mfw9U9ZwynN4NUfx3s1hTgHaEK?w=304&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.YeAcPdhqDPiIbp80b0fkxwHaJk?w=132&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.mzO5sawW-gynrEXNt6D6hwHaJ4?w=128&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.f0-UGkVd-u3_sGulGGGTJgHaEK?w=333&h=187&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4772,7 +4470,7 @@ var PHONES = [
     "name": "Vivo V29 Pro",
     "brand": "Vivo",
     "emoji": "??",
-    "price": "₹39,999",
+    "price": "\u20b939,999",
     "priceCategory": 2,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -4797,11 +4495,7 @@ var PHONES = [
       "processor": 8.2
     },
     "images": [
-      "https://tse2.mm.bing.net/th/id/OIP.svBWeiSVU02uFTfmngbImAHaDd?w=302&h=163&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.mNgEB_YKogBnTijAh4N0-QHaFj?w=208&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.3IvAQx_uDiFgQHMzeIuEJAHaFj?w=208&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.rmIUXFpWyXA2fn-MxbsC-QHaHa?w=184&h=184&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.r8IaYjMopCJ_qKu4PIg8MAHaHa?w=184&h=184&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4834,7 +4528,7 @@ var PHONES = [
     "name": "iQOO Neo 7 Pro",
     "brand": "Vivo",
     "emoji": "??",
-    "price": "₹31,999",
+    "price": "\u20b931,999",
     "priceCategory": 1,
     "uniqueFeature": "Vivo signature experience",
     "specs": {
@@ -4859,11 +4553,7 @@ var PHONES = [
       "processor": 8.8
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.-CX_CBP-6tVMmT4gDZZBEQHaEy?w=219&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.-GX98ZTnRaBlM86br-c9nwHaHa?w=160&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1OwxBVQ3wEbEpw50AzvBjQHaNK?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.I4tjmARlNLFF9I_mDussvgHaD4?w=306&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.NE0-a8f_D2AbrGfzyhlsKgHaEK?w=283&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4896,7 +4586,7 @@ var PHONES = [
     "name": "Oppo Reno 11",
     "brand": "Oppo",
     "emoji": "??",
-    "price": "₹29,999",
+    "price": "\u20b929,999",
     "priceCategory": 1,
     "uniqueFeature": "Oppo signature experience",
     "specs": {
@@ -4921,11 +4611,7 @@ var PHONES = [
       "processor": 7.5
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.wZ7GIC9_zoWZyxbp2Hlq6AHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.1VhCgTuzNt-qwqoS4EYLDQHaGW?w=258&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.siv3vvflgXwLuZGzF7_pNgHaHa?w=221&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse1.mm.bing.net/th/id/OIP.Co6N_VmDrAP5KkNhc6lYqgHaF1?w=281&h=220&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.7HUuBNVLO3bH2cuwfRiGUAHaGM?w=174&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/OPPO_Logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -4958,7 +4644,7 @@ var PHONES = [
     "name": "Moto Edge 50 Ultra",
     "brand": "Motorola",
     "emoji": "??",
-    "price": "₹59,999",
+    "price": "\u20b959,999",
     "priceCategory": 3,
     "uniqueFeature": "Motorola signature experience",
     "specs": {
@@ -4983,11 +4669,7 @@ var PHONES = [
       "processor": 9.0
     },
     "images": [
-      "https://tse4.mm.bing.net/th/id/OIP.oubG4Gjw8msR3FffNJGLFgHaFj?w=223&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.vfeDKmW97EmLEPKZJXQapgHaLH?w=115&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse3.mm.bing.net/th/id/OIP.T_Y571OzCgezWPtWYJGFcwHaEo?w=266&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.CXx0SRWZ7cqKrDmZFMPyGgHaCc?w=286&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse4.mm.bing.net/th/id/OIP.xyvBMe_mC34bJTWisNezdQHaFj?w=230&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
     ],
     "ram_gb": 12,
     "storage_options": "256GB / 512GB / 1TB",
@@ -5020,7 +4702,7 @@ var PHONES = [
     "name": "Moto Edge 40 Neo",
     "brand": "Motorola",
     "emoji": "??",
-    "price": "₹22,999",
+    "price": "\u20b922,999",
     "priceCategory": 1,
     "uniqueFeature": "Motorola signature experience",
     "specs": {
@@ -5045,8 +4727,7 @@ var PHONES = [
       "processor": 7.5
     },
     "images": [
-      "https://tse3.mm.bing.net/th/id/OIP.yQCkppvVgrKyVeDPQ9784AHaKh?w=194&h=277&c=7&r=0&o=7&pid=1.7&rm=3",
-      "https://tse2.mm.bing.net/th/id/OIP.fWgMMm7BR_A5ExF_U2Xl7AHaJ4?w=194&h=258&c=7&r=0&o=7&pid=1.7&rm=3"
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
     ],
     "ram_gb": 8,
     "storage_options": "128GB / 256GB",
@@ -5072,6 +4753,546 @@ var PHONES = [
     "cons": [
       "Processor performance trails the competition",
       "Camera lags behind competitors"
+    ]
+  },
+  {
+    "id": "iphone-13",
+    "brand": "Apple",
+    "name": "iPhone 13",
+    "price": "\u20b952,999",
+    "priceCategory": 4,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Classic iPhone reliability with Cinematic mode.",
+    "specs": {
+      "display": "6.1-inch Super Retina XDR OLED",
+      "processor": "A15 Bionic",
+      "camera": "12MP Wide, 12MP Ultra Wide",
+      "battery": "3240 mAh",
+      "charging": "20W Wired, 15W MagSafe",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8,
+      "camera": 8.5,
+      "battery": 7.5,
+      "charging": 6,
+      "display": 8.5,
+      "sound": 8,
+      "ip": 10
+    },
+    "ram_gb": 4,
+    "storage_options": "128GB / 256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Apple",
+    "screen_size": 6.1,
+    "price_numeric": 52999,
+    "price_history": [
+      59999,
+      58000,
+      56000,
+      54000,
+      53500,
+      52999
+    ],
+    "pros": [
+      "Great OLED display",
+      "Reliable performance",
+      "Excellent video recording"
+    ],
+    "cons": [
+      "Only 60Hz display",
+      "Slower charging"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    ]
+  },
+  {
+    "id": "samsung-s22-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S22 Ultra",
+    "price": "\u20b984,999",
+    "priceCategory": 5,
+    "emoji": "\ud83d\udd8a\ufe0f",
+    "uniqueFeature": "Built-in S Pen and powerful 100x Space Zoom.",
+    "specs": {
+      "display": "6.8-inch Dynamic AMOLED 2X, 120Hz",
+      "processor": "Snapdragon 8 Gen 1",
+      "camera": "108MP Main, 12MP UW, 2x 10MP Telephoto",
+      "battery": "5000 mAh",
+      "charging": "45W Wired, 15W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8,
+      "camera": 9,
+      "battery": 7.5,
+      "charging": 7.5,
+      "display": 9.5,
+      "sound": 8.5,
+      "ip": 10
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.8,
+    "price_numeric": 84999,
+    "price_history": [
+      109999,
+      99999,
+      94999,
+      89999,
+      86999,
+      84999
+    ],
+    "pros": [
+      "S Pen included",
+      "Incredible zoom cameras",
+      "Stunning display"
+    ],
+    "cons": [
+      "Battery life is average",
+      "Heavy and bulky"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    ]
+  },
+  {
+    "id": "google-pixel-6a",
+    "brand": "Google",
+    "name": "Pixel 6a",
+    "price": "\u20b929,999",
+    "priceCategory": 3,
+    "emoji": "\ud83d\udcf8",
+    "uniqueFeature": "Flagship camera processing in a compact size.",
+    "specs": {
+      "display": "6.1-inch OLED",
+      "processor": "Google Tensor",
+      "camera": "12.2MP Main, 12MP UW",
+      "battery": "4410 mAh",
+      "charging": "18W Wired",
+      "ipRating": "IP67"
+    },
+    "scores": {
+      "durability": 7,
+      "camera": 9,
+      "battery": 7,
+      "charging": 5,
+      "display": 7.5,
+      "sound": 7.5,
+      "ip": 9
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Tensor",
+    "screen_size": 6.1,
+    "price_numeric": 29999,
+    "price_history": [
+      43999,
+      39999,
+      34999,
+      31999,
+      30999,
+      29999
+    ],
+    "pros": [
+      "Best camera in its class",
+      "Stock Android",
+      "Compact size"
+    ],
+    "cons": [
+      "60Hz display",
+      "Slow charging speed"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    ]
+  },
+  {
+    "id": "oneplus-10r",
+    "brand": "OnePlus",
+    "name": "10R 5G",
+    "price": "\u20b932,999",
+    "priceCategory": 3,
+    "emoji": "\u26a1",
+    "uniqueFeature": "Insane 150W SUPERVOOC charging.",
+    "specs": {
+      "display": "6.7-inch Fluid AMOLED, 120Hz",
+      "processor": "MediaTek Dimensity 8100-Max",
+      "camera": "50MP Main, 8MP UW, 2MP Macro",
+      "battery": "4500 mAh",
+      "charging": "150W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6,
+      "camera": 7,
+      "battery": 7,
+      "charging": 10,
+      "display": 8.5,
+      "sound": 8,
+      "ip": 0
+    },
+    "ram_gb": 12,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.7,
+    "price_numeric": 32999,
+    "price_history": [
+      38999,
+      36999,
+      34999,
+      33999,
+      33500,
+      32999
+    ],
+    "pros": [
+      "Lightning fast charging",
+      "Smooth 120Hz display",
+      "Good performance"
+    ],
+    "cons": [
+      "No official IP rating",
+      "Average auxiliary cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_logo_clear.svg"
+    ]
+  },
+  {
+    "id": "nothing-phone-1",
+    "brand": "Nothing",
+    "name": "Phone (1)",
+    "price": "\u20b927,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udca1",
+    "uniqueFeature": "Transparent back with unique Glyph interface.",
+    "specs": {
+      "display": "6.55-inch OLED, 120Hz",
+      "processor": "Snapdragon 778G+",
+      "camera": "50MP Main, 50MP UW",
+      "battery": "4500 mAh",
+      "charging": "33W Wired, 15W Wireless",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7,
+      "camera": 7.5,
+      "battery": 7.5,
+      "charging": 7,
+      "display": 8.5,
+      "sound": 8,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.55,
+    "price_numeric": 27999,
+    "price_history": [
+      32999,
+      30999,
+      29999,
+      28999,
+      28500,
+      27999
+    ],
+    "pros": [
+      "Unique Glyph interface",
+      "Clean software",
+      "Wireless charging in mid-range"
+    ],
+    "cons": [
+      "Average low-light camera",
+      "Average battery life"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/Nothing_Logo.svg"
+    ]
+  },
+  {
+    "id": "iqoo-neo-7",
+    "brand": "iQOO",
+    "name": "Neo 7",
+    "price": "\u20b927,999",
+    "priceCategory": 2,
+    "emoji": "\ud83c\udfae",
+    "uniqueFeature": "High-performance gaming on a budget.",
+    "specs": {
+      "display": "6.78-inch AMOLED, 120Hz",
+      "processor": "MediaTek Dimensity 8200",
+      "camera": "64MP Main, 2MP Macro, 2MP Depth",
+      "battery": "5000 mAh",
+      "charging": "120W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 6,
+      "camera": 6.5,
+      "battery": 8.5,
+      "charging": 9.5,
+      "display": 8,
+      "sound": 7.5,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "128GB / 256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 27999,
+    "price_history": [
+      29999,
+      28999,
+      28500,
+      28000,
+      27999,
+      27999
+    ],
+    "pros": [
+      "Excellent gaming performance",
+      "Super fast 120W charging",
+      "Large battery"
+    ],
+    "cons": [
+      "No ultra-wide camera",
+      "Funtouch OS bloatware"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/IQOO_logo.png"
+    ]
+  },
+  {
+    "id": "poco-f5",
+    "brand": "Poco",
+    "name": "F5 5G",
+    "price": "\u20b929,999",
+    "priceCategory": 3,
+    "emoji": "\ud83c\udfce\ufe0f",
+    "uniqueFeature": "Snapdragon 7+ Gen 2 flagship-level power.",
+    "specs": {
+      "display": "6.67-inch AMOLED, 120Hz",
+      "processor": "Snapdragon 7+ Gen 2",
+      "camera": "64MP Main, 8MP UW, 2MP Macro",
+      "battery": "5000 mAh",
+      "charging": "67W Wired",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7,
+      "camera": 7,
+      "battery": 8.5,
+      "charging": 8.5,
+      "display": 8.5,
+      "sound": 8,
+      "ip": 5
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 29999,
+    "price_history": [
+      29999,
+      29999,
+      29999,
+      29999,
+      29999,
+      29999
+    ],
+    "pros": [
+      "Outstanding performance",
+      "Great display",
+      "Thin and light"
+    ],
+    "cons": [
+      "Plastic build",
+      "Average cameras"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Poco_logo.svg"
+    ]
+  },
+  {
+    "id": "motorola-edge-40",
+    "brand": "Motorola",
+    "name": "Edge 40",
+    "price": "\u20b926,999",
+    "priceCategory": 2,
+    "emoji": "\ud83c\udf0a",
+    "uniqueFeature": "Slim design with IP68 rating and vegan leather.",
+    "specs": {
+      "display": "6.55-inch pOLED, 144Hz",
+      "processor": "MediaTek Dimensity 8020",
+      "camera": "50MP Main, 13MP UW",
+      "battery": "4400 mAh",
+      "charging": "68W Wired, 15W Wireless",
+      "ipRating": "IP68"
+    },
+    "scores": {
+      "durability": 8,
+      "camera": 7.5,
+      "battery": 7,
+      "charging": 8.5,
+      "display": 9,
+      "sound": 8,
+      "ip": 10
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.55,
+    "price_numeric": 26999,
+    "price_history": [
+      29999,
+      28999,
+      27999,
+      27499,
+      26999,
+      26999
+    ],
+    "pros": [
+      "Beautiful curved display",
+      "IP68 water resistance",
+      "Clean UI"
+    ],
+    "cons": [
+      "Average battery life",
+      "Software updates are slow"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Motorola_logo.svg"
+    ]
+  },
+  {
+    "id": "realme-11-pro-plus",
+    "brand": "Realme",
+    "name": "11 Pro+ 5G",
+    "price": "\u20b927,999",
+    "priceCategory": 2,
+    "emoji": "\u2728",
+    "uniqueFeature": "200MP camera and luxury leather design.",
+    "specs": {
+      "display": "6.7-inch AMOLED, 120Hz",
+      "processor": "MediaTek Dimensity 7050",
+      "camera": "200MP Main, 8MP UW, 2MP Macro",
+      "battery": "5000 mAh",
+      "charging": "100W Wired",
+      "ipRating": "None"
+    },
+    "scores": {
+      "durability": 7,
+      "camera": 8.5,
+      "battery": 8.5,
+      "charging": 9,
+      "display": 8.5,
+      "sound": 8,
+      "ip": 0
+    },
+    "ram_gb": 8,
+    "storage_options": "256GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.7,
+    "price_numeric": 27999,
+    "price_history": [
+      27999,
+      27999,
+      27999,
+      27999,
+      27999,
+      27999
+    ],
+    "pros": [
+      "Stunning design",
+      "200MP camera",
+      "Fast 100W charging"
+    ],
+    "cons": [
+      "Bloatware in UI",
+      "No IP rating"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Realme-realme-_logo_box-RGB-01.svg"
+    ]
+  },
+  {
+    "id": "redmi-note-12-pro",
+    "brand": "Redmi",
+    "name": "Note 12 Pro 5G",
+    "price": "\u20b920,999",
+    "priceCategory": 2,
+    "emoji": "\ud83d\udcf1",
+    "uniqueFeature": "Sony IMX766 sensor with OIS on a budget.",
+    "specs": {
+      "display": "6.67-inch AMOLED, 120Hz",
+      "processor": "MediaTek Dimensity 1080",
+      "camera": "50MP Main, 8MP UW, 2MP Macro",
+      "battery": "5000 mAh",
+      "charging": "67W Wired",
+      "ipRating": "IP53"
+    },
+    "scores": {
+      "durability": 7,
+      "camera": 8,
+      "battery": 8.5,
+      "charging": 8.5,
+      "display": 8.5,
+      "sound": 7.5,
+      "ip": 5
+    },
+    "ram_gb": 6,
+    "storage_options": "128GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 20999,
+    "price_history": [
+      24999,
+      23999,
+      22999,
+      21999,
+      20999,
+      20999
+    ],
+    "pros": [
+      "Great main camera",
+      "Vibrant OLED display",
+      "Good battery life"
+    ],
+    "cons": [
+      "Still on Android 12 out of box",
+      "Bloatware"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Redmi_logo.svg"
     ]
   }
 ];
