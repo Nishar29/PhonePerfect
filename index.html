@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhonePerfect – Smart Phone Recommender</title>
+  <meta name="description" content="Find your perfect smartphone based on durability, camera, battery, charging speed, display, sound quality, and IP rating using real 2024 phone data." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Confetti & HTML2Canvas for Premium UI and Export -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <!-- TOP APP BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <div class="logo-icon">📱</div>
+        <span class="logo-text">Phone<span class="accent">Perfect</span></span>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+        🌙
+      </button>
+    </div>
+  </nav>
+
+  <!-- BOTTOM APP BAR -->
+  <div class="bottom-nav">
+    <a href="#finder" class="bottom-nav-item active">
+      <div class="bottom-nav-icon">🔍</div>
+      <span class="bottom-nav-text">Find</span>
+    </a>
+    <a href="#phones-list" class="bottom-nav-item" onclick="showAllPhones()">
+      <div class="bottom-nav-icon">📱</div>
+      <span class="bottom-nav-text">Phones</span>
+    </a>
+    <a href="#phones-list" class="bottom-nav-item" id="nav-favorites-bottom" onclick="toggleFavoritesView()">
+      <div class="bottom-nav-icon">⭐</div>
+      <span class="bottom-nav-text" id="bottom-fav-text">Favs (<span id="fav-count">0</span>)</span>
+    </a>
+    <a href="#about" class="bottom-nav-item">
+      <div class="bottom-nav-icon">ℹ️</div>
+      <span class="bottom-nav-text">About</span>
+    </a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">✨ AI-Powered Recommendations</div>
+      <h1 class="hero-title">Find Your <span class="gradient-text">Perfect Phone</span></h1>
+      <p class="hero-subtitle">Tell us what matters most to you. We'll analyze 20+ flagship phones across 7 key criteria and find your ideal match.</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Phones</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">7</span><span class="stat-label">Criteria</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">Real</span><span class="stat-label">Data</span></div>
+      </div>
+      <a href="#finder" class="cta-btn" id="cta-main">
+        <span>Find My Phone</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="hero-phone-showcase">
+      <div class="showcase-card card-back-2">
+        <div class="showcase-inner">
+          <div class="showcase-score">9.4</div>
+          <div class="showcase-name">Galaxy S25 Ultra</div>
+        </div>
+      </div>
+      <div class="showcase-card card-main">
+        <div class="showcase-inner">
+          <div class="showcase-score">9.6</div>
+          <div class="showcase-name">iPhone 16 Pro Max</div>
+          <div class="showcase-badge">Top Pick</div>
+        </div>
+      </div>
+      <div class="showcase-card card-back-1">
+        <div class="showcase-inner">
+          <div class="showcase-score">9.2</div>
+          <div class="showcase-name">Pixel 9 Pro</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works" id="about">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-badge">How It Works</div>
+        <h2 class="section-title">Three steps to your perfect phone</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <div class="step-icon">🎚️</div>
+          <h3>Set Your Priorities</h3>
+          <p>Adjust sliders for what matters most — camera? battery life? ruggedness? You decide.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <div class="step-icon">⚡</div>
+          <h3>Smart Scoring</h3>
+          <p>Our engine calculates weighted scores from real benchmark data across all 7 criteria.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <div class="step-icon">🏆</div>
+          <h3>Get Your Matches</h3>
+          <p>See ranked results with detailed breakdowns. Click any phone to explore full specs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPGRADE ADVISOR -->
+  <section class="upgrade-advisor" id="upgrade">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-badge">Smart Upgrade</div>
+        <h2 class="section-title">Thinking of upgrading?</h2>
+        <p class="section-subtitle">Select your current phone and we'll show you exactly what you'll gain.</p>
+      </div>
+      <div class="upgrade-card">
+        <label class="upgrade-label">I currently use:</label>
+        <div class="upgrade-controls">
+          <select id="current-phone-select" class="upgrade-select">
+            <option value="">Select your phone...</option>
+            <!-- Generated by JS -->
+          </select>
+          <button class="cta-btn" onclick="generateUpgradeReportUI()">
+            <span>Analyze Upgrade</span>
+          </button>
+        </div>
+        <div id="upgrade-results" class="upgrade-results" style="display:none">
+          <!-- Generated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINDER -->
+  <section class="finder-section" id="finder">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-badge">Priority Finder</div>
+        <h2 class="section-title">What matters most to you?</h2>
+        <p class="section-subtitle">Drag sliders to set the importance of each feature (0 = don't care, 10 = essential)</p>
+      </div>
+
+      <!-- PRESETS -->
+      <div class="presets-row">
+        <span class="presets-label">Quick Presets:</span>
+        <button class="preset-btn" id="preset-balanced" onclick="applyPreset('balanced')">⚖️ Balanced</button>
+        <button class="preset-btn" id="preset-camera" onclick="applyPreset('camera')">📸 Camera Pro</button>
+        <button class="preset-btn" id="preset-battery" onclick="applyPreset('battery')">🔋 Battery King</button>
+        <button class="preset-btn" id="preset-rugged" onclick="applyPreset('rugged')">🛡️ Rugged/Outdoor</button>
+        <button class="preset-btn" id="preset-gaming" onclick="applyPreset('gaming')">🎮 Gaming Beast</button>
+      </div>
+
+      <!-- SLIDERS -->
+      <div class="sliders-grid" id="sliders-grid">
+        <!-- Generated by JS -->
+      </div>
+
+      <!-- ALSO FILTER BY BUDGET -->
+      <div class="budget-filter">
+        <div class="budget-label">
+          <span>💰 Budget Range</span>
+          <span class="budget-value" id="budget-display">No Limit</span>
+        </div>
+        <input type="range" class="budget-range" id="budget-range" min="0" max="5" step="1" value="5" oninput="updateBudget(this.value)" />
+        <div class="budget-ticks">
+          <span>Under ₹20K</span>
+          <span>₹20-35K</span>
+          <span>₹35-50K</span>
+          <span>₹50-70K</span>
+          <span>₹70-100K</span>
+          <span>No Limit</span>
+        </div>
+      </div>
+
+      <button class="recommend-btn" id="recommend-btn" onclick="generateRecommendations()">
+        <span>Get Recommendations</span>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="results-section" id="results-section" style="display:none">
+    <div class="section-container" id="exportable-results">
+      <div class="section-header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px;">
+        <div>
+          <div class="section-badge">Your Results</div>
+          <h2 class="section-title">Top Picks For You</h2>
+          <p class="section-subtitle" id="results-subtitle">Based on your preferences</p>
+        </div>
+        <button class="compare-btn-primary" onclick="exportResults()">
+          📸 Save as Image
+        </button>
+      </div>
+
+      <!-- TOP 3 PODIUM -->
+      <div class="podium" id="podium">
+        <!-- Generated by JS -->
+      </div>
+
+      <!-- FULL RANKED LIST -->
+      <h3 class="ranked-title">All Ranked Phones</h3>
+      <div class="ranked-list" id="ranked-list">
+        <!-- Generated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ALL PHONES LIST -->
+  <section class="all-phones-section" id="phones-list">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-badge">Phone Database</div>
+        <h2 class="section-title">All 20+ Phones in Our Database</h2>
+        <p class="section-subtitle">Real specs from DXOMark, GSMArena & manufacturer data</p>
+      </div>
+      <div class="advanced-filter-panel">
+        <div class="filter-header" onclick="toggleFilterPanel()">
+          <span>⚙️ Advanced Filters</span>
+          <span id="filter-chevron">▼</span>
+        </div>
+        <div class="filter-body" id="filter-body" style="display:none">
+          <div class="filter-grid">
+            <div class="filter-group">
+              <label>RAM</label>
+              <select id="filter-ram" onchange="applyAdvancedFilters()">
+                <option value="any">Any</option>
+                <option value="8">8GB+</option>
+                <option value="12">12GB+</option>
+                <option value="16">16GB+</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label>Processor</label>
+              <select id="filter-processor" onchange="applyAdvancedFilters()">
+                <option value="any">Any</option>
+                <option value="Snapdragon">Snapdragon</option>
+                <option value="Apple">Apple</option>
+                <option value="MediaTek">MediaTek</option>
+                <option value="Tensor">Tensor</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label>Features</label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="filter-5g" onchange="applyAdvancedFilters()" /> 5G Ready
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="filter-nfc" onchange="applyAdvancedFilters()" /> NFC
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="filter-wireless" onchange="applyAdvancedFilters()" /> Wireless Charging
+              </label>
+            </div>
+          </div>
+          <button class="compare-btn-outline" onclick="resetAdvancedFilters()" style="margin-top: 16px">Reset Filters</button>
+        </div>
+      </div>
+      <div class="phones-filter-bar">
+        <input type="text" class="phone-search" id="phone-search" placeholder="🔍 Search phone name..." oninput="filterPhones(this.value)" />
+        <div class="sort-btns">
+          <button class="sort-btn active" onclick="sortPhones('overall', this)">Overall</button>
+          <button class="sort-btn" onclick="sortPhones('camera', this)">Camera</button>
+          <button class="sort-btn" onclick="sortPhones('battery', this)">Battery</button>
+          <button class="sort-btn" onclick="sortPhones('durability', this)">Durability</button>
+        </div>
+      </div>
+      <div class="brand-filter-row" id="brand-filters">
+        <!-- Generated by JS -->
+      </div>
+      <div class="phones-grid" id="phones-grid">
+        <!-- Generated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+    <div class="modal-box" id="modal-box">
+      <button class="modal-close" onclick="closeModal(null)">✕</button>
+      <div class="modal-content" id="modal-content">
+        <!-- Generated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARE BAR -->
+  <div class="compare-bar" id="compare-bar">
+    <div class="compare-bar-content">
+      <div class="compare-bar-text">
+        <span id="compare-count">0</span> phones selected for comparison (Max 3)
+      </div>
+      <div class="compare-bar-actions">
+        <button class="compare-btn-outline" onclick="clearCompare()">Clear</button>
+        <button class="compare-btn-primary" onclick="openCompareModal()">Compare Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARE MODAL -->
+  <div class="modal-overlay" id="compare-modal-overlay" onclick="closeCompareModal(event)">
+    <div class="modal-box compare-box" id="compare-modal-box">
+      <button class="modal-close" onclick="closeCompareModal(null)">✕</button>
+      <div class="compare-content" id="compare-content">
+        <!-- Generated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">📱 Phone<span class="accent">Perfect</span></div>
+      <p class="footer-desc">Powered by real benchmark data from DXOMark, GSMArena, and manufacturer specifications. Prices are indicative Indian market rates.</p>
+      <p class="footer-copy">© 2024 PhonePerfect. For informational purposes only.</p>
+    </div>
+  </footer>
+
+  <!-- AI CHAT FLOATING BUTTON & PANEL -->
+  <button class="ai-chat-btn" onclick="toggleChat()">
+    <span class="chat-icon">✨</span> Ask AI
+  </button>
+
+  <div class="chat-panel" id="chat-panel">
+    <div class="chat-header">
+      <div class="chat-title">
+        <span class="chat-icon">✨</span> PhonePerfect AI
+      </div>
+      <button class="chat-close" onclick="toggleChat()">✕</button>
+    </div>
+    <div class="chat-messages" id="chat-messages">
+      <!-- Messages injected here -->
+    </div>
+    <div class="chat-input-area">
+      <input type="text" class="chat-input" id="chat-input" placeholder="Ask about phones..." onkeydown="handleChatKeydown(event)" />
+      <button class="chat-send" onclick="sendChatMessage()">➤</button>
+    </div>
+  </div>
+
+  <script src="phones.js"></script>
+  <script src="price-tracker.js"></script>
+  <script src="ai-chat.js"></script>
+  <script src="auto-updater.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
