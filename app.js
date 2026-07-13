@@ -32,7 +32,6 @@ window.addEventListener('DOMContentLoaded', () => {
   renderBrandFilters();
   renderAllPhonesGrid();
   setupNavScroll();
-  updateSliderFills();
   updateFavoritesCount();
   populateUpgradeSelect();
   
