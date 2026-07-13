@@ -119,12 +119,18 @@ function computeScore(phone) {
   let totalWeight = 0;
   let weightedSum = 0;
   CRITERIA.forEach(c => {
-    const w = userWeights[c.key];
+    const w = userWeights[c.key] || 0;
+    // Map CRITERIA keys to actual score keys in phone data
+    const scoreKey = c.key === 'ipRating' ? 'ip' : c.key;
+    const score = phone.scores[scoreKey] || phone.scores[c.key] || 0;
     totalWeight += w;
-    weightedSum += (phone.scores[c.key] || 0) * w;
+    weightedSum += score * w;
   });
   if (totalWeight === 0) {
-    const sum = CRITERIA.reduce((acc, c) => acc + (phone.scores[c.key] || 0), 0);
+    const sum = CRITERIA.reduce((acc, c) => {
+      const scoreKey = c.key === 'ipRating' ? 'ip' : c.key;
+      return acc + (phone.scores[scoreKey] || phone.scores[c.key] || 0);
+    }, 0);
     return +(sum / CRITERIA.length).toFixed(2);
   }
   return +(weightedSum / totalWeight).toFixed(2);
@@ -134,7 +140,35 @@ function filterAndScore(phones) {
   return phones
     .filter(p => budgetCategory === 5 || p.priceCategory <= budgetCategory)
     .map(p => ({ ...p, _score: computeScore(p) }))
-    .sort((a, b) => b._score - a._score);
+    .sort((a, b) => {
+      // Primary: score descending
+      if (b._score !== a._score) return b._score - a._score;
+      // Tiebreak 1: price category descending (more premium wins)
+      if (b.priceCategory !== a.priceCategory) return b.priceCategory - a.priceCategory;
+      // Tiebreak 2: alphabetical brand (stable sort)
+      return a.brand.localeCompare(b.brand);
+    });
+}
+
+// Get top picks with brand diversity (no two of same brand in top 3)
+function getDiverseTop3(scored) {
+  const top3 = [];
+  const usedBrands = new Set();
+  for (const phone of scored) {
+    if (top3.length >= 3) break;
+    if (!usedBrands.has(phone.brand)) {
+      top3.push(phone);
+      usedBrands.add(phone.brand);
+    }
+  }
+  // If we couldn't get 3 diverse brands, fill with next best
+  if (top3.length < 3) {
+    for (const phone of scored) {
+      if (top3.length >= 3) break;
+      if (!top3.find(p => p.id === phone.id)) top3.push(phone);
+    }
+  }
+  return top3;
 }
 
 // ─── RECOMMENDATIONS ─────────────────────────────────────────────────────────
@@ -153,12 +187,16 @@ function generateRecommendations() {
     resultsSection.style.display = 'block';
     setTimeout(() => resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
 
-    const bestCriteria = Object.entries(userWeights).sort((a,b)=>b[1]-a[1])[0];
-    const criterionLabel = CRITERIA.find(c=>c.key===bestCriteria[0])?.label || '';
-    document.getElementById('results-subtitle').textContent =
-      `Top priority: ${criterionLabel} · ${scored.length} phones analyzed`;
+    const activePriorities = selectedPriorities.map(key => {
+      return CRITERIA.find(c => c.key === key)?.label.split(' ')[0] || key;
+    });
+    const subtitleText = activePriorities.length > 0
+      ? `Priority: ${activePriorities.join(' · ')} · ${scored.length} phones analyzed`
+      : `Best overall phones · ${scored.length} analyzed`;
+    document.getElementById('results-subtitle').textContent = subtitleText;
 
-    renderPodium(scored.slice(0, 3));
+    const top3 = getDiverseTop3(scored);
+    renderPodium(top3);
     renderRankedList(scored);
   }, 900);
 }
