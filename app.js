@@ -4,7 +4,7 @@
  */
 
 // ─── STATE ───────────────────────────────────────────────────────────────────
-let userWeights = { durability:7, camera:7, battery:7, charging:7, display:7, sound:7, ipRating:7 };
+let userWeights = { durability:7, camera:7, battery:7, charging:7, display:7, sound:7, ipRating:7, processor:7 };
 let budgetCategory = 5; // 0–5 (5 = no limit)
 let currentSort = 'overall';
 let currentSearch = '';
@@ -77,18 +77,17 @@ function togglePriority(key, element) {
 }
 
 function updateWeightsFromTags() {
-  // Reset all to base weight of 3
+  // Reset all CRITERIA keys to base weight of 3
   CRITERIA.forEach(c => {
-    userWeights[c.key] = 3; 
+    userWeights[c.key] = 3;
   });
   
-  // Apply heavy weight to selected priorities
+  // Apply heavy weight (10) to selected priorities — keys must match CRITERIA keys exactly
   selectedPriorities.forEach(key => {
     userWeights[key] = 10;
   });
   
-  // Re-calculate UI if results are showing
-  // But wait, the app recalculates live on button click. 
+  console.log('Weights updated:', JSON.stringify(userWeights));
 }
 
 // ─── BUDGET ───────────────────────────────────────────────────────────────────
