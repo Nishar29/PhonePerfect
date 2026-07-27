@@ -4,7 +4,7 @@
  */
 
 // ─── STATE ───────────────────────────────────────────────────────────────────
-let userWeights = { durability:7, camera:7, battery:7, charging:7, display:7, sound:7, ipRating:7 };
+let userWeights = { durability:7, camera:7, battery:7, charging:7, display:7, sound:7, ipRating:7, processor:7 };
 let budgetCategory = 5; // 0–5 (5 = no limit)
 let currentSort = 'overall';
 let currentSearch = '';
@@ -28,11 +28,10 @@ let compareList = []; // Max 3 IDs
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
 window.addEventListener('DOMContentLoaded', () => {
-  renderSliders();
+  updateWeightsFromTags();
   renderBrandFilters();
   renderAllPhonesGrid();
   setupNavScroll();
-  updateSliderFills();
   updateFavoritesCount();
   populateUpgradeSelect();
   
@@ -53,71 +52,42 @@ function setupNavScroll() {
 }
 
 // ─── SLIDERS ──────────────────────────────────────────────────────────────────
-function renderSliders() {
-  const grid = document.getElementById('sliders-grid');
-  grid.innerHTML = '';
-  CRITERIA.forEach(c => {
-    const val = userWeights[c.key];
-    grid.innerHTML += `
-      <div class="slider-card" id="scard-${c.key}">
-        <div class="slider-header">
-          <div class="slider-label-group">
-            <span class="slider-icon">${c.icon}</span>
-            <div>
-              <span class="slider-label">${c.label}</span>
-              <span class="slider-desc">${c.desc}</span>
-            </div>
-          </div>
-          <span class="slider-val" id="sval-${c.key}">${val}</span>
-        </div>
-        <input
-          type="range"
-          class="slider-track"
-          id="slider-${c.key}"
-          min="0" max="10" step="1"
-          value="${val}"
-          oninput="onSliderChange('${c.key}', this.value)"
-        />
-        <div class="slider-marks">
-          <span class="slider-mark">Not important</span>
-          <span class="slider-mark">Essential</span>
-        </div>
-      </div>
-    `;
-  });
-  updateSliderFills();
-}
+let selectedPriorities = [];
 
-function onSliderChange(key, val) {
-  userWeights[key] = parseInt(val);
-  document.getElementById('sval-' + key).textContent = val;
-  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
-  updateSliderFills();
-}
-
-function updateSliderFills() {
-  CRITERIA.forEach(c => {
-    const slider = document.getElementById('slider-' + c.key);
-    if (!slider) return;
-    const val = parseInt(slider.value);
-    const pct = (val / 10) * 100;
-    slider.style.background = `linear-gradient(to right, #8b5cf6 ${pct}%, rgba(255,255,255,0.08) ${pct}%)`;
-  });
-}
-
-// ─── PRESETS ──────────────────────────────────────────────────────────────────
-function applyPreset(name) {
-  userWeights = { ...PRESETS[name] };
-  CRITERIA.forEach(c => {
-    const slider = document.getElementById('slider-' + c.key);
-    if (slider) {
-      slider.value = userWeights[c.key];
-      document.getElementById('sval-' + c.key).textContent = userWeights[c.key];
+function togglePriority(key, element) {
+  const index = selectedPriorities.indexOf(key);
+  
+  if (index > -1) {
+    // Remove if already selected
+    selectedPriorities.splice(index, 1);
+    element.classList.remove('active');
+  } else {
+    // Add if less than 3 are selected
+    if (selectedPriorities.length >= 3) {
+      // Remove the oldest one
+      const oldest = selectedPriorities.shift();
+      const oldEl = document.querySelector(`.priority-tag[onclick*="${oldest}"]`);
+      if (oldEl) oldEl.classList.remove('active');
     }
+    selectedPriorities.push(key);
+    element.classList.add('active');
+  }
+  
+  updateWeightsFromTags();
+}
+
+function updateWeightsFromTags() {
+  // Reset all CRITERIA keys to base weight of 3
+  CRITERIA.forEach(c => {
+    userWeights[c.key] = 3;
   });
-  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('preset-' + name)?.classList.add('active');
-  updateSliderFills();
+  
+  // Apply heavy weight (10) to selected priorities — keys must match CRITERIA keys exactly
+  selectedPriorities.forEach(key => {
+    userWeights[key] = 10;
+  });
+  
+  console.log('Weights updated:', JSON.stringify(userWeights));
 }
 
 // ─── BUDGET ───────────────────────────────────────────────────────────────────
@@ -148,12 +118,18 @@ function computeScore(phone) {
   let totalWeight = 0;
   let weightedSum = 0;
   CRITERIA.forEach(c => {
-    const w = userWeights[c.key];
+    const w = userWeights[c.key] || 0;
+    // Map CRITERIA keys to actual score keys in phone data
+    const scoreKey = c.key === 'ipRating' ? 'ip' : c.key;
+    const score = phone.scores[scoreKey] || phone.scores[c.key] || 0;
     totalWeight += w;
-    weightedSum += (phone.scores[c.key] || 0) * w;
+    weightedSum += score * w;
   });
   if (totalWeight === 0) {
-    const sum = CRITERIA.reduce((acc, c) => acc + (phone.scores[c.key] || 0), 0);
+    const sum = CRITERIA.reduce((acc, c) => {
+      const scoreKey = c.key === 'ipRating' ? 'ip' : c.key;
+      return acc + (phone.scores[scoreKey] || phone.scores[c.key] || 0);
+    }, 0);
     return +(sum / CRITERIA.length).toFixed(2);
   }
   return +(weightedSum / totalWeight).toFixed(2);
@@ -163,7 +139,35 @@ function filterAndScore(phones) {
   return phones
     .filter(p => budgetCategory === 5 || p.priceCategory <= budgetCategory)
     .map(p => ({ ...p, _score: computeScore(p) }))
-    .sort((a, b) => b._score - a._score);
+    .sort((a, b) => {
+      // Primary: score descending
+      if (b._score !== a._score) return b._score - a._score;
+      // Tiebreak 1: price category descending (more premium wins)
+      if (b.priceCategory !== a.priceCategory) return b.priceCategory - a.priceCategory;
+      // Tiebreak 2: alphabetical brand (stable sort)
+      return a.brand.localeCompare(b.brand);
+    });
+}
+
+// Get top picks with brand diversity (no two of same brand in top 3)
+function getDiverseTop3(scored) {
+  const top3 = [];
+  const usedBrands = new Set();
+  for (const phone of scored) {
+    if (top3.length >= 3) break;
+    if (!usedBrands.has(phone.brand)) {
+      top3.push(phone);
+      usedBrands.add(phone.brand);
+    }
+  }
+  // If we couldn't get 3 diverse brands, fill with next best
+  if (top3.length < 3) {
+    for (const phone of scored) {
+      if (top3.length >= 3) break;
+      if (!top3.find(p => p.id === phone.id)) top3.push(phone);
+    }
+  }
+  return top3;
 }
 
 // ─── RECOMMENDATIONS ─────────────────────────────────────────────────────────
@@ -182,12 +186,16 @@ function generateRecommendations() {
     resultsSection.style.display = 'block';
     setTimeout(() => resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
 
-    const bestCriteria = Object.entries(userWeights).sort((a,b)=>b[1]-a[1])[0];
-    const criterionLabel = CRITERIA.find(c=>c.key===bestCriteria[0])?.label || '';
-    document.getElementById('results-subtitle').textContent =
-      `Top priority: ${criterionLabel} · ${scored.length} phones analyzed`;
+    const activePriorities = selectedPriorities.map(key => {
+      return CRITERIA.find(c => c.key === key)?.label.split(' ')[0] || key;
+    });
+    const subtitleText = activePriorities.length > 0
+      ? `Priority: ${activePriorities.join(' · ')} · ${scored.length} phones analyzed`
+      : `Best overall phones · ${scored.length} analyzed`;
+    document.getElementById('results-subtitle').textContent = subtitleText;
 
-    renderPodium(scored.slice(0, 3));
+    const top3 = getDiverseTop3(scored);
+    renderPodium(top3);
     renderRankedList(scored);
   }, 900);
 }
@@ -362,19 +370,26 @@ function openCompareModal() {
   if (compareList.length === 0) return;
   const phonesToCompare = compareList.map(id => PHONES.find(p => p.id === id));
   
+  const valueScores = phonesToCompare.map(p => getOverallScore(p) / (getPhonePrice(p) / 10000));
+  const maxVal = Math.max(...valueScores);
+  
   const content = document.getElementById('compare-content');
   
   content.innerHTML = `
     <h2 class="compare-title">Compare Phones</h2>
     <div class="compare-grid" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
-      ${phonesToCompare.map(p => `
-        <div class="compare-col-header">
+      ${phonesToCompare.map((p, i) => {
+        const isBestValue = valueScores[i] === maxVal && valueScores.length > 1;
+        return `
+        <div class="compare-col-header" style="position: relative;">
+          ${isBestValue ? '<div class="best-value-badge">🏆 Best Value</div>' : ''}
           <div class="compare-emoji">${p.emoji}</div>
           <div class="compare-name">${p.name}</div>
           <div class="compare-brand">${p.brand}</div>
           <div class="compare-price">${p.price}</div>
         </div>
-      `).join('')}
+        `;
+      }).join('')}
     </div>
     
     <div class="radar-chart-wrap" style="margin: 32px 0;">
@@ -392,6 +407,65 @@ function openCompareModal() {
           </div>
         </div>
       `).join('')}
+      
+      <!-- Scores Comparison -->
+      <h3 style="margin-top:20px; font-size:1.1rem; color:var(--text-1);">Feature Scores</h3>
+      ${CRITERIA.map(c => {
+        const scoreKey = c.key === 'ipRating' ? 'ip' : c.key;
+        const maxScore = Math.max(...phonesToCompare.map(p => p.scores[scoreKey] || p.scores[c.key] || 0));
+        return `
+        <div class="compare-spec-row">
+          <div class="compare-spec-label">${c.icon} ${c.label}</div>
+          <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+            ${phonesToCompare.map(p => {
+              const s = p.scores[scoreKey] || p.scores[c.key] || 0;
+              return `<div class="compare-spec-val ${s === maxScore && s > 0 && phonesToCompare.length > 1 ? 'compare-winner' : ''}">${s}/10</div>`;
+            }).join('')}
+          </div>
+        </div>
+        `;
+      }).join('')}
+
+      <!-- Numeric Specs Comparison -->
+      <h3 style="margin-top:20px; font-size:1.1rem; color:var(--text-1);">Detailed Specs</h3>
+      <div class="compare-spec-row">
+        <div class="compare-spec-label">RAM</div>
+        <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+          ${phonesToCompare.map(p => {
+            const maxRam = Math.max(...phonesToCompare.map(x=>x.ram_gb||0));
+            return `<div class="compare-spec-val ${(p.ram_gb||0) === maxRam && maxRam > 0 && phonesToCompare.length > 1 ? 'compare-winner' : ''}">${p.ram_gb || '?'} GB</div>`;
+          }).join('')}
+        </div>
+      </div>
+      <div class="compare-spec-row">
+        <div class="compare-spec-label">Screen Size</div>
+        <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+          ${phonesToCompare.map(p => {
+            const maxScr = Math.max(...phonesToCompare.map(x=>x.screen_size||0));
+            return `<div class="compare-spec-val ${(p.screen_size||0) === maxScr && maxScr > 0 && phonesToCompare.length > 1 ? 'compare-winner' : ''}">${p.screen_size || '?'} inches</div>`;
+          }).join('')}
+        </div>
+      </div>
+      <div class="compare-spec-row">
+        <div class="compare-spec-label">Battery Capacity</div>
+        <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+          ${phonesToCompare.map(p => {
+            const getBatNum = x => parseInt(getBatteryMah(x).replace(/,/g,'')) || 0;
+            const maxBat = Math.max(...phonesToCompare.map(x => getBatNum(x)));
+            const pBat = getBatNum(p);
+            return `<div class="compare-spec-val ${pBat === maxBat && maxBat > 0 && phonesToCompare.length > 1 ? 'compare-winner' : ''}">${pBat || '?'} mAh</div>`;
+          }).join('')}
+        </div>
+      </div>
+      <div class="compare-spec-row">
+        <div class="compare-spec-label">Price</div>
+        <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+          ${phonesToCompare.map(p => {
+            const minPrc = Math.min(...phonesToCompare.map(x=>x.price_numeric||9999999));
+            return `<div class="compare-spec-val ${(p.price_numeric||9999999) === minPrc && phonesToCompare.length > 1 ? 'compare-winner' : ''}">₹${p.price_numeric ? p.price_numeric.toLocaleString() : '?'}</div>`;
+          }).join('')}
+        </div>
+      </div>
     </div>
   `;
   
@@ -431,6 +505,19 @@ function renderAllPhonesGrid() {
   if (advFilters.processor !== 'any') {
     phones = phones.filter(p => p.processor_brand === advFilters.processor);
   }
+  if (advFilters.battery && advFilters.battery !== 'any') {
+    const minBattery = parseInt(advFilters.battery);
+    phones = phones.filter(p => parseInt(getBatteryMah(p).replace(/,/g, '')) >= minBattery);
+  }
+  if (advFilters.screen && advFilters.screen !== 'any') {
+    phones = phones.filter(p => {
+      const size = p.screen_size || parseFloat(p.specs.display);
+      if (advFilters.screen === 'small') return size < 6.3;
+      if (advFilters.screen === 'medium') return size >= 6.3 && size <= 6.7;
+      if (advFilters.screen === 'large') return size > 6.7;
+      return true;
+    });
+  }
   if (advFilters.has5g) phones = phones.filter(p => p.has_5g);
   if (advFilters.hasNfc) phones = phones.filter(p => p.has_nfc);
   if (advFilters.hasWireless) phones = phones.filter(p => p.has_wireless_charging);
@@ -440,12 +527,20 @@ function renderAllPhonesGrid() {
     phones = phones.filter(p =>
       p.name.toLowerCase().includes(q) ||
       p.brand.toLowerCase().includes(q) ||
-      (p.uniqueFeature && p.uniqueFeature.toLowerCase().includes(q))
+      (p.uniqueFeature && p.uniqueFeature.toLowerCase().includes(q)) ||
+      (p.specs.processor && p.specs.processor.toLowerCase().includes(q)) ||
+      (p.specs.display && p.specs.display.toLowerCase().includes(q))
     );
   }
 
   if (currentSort === 'overall') {
     phones.sort((a, b) => getOverallScore(b) - getOverallScore(a));
+  } else if (currentSort === 'value') {
+    phones.sort((a, b) => {
+      const valA = getOverallScore(a) / (getPhonePrice(a) / 10000);
+      const valB = getOverallScore(b) / (getPhonePrice(b) / 10000);
+      return valB - valA;
+    });
   } else {
     phones.sort((a, b) => b.scores[currentSort] - a.scores[currentSort]);
   }
@@ -556,18 +651,34 @@ function openModal(phoneId) {
   const ipShort = getIPShort(phone);
   const chargingShort = getChargingShort(phone);
 
+  const basePriceNum = getPhonePrice(phone);
+  const livePriceNum = typeof getLivePrice === 'function' ? getLivePrice(phone) : basePriceNum;
+  const priceDiff = livePriceNum - basePriceNum;
+  let priceIndicator = '';
+  if (priceDiff > 0) priceIndicator = `<span style="color:#ef4444;font-size:0.8rem;margin-left:8px;">↑ ₹${priceDiff.toLocaleString('en-IN')} (Live)</span>`;
+  else if (priceDiff < 0) priceIndicator = `<span style="color:#10b981;font-size:0.8rem;margin-left:8px;">↓ ₹${Math.abs(priceDiff).toLocaleString('en-IN')} (Live)</span>`;
+  else priceIndicator = `<span style="color:#8b5cf6;font-size:0.8rem;margin-left:8px;">(Live)</span>`;
+
+  const displayPrice = `₹${livePriceNum.toLocaleString('en-IN')}`;
+
   document.getElementById('modal-content').innerHTML = `
     <div class="modal-phone-header">
       <div class="modal-phone-emoji">${phone.emoji}</div>
       <div class="modal-phone-meta">
         <div class="modal-phone-brand">${phone.brand}</div>
         <div class="modal-phone-name">${phone.name}</div>
-        <div class="modal-phone-price">${phone.price}</div>
+        <div class="modal-phone-price" style="display:flex;align-items:center;">${displayPrice} ${priceIndicator}</div>
         <div class="modal-phone-ip">${ipShort}</div>
       </div>
-      <div class="modal-overall-score">
-        <span class="modal-score-num">${overall}</span>
-        <span class="modal-score-label">/ 10</span>
+      </div>
+      <div class="modal-actions" style="display: flex; flex-direction: column; align-items: flex-end; gap: 8px;">
+        <div class="modal-overall-score">
+          <span class="modal-score-num">${overall}</span>
+          <span class="modal-score-label">/ 10</span>
+        </div>
+        <button class="compare-btn-primary" style="padding: 6px 12px; font-size: 0.8rem; background: #25D366; color: white; border: none; cursor: pointer; display: flex; align-items: center;" onclick="shareToWhatsApp('${phone.id}')">
+          <svg style="width:14px; height:14px; margin-right: 6px;" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> Share
+        </button>
       </div>
     </div>
 
@@ -634,9 +745,12 @@ function openModal(phoneId) {
 
     <!-- PRICE TRACKER -->
     <div class="price-tracker-container" style="background: var(--bg-main); border: 1px solid var(--border); padding: 16px; border-radius: 12px; margin-bottom: 24px;">
-      <h4 style="margin: 0 0 12px 0; font-size: 1rem; display: flex; justify-content: space-between; align-items: center;">
-        <span>📉 Price History (6 Months)</span>
-        <button class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="togglePriceAlert('${phone.id}', ${phone.price_numeric})" id="alert-btn-${phone.id}">🔔 Set Alert</button>
+      <h4 style="margin: 0 0 12px 0; font-size: 1rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+        <span>📉 30-Day Price Trend</span>
+        <div style="display: flex; gap: 8px;">
+          <a href="https://www.amazon.in/s?k=${encodeURIComponent(phone.brand + ' ' + phone.name)}" target="_blank" class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; color: #ff9900; border-color: #ff9900;">🛒 Amazon Search</a>
+          <button class="compare-btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="togglePriceAlert('${phone.id}')" id="alert-btn-${phone.id}">🔔 Set Alert</button>
+        </div>
       </h4>
       <canvas id="priceChart-${phone.id}" width="400" height="100" style="width: 100%; height: 100px; display: block;"></canvas>
     </div>
@@ -671,6 +785,8 @@ function openModal(phoneId) {
         </div>
       `).join('')}
     </div>
+    
+    ${renderRatingUI(phone.id)}
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
@@ -678,8 +794,10 @@ function openModal(phoneId) {
 
   // Render Price Chart
   setTimeout(() => {
-    if (typeof renderPriceChart === 'function' && phone.price_history) {
-      renderPriceChart(`priceChart-${phone.id}`, phone.price_history);
+    if (typeof getPriceHistory === 'function' && typeof renderSparkline === 'function') {
+      const history = getPriceHistory(phone, 30);
+      const canvas = document.getElementById(`priceChart-${phone.id}`);
+      if (canvas) renderSparkline(canvas, history, '#10b981');
     }
     if (typeof updateAlertBtnState === 'function') {
       updateAlertBtnState(phone.id);
@@ -692,6 +810,21 @@ function closeModal(e) {
   if (e && e.target !== document.getElementById('modal-overlay')) return;
   document.getElementById('modal-overlay').classList.remove('open');
   document.body.style.overflow = '';
+}
+
+function shareToWhatsApp(phoneId) {
+  const phone = PHONES.find(p => p.id === phoneId);
+  if (!phone) return;
+  const overall = getOverallScore(phone);
+  let text = `Check out the ${phone.brand} ${phone.name} on PhonePerfect!\n\n`;
+  text += `⭐ Rating: ${overall}/10\n`;
+  text += `💰 Price: ${phone.price}\n\n`;
+  if (phone.pros && phone.pros.length > 0) {
+    text += `✅ Pros: ${phone.pros.join(', ')}\n`;
+  }
+  text += `\nFind it here: ${window.location.href.split('#')[0]}`;
+  const encodedText = encodeURIComponent(text);
+  window.open(`https://wa.me/?text=${encodedText}`, '_blank');
 }
 
 function formatSpecKey(key) {
@@ -1016,6 +1149,8 @@ function toggleFilterPanel() {
 function applyAdvancedFilters() {
   advFilters.ram = document.getElementById('filter-ram').value;
   advFilters.processor = document.getElementById('filter-processor').value;
+  advFilters.battery = document.getElementById('filter-battery') ? document.getElementById('filter-battery').value : 'any';
+  advFilters.screen = document.getElementById('filter-screen') ? document.getElementById('filter-screen').value : 'any';
   advFilters.has5g = document.getElementById('filter-5g').checked;
   advFilters.hasNfc = document.getElementById('filter-nfc').checked;
   advFilters.hasWireless = document.getElementById('filter-wireless').checked;
@@ -1025,6 +1160,8 @@ function applyAdvancedFilters() {
 function resetAdvancedFilters() {
   document.getElementById('filter-ram').value = 'any';
   document.getElementById('filter-processor').value = 'any';
+  if (document.getElementById('filter-battery')) document.getElementById('filter-battery').value = 'any';
+  if (document.getElementById('filter-screen')) document.getElementById('filter-screen').value = 'any';
   document.getElementById('filter-5g').checked = false;
   document.getElementById('filter-nfc').checked = false;
   document.getElementById('filter-wireless').checked = false;
@@ -1090,3 +1227,84 @@ generateRecommendations = function() {
     }
   }, 950);
 };
+
+
+// Voice Search Implementation
+function startVoiceSearch() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    alert('Voice search is not supported in this browser.');
+    return;
+  }
+  const recognition = new SpeechRecognition();
+  recognition.continuous = false;
+  recognition.lang = 'en-US'; // We will change this for regional languages later
+  recognition.interimResults = false;
+
+  const btn = document.getElementById('voice-search-btn');
+  const originalIcon = btn.innerText;
+  btn.innerText = '??';
+
+  recognition.onresult = function(event) {
+    const transcript = event.results[0][0].transcript;
+    const searchInput = document.getElementById('phone-search');
+    searchInput.value = transcript;
+    filterPhones(transcript);
+    btn.innerText = originalIcon;
+  };
+
+  recognition.onerror = function(event) {
+    console.error('Speech recognition error', event.error);
+    btn.innerText = originalIcon;
+  };
+
+  recognition.onend = function() {
+    btn.innerText = originalIcon;
+  };
+
+  recognition.start();
+}
+
+// Language Support
+const translations = {
+  en: { find: 'Find', phones: 'Phones', recommend: 'Get Recommendations', searchPlaceholder: '?? Search phone name...' },
+  hi: { find: '?????', phones: '????', recommend: '????????? ??????? ????', searchPlaceholder: '?? ???? ?? ??? ?????...' },
+  ta: { find: '????', phones: '???????', recommend: '?????????????? ?????????', searchPlaceholder: '?? ???? ????? ???...' },
+  te: { find: '???????', phones: '??????', recommend: '??????????? ???????', searchPlaceholder: '?? ???? ???? ???????...' }
+};
+
+function changeLanguage(lang) {
+  const t = translations[lang] || translations.en;
+  document.querySelector('a[href="#finder"] .bottom-nav-text').innerText = t.find;
+  document.querySelector('a[href="#phones-list"] .bottom-nav-text').innerText = t.phones;
+  const recBtn = document.querySelector('#recommend-btn span');
+  if(recBtn) recBtn.innerText = t.recommend;
+  const searchInput = document.getElementById('phone-search');
+  if(searchInput) searchInput.placeholder = t.searchPlaceholder;
+}
+
+
+// User Ratings System
+function renderRatingUI(phoneId) {
+  const savedRating = localStorage.getItem('rating_' + phoneId) || 0;
+  let starsHtml = '';
+  for (let i = 1; i <= 5; i++) {
+    starsHtml += `<span style='cursor:pointer; font-size:1.5rem; color:${i <= savedRating ? '#f59e0b' : 'var(--border)'};' onclick='saveRating("${phoneId}", ${i})'>★</span>`;
+  }
+  return `<div style='margin-top: 20px; text-align: center; background: var(--bg-card); padding: 16px; border-radius: 12px; border: 1px solid var(--border);'>
+    <div style='font-size: 0.9rem; color: var(--text-2); margin-bottom: 8px;'>Your Rating</div>
+    <div id='rating-stars-${phoneId}'>${starsHtml}</div>
+  </div>`;
+}
+
+function saveRating(phoneId, rating) {
+  localStorage.setItem('rating_' + phoneId, rating);
+  const starsDiv = document.getElementById('rating-stars-' + phoneId);
+  if(starsDiv) {
+    let starsHtml = '';
+    for (let i = 1; i <= 5; i++) {
+      starsHtml += `<span style='cursor:pointer; font-size:1.5rem; color:${i <= rating ? '#f59e0b' : 'var(--border)'};' onclick='saveRating("${phoneId}", ${i})'>★</span>`;
+    }
+    starsDiv.innerHTML = starsHtml;
+  }
+}

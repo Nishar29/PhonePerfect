@@ -258,6 +258,24 @@
               </select>
             </div>
             <div class="filter-group">
+              <label>Battery</label>
+              <select id="filter-battery" onchange="applyAdvancedFilters()">
+                <option value="any">Any</option>
+                <option value="4000">4000mAh+</option>
+                <option value="5000">5000mAh+</option>
+                <option value="6000">6000mAh+</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label>Screen Size</label>
+              <select id="filter-screen" onchange="applyAdvancedFilters()">
+                <option value="any">Any</option>
+                <option value="small">Under 6.3"</option>
+                <option value="medium">6.3" - 6.7"</option>
+                <option value="large">Above 6.7"</option>
+              </select>
+            </div>
+            <div class="filter-group">
               <label>Features</label>
               <label class="checkbox-label">
                 <input type="checkbox" id="filter-5g" onchange="applyAdvancedFilters()" /> 5G Ready
@@ -278,8 +296,9 @@
           <input type="text" class="phone-search" id="phone-search" placeholder="🔍 Search phone name..." oninput="filterPhones(this.value)" style="width: 100%; padding-right: 40px;" />
           <button id="voice-search-btn" class="voice-search-btn" onclick="startVoiceSearch()" title="Voice Search" style="position: absolute; right: 10px; background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text-2);">🎙️</button>
         </div>
-        <div class="sort-btns">
+        <div class="sort-btns" style="flex-wrap: wrap;">
           <button class="sort-btn active" onclick="sortPhones('overall', this)">Overall</button>
+          <button class="sort-btn" onclick="sortPhones('value', this)">Value for Money</button>
           <button class="sort-btn" onclick="sortPhones('camera', this)">Camera</button>
           <button class="sort-btn" onclick="sortPhones('battery', this)">Battery</button>
           <button class="sort-btn" onclick="sortPhones('durability', this)">Durability</button>

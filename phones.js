@@ -33762,6 +33762,1224 @@ var PHONES = [
     "images": [
       "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg"
     ]
+  },
+  {
+    "id": "appleiphone17air",
+    "name": "iPhone 17 Air",
+    "brand": "Apple",
+    "emoji": "🍎",
+    "price": "₹119,900",
+    "priceCategory": 5,
+    "uniqueFeature": "Ultra-thin design",
+    "specs": {
+      "display": "6.6\" AMOLED",
+      "processor": "Apple",
+      "ram": "8GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 9.2,
+      "battery": 8.2,
+      "charging": 7.5,
+      "display": 9.5,
+      "sound": 8.8,
+      "ipRating": 9.5,
+      "processor": 9.6
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 8,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Apple",
+    "screen_size": 6.6,
+    "price_numeric": 119900,
+    "price_history": [
+      119900,
+      117753,
+      115243,
+      113486,
+      111845,
+      110549
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Pricey",
+      "No charger in box"
+    ]
+  },
+  {
+    "id": "samsunggalaxys25",
+    "name": "Galaxy S25+",
+    "brand": "Samsung",
+    "emoji": "📱",
+    "price": "₹104,999",
+    "priceCategory": 5,
+    "uniqueFeature": "Galaxy AI Plus",
+    "specs": {
+      "display": "6.7\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.3,
+      "camera": 9.4,
+      "battery": 9.0,
+      "charging": 8.5,
+      "display": 9.7,
+      "sound": 9.0,
+      "ipRating": 10.0,
+      "processor": 9.8
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 104999,
+    "price_history": [
+      104999,
+      103821,
+      101348,
+      98337,
+      95608,
+      93261
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Pricey",
+      "No charger in box"
+    ]
+  },
+  {
+    "id": "samsunggalaxyzfold7",
+    "name": "Galaxy Z Fold 7",
+    "brand": "Samsung",
+    "emoji": "📱",
+    "price": "₹164,999",
+    "priceCategory": 5,
+    "uniqueFeature": "Ultimate foldable",
+    "specs": {
+      "display": "7.6\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "16GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.0,
+      "camera": 9.0,
+      "battery": 8.5,
+      "charging": 8.0,
+      "display": 9.5,
+      "sound": 9.0,
+      "ipRating": 9.0,
+      "processor": 9.8
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 16,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 7.6,
+    "price_numeric": 164999,
+    "price_history": [
+      164999,
+      159287,
+      155296,
+      151758,
+      146759,
+      144893
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Pricey",
+      "No charger in box"
+    ]
+  },
+  {
+    "id": "samsunggalaxyzflip7",
+    "name": "Galaxy Z Flip 7",
+    "brand": "Samsung",
+    "emoji": "📱",
+    "price": "₹99,999",
+    "priceCategory": 5,
+    "uniqueFeature": "Stylish flip",
+    "specs": {
+      "display": "6.7\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 8.8,
+      "battery": 8.3,
+      "charging": 8.0,
+      "display": 9.4,
+      "sound": 8.5,
+      "ipRating": 9.0,
+      "processor": 9.6
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 99999,
+    "price_history": [
+      99999,
+      98894,
+      95231,
+      93849,
+      92527,
+      89732
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Pricey",
+      "No charger in box"
+    ]
+  },
+  {
+    "id": "oneplus13",
+    "name": "13",
+    "brand": "OnePlus",
+    "emoji": "📱",
+    "price": "₹69,999",
+    "priceCategory": 4,
+    "uniqueFeature": "Hasselblad perfection",
+    "specs": {
+      "display": "6.82\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "16GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.5,
+      "camera": 9.4,
+      "battery": 9.6,
+      "charging": 9.8,
+      "display": 9.7,
+      "sound": 9.2,
+      "ipRating": 10.0,
+      "processor": 9.9
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 16,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.82,
+    "price_numeric": 69999,
+    "price_history": [
+      69999,
+      68871,
+      66829,
+      65474,
+      63017,
+      61520
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "oneplus13r",
+    "name": "13R",
+    "brand": "OnePlus",
+    "emoji": "📱",
+    "price": "₹42,999",
+    "priceCategory": 3,
+    "uniqueFeature": "Flagship killer",
+    "specs": {
+      "display": "6.78\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.0,
+      "camera": 8.5,
+      "battery": 9.5,
+      "charging": 9.8,
+      "display": 9.5,
+      "sound": 8.8,
+      "ipRating": 9.0,
+      "processor": 9.5
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 42999,
+    "price_history": [
+      42999,
+      41889,
+      40317,
+      38903,
+      38417,
+      37370
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "oneplusnord5",
+    "name": "Nord 5",
+    "brand": "OnePlus",
+    "emoji": "📱",
+    "price": "₹31,999",
+    "priceCategory": 3,
+    "uniqueFeature": "Smooth mid-range",
+    "specs": {
+      "display": "6.74\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP65",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.8,
+      "camera": 8.2,
+      "battery": 9.2,
+      "charging": 9.5,
+      "display": 9.0,
+      "sound": 8.5,
+      "ipRating": 8.5,
+      "processor": 8.6
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.74,
+    "price_numeric": 31999,
+    "price_history": [
+      31999,
+      30769,
+      30375,
+      29429,
+      28464,
+      28000
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "oneplusnordce5lite",
+    "name": "Nord CE 5 Lite",
+    "brand": "OnePlus",
+    "emoji": "📱",
+    "price": "₹19,999",
+    "priceCategory": 2,
+    "uniqueFeature": "Entry OnePlus",
+    "specs": {
+      "display": "6.72\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "8GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP65",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.0,
+      "camera": 7.5,
+      "battery": 9.0,
+      "charging": 9.0,
+      "display": 8.5,
+      "sound": 8.0,
+      "ipRating": 0,
+      "processor": 7.5
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 8,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.72,
+    "price_numeric": 19999,
+    "price_history": [
+      19999,
+      19648,
+      19213,
+      18868,
+      18631,
+      18056
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "xiaomi15ultra",
+    "name": "15 Ultra",
+    "brand": "Xiaomi",
+    "emoji": "📱",
+    "price": "₹119,999",
+    "priceCategory": 5,
+    "uniqueFeature": "Leica Photography",
+    "specs": {
+      "display": "6.73\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "16GB RAM",
+      "battery": "5500 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.3,
+      "camera": 10.0,
+      "battery": 9.2,
+      "charging": 9.5,
+      "display": 9.7,
+      "sound": 9.4,
+      "ipRating": 10.0,
+      "processor": 9.8
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 16,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.73,
+    "price_numeric": 119999,
+    "price_history": [
+      119999,
+      118556,
+      114039,
+      112090,
+      107992,
+      104676
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Pricey",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "xiaomi15pro",
+    "name": "15 Pro",
+    "brand": "Xiaomi",
+    "emoji": "📱",
+    "price": "₹89,999",
+    "priceCategory": 5,
+    "uniqueFeature": "Leica Pro",
+    "specs": {
+      "display": "6.73\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "16GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 9.7,
+      "battery": 9.2,
+      "charging": 9.5,
+      "display": 9.6,
+      "sound": 9.2,
+      "ipRating": 10.0,
+      "processor": 9.8
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 16,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.73,
+    "price_numeric": 89999,
+    "price_history": [
+      89999,
+      87944,
+      86305,
+      83438,
+      82069,
+      79212
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Pricey",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "xiaomi15",
+    "name": "15",
+    "brand": "Xiaomi",
+    "emoji": "📱",
+    "price": "₹74,999",
+    "priceCategory": 4,
+    "uniqueFeature": "Compact Flagship",
+    "specs": {
+      "display": "6.36\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 9.4,
+      "battery": 8.8,
+      "charging": 9.2,
+      "display": 9.5,
+      "sound": 9.0,
+      "ipRating": 10.0,
+      "processor": 9.8
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.36,
+    "price_numeric": 74999,
+    "price_history": [
+      74999,
+      72027,
+      69344,
+      67071,
+      65256,
+      64253
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "xiaomiredminote14pro",
+    "name": "Redmi Note 14 Pro+",
+    "brand": "Xiaomi",
+    "emoji": "📱",
+    "price": "₹32,999",
+    "priceCategory": 3,
+    "uniqueFeature": "200MP Master",
+    "specs": {
+      "display": "6.67\" AMOLED",
+      "processor": "MediaTek",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.8,
+      "camera": 8.8,
+      "battery": 9.4,
+      "charging": 9.8,
+      "display": 9.2,
+      "sound": 8.8,
+      "ipRating": 10.0,
+      "processor": 8.5
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 32999,
+    "price_history": [
+      32999,
+      31684,
+      30601,
+      29694,
+      29009,
+      28281
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "pocof7pro",
+    "name": "F7 Pro",
+    "brand": "POCO",
+    "emoji": "📱",
+    "price": "₹35,999",
+    "priceCategory": 3,
+    "uniqueFeature": "Gaming beast",
+    "specs": {
+      "display": "6.67\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP65",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 8.0,
+      "battery": 9.2,
+      "charging": 9.8,
+      "display": 9.3,
+      "sound": 8.5,
+      "ipRating": 8.0,
+      "processor": 9.6
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.67,
+    "price_numeric": 35999,
+    "price_history": [
+      35999,
+      35458,
+      34515,
+      33772,
+      32551,
+      31986
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "motorolaedge60pro",
+    "name": "Edge 60 Pro",
+    "brand": "Motorola",
+    "emoji": "📱",
+    "price": "₹84,999",
+    "priceCategory": 5,
+    "uniqueFeature": "Moto AI",
+    "specs": {
+      "display": "6.7\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.2,
+      "camera": 9.2,
+      "battery": 8.8,
+      "charging": 9.6,
+      "display": 9.6,
+      "sound": 9.0,
+      "ipRating": 10.0,
+      "processor": 9.6
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 84999,
+    "price_history": [
+      84999,
+      82312,
+      80259,
+      78149,
+      76115,
+      73393
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Pricey",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "motorolaedge60fusion",
+    "name": "Edge 60 Fusion",
+    "brand": "Motorola",
+    "emoji": "📱",
+    "price": "₹24,999",
+    "priceCategory": 2,
+    "uniqueFeature": "Curved beauty",
+    "specs": {
+      "display": "6.7\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "8GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.5,
+      "camera": 8.0,
+      "battery": 9.0,
+      "charging": 9.2,
+      "display": 9.0,
+      "sound": 8.5,
+      "ipRating": 9.5,
+      "processor": 8.0
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 8,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 24999,
+    "price_history": [
+      24999,
+      24321,
+      23754,
+      23007,
+      22745,
+      21971
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "motorolarazr60ultra",
+    "name": "Razr 60 Ultra",
+    "brand": "Motorola",
+    "emoji": "📱",
+    "price": "₹99,999",
+    "priceCategory": 5,
+    "uniqueFeature": "Premium Flip",
+    "specs": {
+      "display": "6.9\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5500 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 8.8,
+      "battery": 8.2,
+      "charging": 8.5,
+      "display": 9.5,
+      "sound": 8.5,
+      "ipRating": 9.0,
+      "processor": 9.4
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.9,
+    "price_numeric": 99999,
+    "price_history": [
+      99999,
+      97615,
+      93885,
+      91378,
+      88210,
+      85013
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Pricey",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "realmegt7pro",
+    "name": "GT 7 Pro",
+    "brand": "Realme",
+    "emoji": "📱",
+    "price": "₹64,999",
+    "priceCategory": 4,
+    "uniqueFeature": "Performance Core",
+    "specs": {
+      "display": "6.78\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "16GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.0,
+      "camera": 8.8,
+      "battery": 9.6,
+      "charging": 10.0,
+      "display": 9.5,
+      "sound": 9.0,
+      "ipRating": 9.5,
+      "processor": 9.9
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 16,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.78,
+    "price_numeric": 64999,
+    "price_history": [
+      64999,
+      63361,
+      61210,
+      58863,
+      57008,
+      56225
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "realmenarzo80pro",
+    "name": "Narzo 80 Pro",
+    "brand": "Realme",
+    "emoji": "📱",
+    "price": "₹21,999",
+    "priceCategory": 2,
+    "uniqueFeature": "Budget gamer",
+    "specs": {
+      "display": "6.67\" AMOLED",
+      "processor": "MediaTek",
+      "ram": "8GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP65",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.2,
+      "camera": 7.8,
+      "battery": 9.0,
+      "charging": 9.2,
+      "display": 8.8,
+      "sound": 8.2,
+      "ipRating": 8.0,
+      "processor": 8.4
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 8,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": false,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.67,
+    "price_numeric": 21999,
+    "price_history": [
+      21999,
+      21125,
+      20333,
+      19925,
+      19273,
+      18659
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "iqooneo10pro",
+    "name": "Neo 10 Pro",
+    "brand": "iQOO",
+    "emoji": "📱",
+    "price": "₹38,999",
+    "priceCategory": 3,
+    "uniqueFeature": "Flagship killer",
+    "specs": {
+      "display": "6.78\" AMOLED",
+      "processor": "MediaTek",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP65",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.8,
+      "camera": 8.2,
+      "battery": 9.4,
+      "charging": 9.8,
+      "display": 9.4,
+      "sound": 8.8,
+      "ipRating": 8.5,
+      "processor": 9.6
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 38999,
+    "price_history": [
+      38999,
+      37685,
+      36576,
+      35529,
+      34687,
+      33889
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
+  },
+  {
+    "id": "nothingphone3",
+    "name": "Phone (3)",
+    "brand": "Nothing",
+    "emoji": "📱",
+    "price": "₹44,999",
+    "priceCategory": 3,
+    "uniqueFeature": "Glyph Interface 3.0",
+    "specs": {
+      "display": "6.7\" AMOLED",
+      "processor": "Snapdragon",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 9.0,
+      "camera": 8.8,
+      "battery": 9.0,
+      "charging": 8.5,
+      "display": 9.2,
+      "sound": 8.5,
+      "ipRating": 9.0,
+      "processor": 9.2
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": true,
+    "processor_brand": "Snapdragon",
+    "screen_size": 6.7,
+    "price_numeric": 44999,
+    "price_history": [
+      44999,
+      43462,
+      42698,
+      41931,
+      41404,
+      39892
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "No charger in box"
+    ]
+  },
+  {
+    "id": "vivov50pro",
+    "name": "V50 Pro",
+    "brand": "Vivo",
+    "emoji": "📱",
+    "price": "₹42,999",
+    "priceCategory": 3,
+    "uniqueFeature": "Portrait master",
+    "specs": {
+      "display": "6.78\" AMOLED",
+      "processor": "MediaTek",
+      "ram": "12GB RAM",
+      "battery": "5000 mAh",
+      "charging": "Fast Wired",
+      "camera": "Multiple Lenses",
+      "ip": "IP68",
+      "weight": "200g",
+      "build": "Premium"
+    },
+    "scores": {
+      "durability": 8.8,
+      "camera": 9.2,
+      "battery": 9.2,
+      "charging": 9.2,
+      "display": 9.3,
+      "sound": 8.5,
+      "ipRating": 9.0,
+      "processor": 8.8
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mobile_phone_icon.png"
+    ],
+    "ram_gb": 12,
+    "storage_options": "256GB / 512GB",
+    "has_5g": true,
+    "has_nfc": true,
+    "has_wireless_charging": false,
+    "processor_brand": "MediaTek",
+    "screen_size": 6.78,
+    "price_numeric": 42999,
+    "price_history": [
+      42999,
+      42448,
+      41352,
+      40157,
+      38620,
+      38044
+    ],
+    "pros": [
+      "Great performance",
+      "Modern design",
+      "Good display"
+    ],
+    "cons": [
+      "Average cameras",
+      "Bloatware"
+    ]
   }
 ];
 

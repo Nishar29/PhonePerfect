@@ -370,19 +370,26 @@ function openCompareModal() {
   if (compareList.length === 0) return;
   const phonesToCompare = compareList.map(id => PHONES.find(p => p.id === id));
   
+  const valueScores = phonesToCompare.map(p => getOverallScore(p) / (getPhonePrice(p) / 10000));
+  const maxVal = Math.max(...valueScores);
+  
   const content = document.getElementById('compare-content');
   
   content.innerHTML = `
     <h2 class="compare-title">Compare Phones</h2>
     <div class="compare-grid" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
-      ${phonesToCompare.map(p => `
-        <div class="compare-col-header">
+      ${phonesToCompare.map((p, i) => {
+        const isBestValue = valueScores[i] === maxVal && valueScores.length > 1;
+        return `
+        <div class="compare-col-header" style="position: relative;">
+          ${isBestValue ? '<div class="best-value-badge">🏆 Best Value</div>' : ''}
           <div class="compare-emoji">${p.emoji}</div>
           <div class="compare-name">${p.name}</div>
           <div class="compare-brand">${p.brand}</div>
           <div class="compare-price">${p.price}</div>
         </div>
-      `).join('')}
+        `;
+      }).join('')}
     </div>
     
     <div class="radar-chart-wrap" style="margin: 32px 0;">
@@ -401,29 +408,62 @@ function openCompareModal() {
         </div>
       `).join('')}
       
-      <!-- Added Numeric Comparisons -->
+      <!-- Scores Comparison -->
+      <h3 style="margin-top:20px; font-size:1.1rem; color:var(--text-1);">Feature Scores</h3>
+      ${CRITERIA.map(c => {
+        const scoreKey = c.key === 'ipRating' ? 'ip' : c.key;
+        const maxScore = Math.max(...phonesToCompare.map(p => p.scores[scoreKey] || p.scores[c.key] || 0));
+        return `
+        <div class="compare-spec-row">
+          <div class="compare-spec-label">${c.icon} ${c.label}</div>
+          <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+            ${phonesToCompare.map(p => {
+              const s = p.scores[scoreKey] || p.scores[c.key] || 0;
+              return `<div class="compare-spec-val ${s === maxScore && s > 0 && phonesToCompare.length > 1 ? 'compare-winner' : ''}">${s}/10</div>`;
+            }).join('')}
+          </div>
+        </div>
+        `;
+      }).join('')}
+
+      <!-- Numeric Specs Comparison -->
+      <h3 style="margin-top:20px; font-size:1.1rem; color:var(--text-1);">Detailed Specs</h3>
       <div class="compare-spec-row">
         <div class="compare-spec-label">RAM</div>
         <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
-          ${phonesToCompare.map(p => `
-            <div class="compare-spec-val ${p.ram_gb === Math.max(...phonesToCompare.map(x=>x.ram_gb||0)) ? 'compare-winner' : ''}">${p.ram_gb || '?'} GB</div>
-          `).join('')}
+          ${phonesToCompare.map(p => {
+            const maxRam = Math.max(...phonesToCompare.map(x=>x.ram_gb||0));
+            return `<div class="compare-spec-val ${(p.ram_gb||0) === maxRam && maxRam > 0 && phonesToCompare.length > 1 ? 'compare-winner' : ''}">${p.ram_gb || '?'} GB</div>`;
+          }).join('')}
         </div>
       </div>
       <div class="compare-spec-row">
         <div class="compare-spec-label">Screen Size</div>
         <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
-          ${phonesToCompare.map(p => `
-            <div class="compare-spec-val ${p.screen_size === Math.max(...phonesToCompare.map(x=>x.screen_size||0)) ? 'compare-winner' : ''}">${p.screen_size || '?'} inches</div>
-          `).join('')}
+          ${phonesToCompare.map(p => {
+            const maxScr = Math.max(...phonesToCompare.map(x=>x.screen_size||0));
+            return `<div class="compare-spec-val ${(p.screen_size||0) === maxScr && maxScr > 0 && phonesToCompare.length > 1 ? 'compare-winner' : ''}">${p.screen_size || '?'} inches</div>`;
+          }).join('')}
+        </div>
+      </div>
+      <div class="compare-spec-row">
+        <div class="compare-spec-label">Battery Capacity</div>
+        <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
+          ${phonesToCompare.map(p => {
+            const getBatNum = x => parseInt(getBatteryMah(x).replace(/,/g,'')) || 0;
+            const maxBat = Math.max(...phonesToCompare.map(x => getBatNum(x)));
+            const pBat = getBatNum(p);
+            return `<div class="compare-spec-val ${pBat === maxBat && maxBat > 0 && phonesToCompare.length > 1 ? 'compare-winner' : ''}">${pBat || '?'} mAh</div>`;
+          }).join('')}
         </div>
       </div>
       <div class="compare-spec-row">
         <div class="compare-spec-label">Price</div>
         <div class="compare-spec-values" style="grid-template-columns: repeat(${phonesToCompare.length}, 1fr)">
-          ${phonesToCompare.map(p => `
-            <div class="compare-spec-val ${p.price_numeric === Math.min(...phonesToCompare.map(x=>x.price_numeric||9999999)) ? 'compare-winner' : ''}">₹${p.price_numeric ? p.price_numeric.toLocaleString() : '?'}</div>
-          `).join('')}
+          ${phonesToCompare.map(p => {
+            const minPrc = Math.min(...phonesToCompare.map(x=>x.price_numeric||9999999));
+            return `<div class="compare-spec-val ${(p.price_numeric||9999999) === minPrc && phonesToCompare.length > 1 ? 'compare-winner' : ''}">₹${p.price_numeric ? p.price_numeric.toLocaleString() : '?'}</div>`;
+          }).join('')}
         </div>
       </div>
     </div>
@@ -465,6 +505,19 @@ function renderAllPhonesGrid() {
   if (advFilters.processor !== 'any') {
     phones = phones.filter(p => p.processor_brand === advFilters.processor);
   }
+  if (advFilters.battery && advFilters.battery !== 'any') {
+    const minBattery = parseInt(advFilters.battery);
+    phones = phones.filter(p => parseInt(getBatteryMah(p).replace(/,/g, '')) >= minBattery);
+  }
+  if (advFilters.screen && advFilters.screen !== 'any') {
+    phones = phones.filter(p => {
+      const size = p.screen_size || parseFloat(p.specs.display);
+      if (advFilters.screen === 'small') return size < 6.3;
+      if (advFilters.screen === 'medium') return size >= 6.3 && size <= 6.7;
+      if (advFilters.screen === 'large') return size > 6.7;
+      return true;
+    });
+  }
   if (advFilters.has5g) phones = phones.filter(p => p.has_5g);
   if (advFilters.hasNfc) phones = phones.filter(p => p.has_nfc);
   if (advFilters.hasWireless) phones = phones.filter(p => p.has_wireless_charging);
@@ -474,12 +527,20 @@ function renderAllPhonesGrid() {
     phones = phones.filter(p =>
       p.name.toLowerCase().includes(q) ||
       p.brand.toLowerCase().includes(q) ||
-      (p.uniqueFeature && p.uniqueFeature.toLowerCase().includes(q))
+      (p.uniqueFeature && p.uniqueFeature.toLowerCase().includes(q)) ||
+      (p.specs.processor && p.specs.processor.toLowerCase().includes(q)) ||
+      (p.specs.display && p.specs.display.toLowerCase().includes(q))
     );
   }
 
   if (currentSort === 'overall') {
     phones.sort((a, b) => getOverallScore(b) - getOverallScore(a));
+  } else if (currentSort === 'value') {
+    phones.sort((a, b) => {
+      const valA = getOverallScore(a) / (getPhonePrice(a) / 10000);
+      const valB = getOverallScore(b) / (getPhonePrice(b) / 10000);
+      return valB - valA;
+    });
   } else {
     phones.sort((a, b) => b.scores[currentSort] - a.scores[currentSort]);
   }
@@ -1088,6 +1149,8 @@ function toggleFilterPanel() {
 function applyAdvancedFilters() {
   advFilters.ram = document.getElementById('filter-ram').value;
   advFilters.processor = document.getElementById('filter-processor').value;
+  advFilters.battery = document.getElementById('filter-battery') ? document.getElementById('filter-battery').value : 'any';
+  advFilters.screen = document.getElementById('filter-screen') ? document.getElementById('filter-screen').value : 'any';
   advFilters.has5g = document.getElementById('filter-5g').checked;
   advFilters.hasNfc = document.getElementById('filter-nfc').checked;
   advFilters.hasWireless = document.getElementById('filter-wireless').checked;
@@ -1097,6 +1160,8 @@ function applyAdvancedFilters() {
 function resetAdvancedFilters() {
   document.getElementById('filter-ram').value = 'any';
   document.getElementById('filter-processor').value = 'any';
+  if (document.getElementById('filter-battery')) document.getElementById('filter-battery').value = 'any';
+  if (document.getElementById('filter-screen')) document.getElementById('filter-screen').value = 'any';
   document.getElementById('filter-5g').checked = false;
   document.getElementById('filter-nfc').checked = false;
   document.getElementById('filter-wireless').checked = false;
