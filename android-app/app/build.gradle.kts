@@ -5,10 +5,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.phoneperfect"
+    namespace = "com.phoneperfect.finder"
     compileSdk = 36
     defaultConfig {
-        applicationId = "com.example.phoneperfect"
+        applicationId = "com.phoneperfect.finder"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

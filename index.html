@@ -2,395 +2,794 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PhonePerfect – Smart Phone Recommender</title>
-  <meta name="description" content="Find your perfect smartphone based on durability, camera, battery, charging speed, display, sound quality, and IP rating using real 2024 phone data." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>PhonePerfect – AI-Based Smartphone Purchase Decision & Risk Analysis System</title>
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#111827">
+  <meta name="theme-color" content="#0A0E17">
   <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3437/3437364.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <!-- Confetti & HTML2Canvas for Premium UI and Export -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
-  <!-- TOP APP BAR -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-inner">
-      <div class="nav-logo">
-        <div class="logo-icon">📱</div>
-        <span class="logo-text">Phone<span class="accent">Perfect</span></span>
-      </div>
-      <div style="display: flex; gap: 12px; align-items: center;">
-        <select id="lang-select" onchange="changeLanguage(this.value)" style="background: var(--bg-card); color: var(--text-1); border: 1px solid var(--border); border-radius: 8px; padding: 4px 8px; font-family: inherit; font-size: 0.9rem; cursor: pointer;">
-          <option value="en">English</option>
-          <option value="hi">हिंदी (Hindi)</option>
-          <option value="ta">தமிழ் (Tamil)</option>
-          <option value="te">తెలుగు (Telugu)</option>
-        </select>
-        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
-          🌓
-        </button>
-      </div>
-    </div>
-  </nav>
-
-  <!-- BOTTOM APP BAR -->
-  <div class="bottom-nav">
-    <a href="#finder" class="bottom-nav-item active">
-      <div class="bottom-nav-icon">🔍</div>
-      <span class="bottom-nav-text">Find</span>
-    </a>
-    <a href="#phones-list" class="bottom-nav-item" onclick="showAllPhones()">
-      <div class="bottom-nav-icon">📱</div>
-      <span class="bottom-nav-text">Phones</span>
-    </a>
-    <a href="#phones-list" class="bottom-nav-item" id="nav-favorites-bottom" onclick="toggleFavoritesView()">
-      <div class="bottom-nav-icon">⭐</div>
-      <span class="bottom-nav-text" id="bottom-fav-text">Favs (<span id="fav-count">0</span>)</span>
-    </a>
-    <a href="#about" class="bottom-nav-item">
-      <div class="bottom-nav-icon">ℹ️</div>
-      <span class="bottom-nav-text">About</span>
-    </a>
-  </div>
-
-  <!-- HERO -->
-  <section class="hero" id="hero">
-    <div class="hero-bg-orbs">
-      <div class="orb orb-1"></div>
-      <div class="orb orb-2"></div>
-      <div class="orb orb-3"></div>
-    </div>
-    <div class="hero-content">
-      <h1 class="hero-title">Discover the Best <span class="gradient-text">Smartphones</span></h1>
-      <p class="hero-subtitle">Select what matters most to you below, and let our engine match you with the best devices on the market.</p>
-      <a href="#finder" class="cta-btn" id="cta-main">
-        <span>Get Started</span>
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </a>
-    </div>
-    <div class="hero-phone-showcase">
-      <div class="showcase-card card-back-2">
-        <div class="showcase-inner">
-          <div class="showcase-score">9.4</div>
-          <div class="showcase-name">Galaxy S25 Ultra</div>
+  
+  <div class="app-container">
+    
+    <!-- 1. SPLASH SCREEN -->
+    <div id="screen-splash" class="app-screen active splash-bg">
+      <div class="splash-content">
+        <div class="splash-logo">
+          <div class="logo-circle"><span class="logo-check">✔️</span><span class="logo-phone">📱</span></div>
         </div>
-      </div>
-      <div class="showcase-card card-main">
-        <div class="showcase-inner">
-          <div class="showcase-score">9.6</div>
-          <div class="showcase-name">iPhone 16 Pro Max</div>
-          <div class="showcase-badge">Top Pick</div>
+        <h1 class="splash-title">Phone<span class="text-primary">Perfect</span></h1>
+        <p class="splash-subtitle">AI Purchase Decision & Risk Analysis</p>
+        <p class="splash-desc">Multi-factor risk analysis, price opportunity tracking & explainable purchase recommendations</p>
+        <div class="loading-dots">
+          <div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
         </div>
+        <p class="loading-text">Analyzing market prices & device risks...</p>
       </div>
-      <div class="showcase-card card-back-1">
-        <div class="showcase-inner">
-          <div class="showcase-score">9.2</div>
-          <div class="showcase-name">Pixel 9 Pro</div>
+    </div>
+
+    <!-- 2. HOME SCREEN -->
+    <div id="screen-home" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateTo('screen-more')">☰</button>
+        <h2 class="header-title">PhonePerfect AI</h2>
+        <button class="icon-btn" onclick="navigateTo('screen-more')">🔔</button>
+      </div>
+      <div class="screen-content padding-standard">
+        <div class="search-bar-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="home-search-input" placeholder="Search phones, brands, processors..." onclick="navigateTo('screen-search')" readonly />
+          <span class="scan-icon">📷</span>
+        </div>
+
+        <div class="hero-banner">
+          <div class="hero-text">
+            <h3>Smart Purchase Analysis</h3>
+            <p>Evaluate purchase risk & value score for any smartphone</p>
+            <button class="btn-primary-small" onclick="navigateTo('screen-priorities')">Start Risk Assessment</button>
+          </div>
+          <div class="hero-img">🛡️</div>
+        </div>
+
+        <div class="section-title-row">
+          <h3>Popular Brands</h3>
+          <button class="text-link" onclick="navigateTo('screen-filters')">View All</button>
+        </div>
+        <div class="brands-scroll" id="brand-filters">
+          <!-- Populated by JS -->
+        </div>
+
+        <div class="section-title-row">
+          <h3>Decision & Risk Tools</h3>
+        </div>
+        <div class="quick-actions-grid">
+          <div class="action-card" onclick="navigateTo('screen-compare')">
+            <span class="action-icon">⚖️</span>
+            <span class="action-text">Compare Risk</span>
+          </div>
+          <div class="action-card" onclick="navigateTo('screen-filters')">
+            <span class="action-icon">⚙️</span>
+            <span class="action-text">Filters</span>
+          </div>
+          <div class="action-card" onclick="navigateTo('screen-favorites')">
+            <span class="action-icon">❤️</span>
+            <span class="action-text">Favorites</span>
+          </div>
+          <div class="action-card" onclick="navigateTo('screen-search')">
+            <span class="action-icon">🔍</span>
+            <span class="action-text">Search Devices</span>
+          </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- HOW IT WORKS -->
-  <section class="how-it-works" id="about">
-    <div class="section-container">
-      <div class="section-header">
-        <div class="section-badge">How It Works</div>
-        <h2 class="section-title">Three steps to your perfect phone</h2>
+    <!-- 3. PRIORITIES SCREEN -->
+    <div id="screen-priorities" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">User Priorities</h2>
+        <div style="width: 24px;"></div>
       </div>
-      <div class="steps-grid">
-        <div class="step-card">
-          <div class="step-num">01</div>
-          <div class="step-icon">🎚️</div>
-          <h3>Select Your Priorities</h3>
-          <p>Tap the features that matter most — camera? battery life? ruggedness? You decide.</p>
+      <div class="screen-content padding-standard flex-column">
+        <p class="subtitle-text">Select your primary priorities to build your personalized weight model (Max 5)</p>
+        
+        <div class="list-container" id="priority-tags-container">
+          <div class="list-item" data-priority="camera">
+            <span class="list-icon">📷</span> <span class="list-text">Camera Quality</span> <div class="custom-checkbox"></div>
+          </div>
+          <div class="list-item" data-priority="battery">
+            <span class="list-icon">🔋</span> <span class="list-text">Battery Life</span> <div class="custom-checkbox"></div>
+          </div>
+          <div class="list-item" data-priority="processor">
+            <span class="list-icon">⚡</span> <span class="list-text">Processor Performance</span> <div class="custom-checkbox"></div>
+          </div>
+          <div class="list-item" data-priority="display">
+            <span class="list-icon">📱</span> <span class="list-text">Display Quality</span> <div class="custom-checkbox"></div>
+          </div>
+          <div class="list-item" data-priority="gaming">
+            <span class="list-icon">🎮</span> <span class="list-text">Gaming Performance</span> <div class="custom-checkbox"></div>
+          </div>
+          <div class="list-item" data-priority="storage">
+            <span class="list-icon">💾</span> <span class="list-text">Storage & RAM</span> <div class="custom-checkbox"></div>
+          </div>
+          <div class="list-item" data-priority="charging">
+            <span class="list-icon">🔌</span> <span class="list-text">Charging Speed</span> <div class="custom-checkbox"></div>
+          </div>
+          <div class="list-item" data-priority="durability">
+            <span class="list-icon">🛡️</span> <span class="list-text">Build Quality & Durability</span> <div class="custom-checkbox"></div>
+          </div>
         </div>
-        <div class="step-card">
-          <div class="step-num">02</div>
-          <div class="step-icon">⚡</div>
-          <h3>Smart Scoring</h3>
-          <p>Our engine calculates weighted scores from real benchmark data across all 7 criteria.</p>
+
+        <button class="btn-primary mt-auto" onclick="navigateTo('screen-budget')">Next: Set Budget</button>
+      </div>
+    </div>
+
+    <!-- 4. BUDGET SCREEN -->
+    <div id="screen-budget" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">Target Budget Ceiling</h2>
+        <div style="width: 24px;"></div>
+      </div>
+      <div class="screen-content padding-standard flex-column">
+        <p class="subtitle-text">Select target price ceiling for price suitability scoring</p>
+        
+        <div class="list-container" id="budget-items-container">
+          <div class="list-item radio-item" data-budget="under-10000">
+            <span class="custom-radio"></span> <span class="list-text">Under ₹10,000</span>
+          </div>
+          <div class="list-item radio-item" data-budget="10000-20000">
+            <span class="custom-radio"></span> <span class="list-text">₹10,000 - ₹20,000</span>
+          </div>
+          <div class="list-item radio-item" data-budget="20000-30000">
+            <span class="custom-radio"></span> <span class="list-text">₹20,000 - ₹30,000</span>
+          </div>
+          <div class="list-item radio-item" data-budget="30000-50000">
+            <span class="custom-radio"></span> <span class="list-text">₹30,000 - ₹50,000</span>
+          </div>
+          <div class="list-item radio-item" data-budget="50000-80000">
+            <span class="custom-radio"></span> <span class="list-text">₹50,000 - ₹80,000</span>
+          </div>
+          <div class="list-item radio-item" data-budget="above-80000">
+            <span class="custom-radio"></span> <span class="list-text">Above ₹80,000 / Premium</span>
+          </div>
         </div>
-        <div class="step-card">
-          <div class="step-num">03</div>
-          <div class="step-icon">🏆</div>
-          <h3>Get Your Matches</h3>
-          <p>See ranked results with detailed breakdowns. Click any phone to explore full specs.</p>
+
+        <button class="btn-primary mt-auto" id="recommend-btn" onclick="generateRecommendations(); navigateTo('screen-results');">Analyze Market Devices</button>
+        <div id="budget-display" hidden>No Limit</div>
+      </div>
+    </div>
+
+    <!-- 5. RESULTS SCREEN (SMART PURCHASE ANALYSIS) -->
+    <div id="screen-results" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">Smart Purchase Analysis</h2>
+        <button class="icon-btn" onclick="navigateTo('screen-filters')">⚙️</button>
+      </div>
+      <p class="subtitle-text text-center mt-2">Ranked by Value Score & Purchase Risk Level</p>
+      
+      <div class="screen-content padding-standard">
+        <div id="results-section" style="display:block;">
+          <div id="phones-grid" class="vertical-list">
+            <!-- Populated by JS with Value Score, Risk & Deal Badges -->
+          </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- UPGRADE ADVISOR -->
-  <section class="upgrade-advisor" id="upgrade">
-    <div class="section-container">
-      <div class="section-header">
-        <div class="section-badge">Smart Upgrade</div>
-        <h2 class="section-title">Thinking of upgrading?</h2>
-        <p class="section-subtitle">Select your current phone and we'll show you exactly what you'll gain.</p>
+    <!-- 6. NEW PURCHASE ANALYSIS SCREEN -->
+    <div id="screen-purchase-analysis" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">Purchase Decision & Risk</h2>
+        <button class="icon-btn fav-btn" id="pa-fav-btn">❤️</button>
       </div>
-      <div class="upgrade-card">
-        <label class="upgrade-label">I currently use:</label>
-        <div class="upgrade-controls">
-          <select id="current-phone-select" class="upgrade-select">
-            <option value="">Select your phone...</option>
-            <!-- Generated by JS -->
-          </select>
-          <button class="cta-btn" onclick="generateUpgradeReportUI()">
-            <span>Analyze Upgrade</span>
-          </button>
+      <div class="screen-content padding-standard">
+        
+        <!-- Decision Banner -->
+        <div id="pa-recommendation-badge" class="decision-banner dec-buy">
+          RECOMMENDED TO BUY
         </div>
-        <div id="upgrade-results" class="upgrade-results" style="display:none">
-          <!-- Generated by JS -->
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- FINDER -->
-  <section class="finder-section" id="finder">
-    <div class="section-container">
-      <div class="section-header">
-        <div class="section-badge">Priority Finder</div>
-        <h2 class="section-title">What matters most to you?</h2>
-        <p class="section-subtitle">Select up to 3 features that are most important to you</p>
-      </div>
-
-      <!-- PRIORITY TAGS -->
-      <div class="priority-tags-container" id="priority-tags-container">
-        <div class="priority-tag" onclick="togglePriority('camera', this)">📸 Camera & Video</div>
-        <div class="priority-tag" onclick="togglePriority('battery', this)">🔋 Battery Life</div>
-        <div class="priority-tag" onclick="togglePriority('processor', this)">⚡ Performance & Gaming</div>
-        <div class="priority-tag" onclick="togglePriority('display', this)">📺 Display Quality</div>
-        <div class="priority-tag" onclick="togglePriority('durability', this)">🛡️ Durability & IP Rating</div>
-        <div class="priority-tag" onclick="togglePriority('charging', this)">🔌 Fast Charging</div>
-        <div class="priority-tag" onclick="togglePriority('sound', this)">🔊 Audio Quality</div>
-      </div>
-
-      <!-- ALSO FILTER BY BUDGET -->
-      <div class="budget-filter">
-        <div class="budget-label">
-          <span>💰 Budget Range</span>
-          <span class="budget-value" id="budget-display">No Limit</span>
-        </div>
-        <input type="range" class="budget-range" id="budget-range" min="0" max="5" step="1" value="5" oninput="updateBudget(this.value)" />
-        <div class="budget-ticks">
-          <span>Under ₹20K</span>
-          <span>₹20-35K</span>
-          <span>₹35-50K</span>
-          <span>₹50-70K</span>
-          <span>₹70-100K</span>
-          <span>No Limit</span>
-        </div>
-      </div>
-
-      <button class="recommend-btn" id="recommend-btn" onclick="generateRecommendations()">
-        <span>Get Recommendations</span>
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </button>
-    </div>
-  </section>
-
-  <!-- RESULTS -->
-  <section class="results-section" id="results-section" style="display:none">
-    <div class="section-container" id="exportable-results">
-      <div class="section-header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px;">
-        <div>
-          <div class="section-badge">Your Results</div>
-          <h2 class="section-title">Top Picks For You</h2>
-          <p class="section-subtitle" id="results-subtitle">Based on your preferences</p>
-        </div>
-        <button class="compare-btn-primary" onclick="exportResults()">
-          📸 Save as Image
-        </button>
-      </div>
-
-      <!-- TOP 3 PODIUM -->
-      <div class="podium" id="podium">
-        <!-- Generated by JS -->
-      </div>
-
-      <!-- FULL RANKED LIST -->
-      <h3 class="ranked-title">All Ranked Phones</h3>
-      <div class="ranked-list" id="ranked-list">
-        <!-- Generated by JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ALL PHONES LIST -->
-  <section class="all-phones-section" id="phones-list">
-    <div class="section-container">
-      <div class="section-header">
-        <div class="section-badge">Phone Database</div>
-        <h2 class="section-title">All 700+ Phones in Our Database</h2>
-        <p class="section-subtitle">Real specs from DXOMark, GSMArena & manufacturer data</p>
-      </div>
-      <div class="advanced-filter-panel">
-        <div class="filter-header" onclick="toggleFilterPanel()">
-          <span>⚙️ Advanced Filters</span>
-          <span id="filter-chevron">▼</span>
-        </div>
-        <div class="filter-body" id="filter-body" style="display:none">
-          <div class="filter-grid">
-            <div class="filter-group">
-              <label>RAM</label>
-              <select id="filter-ram" onchange="applyAdvancedFilters()">
-                <option value="any">Any</option>
-                <option value="8">8GB+</option>
-                <option value="12">12GB+</option>
-                <option value="16">16GB+</option>
-              </select>
-            </div>
-            <div class="filter-group">
-              <label>Processor</label>
-              <select id="filter-processor" onchange="applyAdvancedFilters()">
-                <option value="any">Any</option>
-                <option value="Snapdragon">Snapdragon</option>
-                <option value="Apple">Apple</option>
-                <option value="MediaTek">MediaTek</option>
-                <option value="Tensor">Tensor</option>
-              </select>
-            </div>
-            <div class="filter-group">
-              <label>Battery</label>
-              <select id="filter-battery" onchange="applyAdvancedFilters()">
-                <option value="any">Any</option>
-                <option value="4000">4000mAh+</option>
-                <option value="5000">5000mAh+</option>
-                <option value="6000">6000mAh+</option>
-              </select>
-            </div>
-            <div class="filter-group">
-              <label>Screen Size</label>
-              <select id="filter-screen" onchange="applyAdvancedFilters()">
-                <option value="any">Any</option>
-                <option value="small">Under 6.3"</option>
-                <option value="medium">6.3" - 6.7"</option>
-                <option value="large">Above 6.7"</option>
-              </select>
-            </div>
-            <div class="filter-group">
-              <label>Features</label>
-              <label class="checkbox-label">
-                <input type="checkbox" id="filter-5g" onchange="applyAdvancedFilters()" /> 5G Ready
-              </label>
-              <label class="checkbox-label">
-                <input type="checkbox" id="filter-nfc" onchange="applyAdvancedFilters()" /> NFC
-              </label>
-              <label class="checkbox-label">
-                <input type="checkbox" id="filter-wireless" onchange="applyAdvancedFilters()" /> Wireless Charging
-              </label>
+        <!-- Phone Overview Header Card -->
+        <div class="analysis-hero-card mt-3">
+          <div class="hero-header-row">
+            <span id="pa-phone-emoji" class="hero-emoji">📱</span>
+            <div>
+              <h3 id="pa-phone-name" class="hero-phone-title">Phone Model</h3>
+              <div id="pa-phone-price" class="hero-phone-price">₹0</div>
             </div>
           </div>
-          <button class="compare-btn-outline" onclick="resetAdvancedFilters()" style="margin-top: 16px">Reset Filters</button>
+
+          <!-- Key Metrics Grid -->
+          <div class="metrics-grid mt-3">
+            <div class="metric-box">
+              <div class="metric-val" id="pa-value-score">0</div>
+              <div class="metric-lbl">Value Score</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" id="pa-risk-score">0</div>
+              <div class="metric-lbl">Risk Score</div>
+            </div>
+          </div>
+
+          <!-- Status Badges Row -->
+          <div class="status-badges-row mt-3">
+            <span id="pa-risk-level" class="badge-risk risk-low">LOW RISK</span>
+            <span id="pa-deal-status" class="badge-deal deal-good">GOOD DEAL</span>
+            <span id="pa-price-opportunity" class="badge-opportunity">Excellent Opportunity</span>
+          </div>
+        </div>
+
+        <!-- Price Trend & Historical Analysis -->
+        <div class="analysis-section-card mt-3">
+          <div class="section-card-title">📈 Historical Price Analysis</div>
+          <div id="pa-deal-alert-banner" style="display:none; background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 12px; padding: 10px 14px; margin: 10px 0; font-size: 0.85rem; color: var(--text-1);"></div>
+          <div class="price-stats-grid">
+            <div class="p-stat">
+              <span class="p-stat-lbl">30-Day Avg</span>
+              <span id="pa-price-avg" class="p-stat-val">₹0</span>
+            </div>
+            <div class="p-stat">
+              <span class="p-stat-lbl">Lowest</span>
+              <span id="pa-price-min" class="p-stat-val">₹0</span>
+            </div>
+            <div class="p-stat">
+              <span class="p-stat-lbl">Highest</span>
+              <span id="pa-price-max" class="p-stat-val">₹0</span>
+            </div>
+            <div class="p-stat">
+              <span class="p-stat-lbl">Difference</span>
+              <span id="pa-price-diff" class="p-stat-val">0%</span>
+            </div>
+          </div>
+          <div class="chart-container mt-3">
+            <canvas id="pa-price-chart" width="320" height="90"></canvas>
+          </div>
+        </div>
+
+        <!-- AI Market Volatility & Depreciation Forecast -->
+        <div class="analysis-section-card mt-3">
+          <div class="section-card-title">📉 AI Market Volatility & Depreciation Forecast</div>
+          <div class="volatility-card-body mt-2">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+              <span style="font-size:0.85rem; color:var(--text-2); font-weight:600;">Volatility Index:</span>
+              <span id="pa-volatility-badge" class="badge-risk risk-low">Low Volatility (12%)</span>
+            </div>
+            
+            <!-- Timeline forecast -->
+            <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:8px; text-align:center; margin-bottom:12px;">
+              <div style="background:var(--bg-dark); padding:10px; border-radius:12px; border:1px solid var(--border);">
+                <span style="display:block; font-size:0.65rem; color:var(--text-2); font-weight:600;">Today</span>
+                <span id="pa-price-now" style="font-size:0.85rem; font-weight:800; color:var(--text-1);">₹0</span>
+              </div>
+              <div style="background:var(--bg-dark); padding:10px; border-radius:12px; border:1px solid var(--border);">
+                <span style="display:block; font-size:0.65rem; color:var(--text-2); font-weight:600;">In 3 Months</span>
+                <span id="pa-price-3m" style="font-size:0.85rem; font-weight:800; color:#38bdf8;">₹0</span>
+                <span id="pa-drop-3m" style="display:block; font-size:0.65rem; color:var(--success); font-weight:700;">-0%</span>
+              </div>
+              <div style="background:var(--bg-dark); padding:10px; border-radius:12px; border:1px solid var(--border);">
+                <span style="display:block; font-size:0.65rem; color:var(--text-2); font-weight:600;">In 6 Months</span>
+                <span id="pa-price-6m" style="font-size:0.85rem; font-weight:800; color:#c084fc;">₹0</span>
+                <span id="pa-drop-6m" style="display:block; font-size:0.65rem; color:var(--success); font-weight:700;">-0%</span>
+              </div>
+            </div>
+
+            <!-- AI Buying Advice Box -->
+            <div id="pa-depreciation-advice-box" style="background: rgba(99, 102, 241, 0.12); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 12px; padding: 12px;">
+              <div style="font-size:0.7rem; color:#a78bfa; font-weight:800; text-transform:uppercase; margin-bottom:4px; letter-spacing:0.5px;">🤖 AI Depreciation Advisory</div>
+              <div id="pa-depreciation-advice" style="font-size:0.95rem; font-weight:800; color:var(--text-1); margin-bottom:4px;">BUY NOW</div>
+              <div id="pa-depreciation-detail" style="font-size:0.8rem; color:var(--text-2); line-height:1.4;">Minimal depreciation expected. Price floor reached.</div>
+            </div>
+            
+            <!-- Mathematical Proof Note for Faculty -->
+            <div style="font-size:0.68rem; color:var(--text-3); margin-top:10px; line-height:1.3; font-style:italic;">
+              📐 <strong>Academic Model:</strong> Forecast calculated via time-decay exponent formula <code style="color:#a78bfa;">P(t) = P₀ × (1 - δ · α(age))</code> using brand retention coefficient δ and launch age decay α.
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Multi-Seller Price Comparison -->
+        <div class="analysis-section-card mt-3">
+          <div class="section-card-title">🏪 Multi-Seller Real-Time Price Comparison</div>
+          <div id="pa-sellers-list" style="display:flex; flex-direction:column; gap:10px;" class="mt-2">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- User Requirement Match Breakdown -->
+        <div class="analysis-section-card mt-3">
+          <div class="section-card-title">🎯 User Priority Match Breakdown</div>
+          <div id="pa-req-breakdown" class="req-bars-container mt-2">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Specification Trade-Offs -->
+        <div class="analysis-section-card mt-3">
+          <div class="section-card-title">⚖️ Specification Trade-Off Analysis</div>
+          <div id="pa-tradeoffs-list" class="tradeoffs-container mt-2">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Competitor Comparison -->
+        <div class="analysis-section-card mt-3">
+          <div class="section-card-title">🔍 Market Competitor Alternatives</div>
+          <div id="pa-competitor-list" class="competitors-container mt-2">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Explainable Decision Reasons -->
+        <div class="analysis-section-card mt-3">
+          <div class="section-card-title">💡 Explainable Purchase Rationale</div>
+          <div id="pa-reasons-list" class="reasons-container mt-2">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Actions Row -->
+        <div class="actions-row mt-4 mb-4">
+          <button class="btn-primary" id="pa-view-details-btn" style="width: 100%; padding: 16px; font-size: 1.05rem; font-weight: 700; border-radius: 16px;">📋 Full Specifications</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 7. PHONE DETAILS SCREEN -->
+    <div id="screen-details" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title" id="modal-name">Phone Details</h2>
+        <button class="icon-btn fav-btn" id="modal-fav-btn">❤️</button>
+      </div>
+      <div class="screen-content padding-standard">
+        <div class="details-hero">
+          <div id="modal-phone-img-wrap" style="width:110px; height:110px; margin:0 auto 12px; background:radial-gradient(circle at center, rgba(168,85,247,0.15), rgba(255,255,255,0.02)); border-radius:18px; display:flex; align-items:center; justify-content:center; overflow:hidden; padding:6px; border:1px solid rgba(255,255,255,0.12); box-shadow:inset 0 0 15px rgba(139,92,246,0.1);">
+            <!-- Populated by JS -->
+          </div>
+          <div class="details-info-box">
+            <div class="details-rating">Value Score: <span id="modal-score">8.5</span></div>
+            <div class="details-price" id="modal-price">₹29,999</div>
+          </div>
+        </div>
+        <div class="details-actions mt-3">
+          <button class="btn-primary" id="add-compare-btn" style="width: 100%; padding: 14px; font-size: 1rem; font-weight: 700; border-radius: 14px;">⚖️ Add to Comparison</button>
+        </div>
+
+        <div class="details-specs-list mt-3" id="modal-specs-grid">
+          <!-- Populated by JS -->
         </div>
       </div>
-      <div class="phones-filter-bar">
-        <div class="search-wrapper" style="position: relative; display: flex; align-items: center; max-width: 400px; width: 100%;">
-          <input type="text" class="phone-search" id="phone-search" placeholder="🔍 Search phone name..." oninput="filterPhones(this.value)" style="width: 100%; padding-right: 40px;" />
-          <button id="voice-search-btn" class="voice-search-btn" onclick="startVoiceSearch()" title="Voice Search" style="position: absolute; right: 10px; background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text-2);">🎙️</button>
+    </div>
+
+    <!-- 8. COMPARE SCREEN -->
+    <div id="screen-compare" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">Compare Risk & Value</h2>
+        <button class="icon-btn" onclick="clearCompare()">🗑️</button>
+      </div>
+      <div class="screen-content padding-standard">
+        <div id="compare-content" class="compare-container">
+          <!-- Populated by JS -->
         </div>
-        <div class="sort-btns" style="flex-wrap: wrap;">
-          <button class="sort-btn active" onclick="sortPhones('overall', this)">Overall</button>
-          <button class="sort-btn" onclick="sortPhones('value', this)">Value for Money</button>
-          <button class="sort-btn" onclick="sortPhones('camera', this)">Camera</button>
-          <button class="sort-btn" onclick="sortPhones('battery', this)">Battery</button>
-          <button class="sort-btn" onclick="sortPhones('durability', this)">Durability</button>
+      </div>
+    </div>
+
+    <!-- 9. FAVORITES SCREEN -->
+    <div id="screen-favorites" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">My Saved Devices</h2>
+        <div style="width: 24px;"></div>
+      </div>
+      <div class="screen-content padding-standard">
+        <div id="favorites-grid" class="vertical-list">
+          <!-- Populated by JS -->
         </div>
       </div>
-      <div class="brand-filter-row" id="brand-filters">
-        <!-- Generated by JS -->
-      </div>
-      <div class="phones-grid" id="phones-grid">
-        <!-- Generated by JS -->
-      </div>
     </div>
-  </section>
 
-  <!-- MODAL -->
-  <div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
-    <div class="modal-box" id="modal-box">
-      <button class="modal-close" onclick="closeModal(null)">✕</button>
-      <div class="modal-content" id="modal-content">
-        <!-- Generated by JS -->
+    <!-- 10. ADVANCED FILTERS -->
+    <div id="screen-filters" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">Smartphone Filters</h2>
+        <button class="text-btn text-primary" onclick="resetAdvancedFilters()">Reset</button>
+      </div>
+      <div class="screen-content padding-standard">
+        
+        <!-- 1. Price / Budget -->
+        <div class="filter-group mb-4">
+          <label>💰 Price / Budget Tier</label>
+          <p class="filter-desc" style="font-size:0.75rem; color:var(--text-2); margin-top:-4px; margin-bottom:8px;">Set a clear spending limit to narrow down choices from entry-level, mid-range, or flagship tiers.</p>
+          <select id="filter-price" class="custom-select">
+            <option value="any">Any Budget Limit</option>
+            <option value="under-10000">Entry-Level (Under ₹10,000)</option>
+            <option value="10000-20000">Budget Mid-Range (₹10,000 – ₹20,000)</option>
+            <option value="20000-30000">Upper Mid-Range (₹20,000 – ₹30,000)</option>
+            <option value="30000-50000">Sub-Flagship (₹30,000 – ₹50,000)</option>
+            <option value="50000-80000">Flagship Tier (₹50,000 – ₹80,000)</option>
+            <option value="above-80000">Ultra Flagship (Above ₹80,000)</option>
+          </select>
+        </div>
+
+        <!-- 2. Processor (CPU) & RAM -->
+        <div class="filter-group mb-4">
+          <label>⚡ Processor (CPU) & RAM</label>
+          <p class="filter-desc" style="font-size:0.75rem; color:var(--text-2); margin-top:-4px; margin-bottom:8px;">Check the chip and memory size to ensure smooth app opening, gaming, and multitasking.</p>
+          <select id="filter-processor-ram" class="custom-select">
+            <option value="any">Any Processor & RAM</option>
+            <option value="high-cpu">Flagship Chipset (Snapdragon 8 / Dimensity 9000 / Apple A-Series)</option>
+            <option value="ram-6">6 GB RAM or higher</option>
+            <option value="ram-8">8 GB RAM or higher</option>
+            <option value="ram-12">12 GB RAM or higher</option>
+            <option value="ram-16">16 GB RAM or higher</option>
+          </select>
+        </div>
+
+        <!-- 3. Storage Space -->
+        <div class="filter-group mb-4">
+          <label>💾 Storage Space</label>
+          <p class="filter-desc" style="font-size:0.75rem; color:var(--text-2); margin-top:-4px; margin-bottom:8px;">Choose internal memory (like 128GB or 256GB) based on how many photos, videos, and apps you keep.</p>
+          <select id="filter-storage" class="custom-select">
+            <option value="any">Any Storage Size</option>
+            <option value="128">128 GB or higher</option>
+            <option value="256">256 GB or higher</option>
+            <option value="512">512 GB / 1 TB High Capacity</option>
+          </select>
+        </div>
+
+        <!-- 4. Battery Capacity -->
+        <div class="filter-group mb-4">
+          <label>🔋 Battery Capacity & Charging</label>
+          <p class="filter-desc" style="font-size:0.75rem; color:var(--text-2); margin-top:-4px; margin-bottom:8px;">Look at milliampere-hours (mAh) and charging speed to see how long the phone stays on.</p>
+          <select id="filter-battery" class="custom-select">
+            <option value="any">Any Battery Capacity</option>
+            <option value="5000">5,000 mAh+ Long Life Battery</option>
+            <option value="6000">6,000 mAh+ Ultra Battery</option>
+            <option value="fast-charge">Fast Charging (45W+ / 67W+ / 120W+)</option>
+          </select>
+        </div>
+
+        <!-- 5. Camera Quality -->
+        <div class="filter-group mb-4">
+          <label>📷 Camera Quality</label>
+          <p class="filter-desc" style="font-size:0.75rem; color:var(--text-2); margin-top:-4px; margin-bottom:8px;">Review megapixel counts, lens types (ultra-wide, telephoto), and low-light performance for photos and videos.</p>
+          <select id="filter-camera" class="custom-select">
+            <option value="any">Any Camera Quality</option>
+            <option value="triple">Pro Triple / Quad Camera System</option>
+            <option value="high-mp">High Megapixel (50MP / 108MP / 200MP Main)</option>
+            <option value="cam-8">8.0+ High Quality Camera Rating</option>
+            <option value="cam-9">9.0+ Flagship Camera Rating</option>
+          </select>
+        </div>
+
+        <!-- 6. Display Type & Size -->
+        <div class="filter-group mb-4">
+          <label>📱 Display Type & Size</label>
+          <p class="filter-desc" style="font-size:0.75rem; color:var(--text-2); margin-top:-4px; margin-bottom:8px;">Compare screen tech (OLED or LCD), refresh rate (60Hz, 90Hz, 120Hz), and physical dimensions.</p>
+          <select id="filter-display" class="custom-select">
+            <option value="any">Any Display Spec</option>
+            <option value="oled">AMOLED / OLED Screen Tech</option>
+            <option value="120hz">High Refresh Rate (90Hz / 120Hz / 144Hz Smooth)</option>
+            <option value="large-screen">Large Screen (6.67" – 6.8" Display)</option>
+          </select>
+        </div>
+
+        <!-- 7. Operating System -->
+        <div class="filter-group mb-4">
+          <label>⚙️ Operating System</label>
+          <p class="filter-desc" style="font-size:0.75rem; color:var(--text-2); margin-top:-4px; margin-bottom:8px;">Decide between Android and iOS based on your preference and current digital devices.</p>
+          <select id="filter-os" class="custom-select">
+            <option value="any">Any Operating System</option>
+            <option value="android">Android OS (Samsung One UI, Pixel UI, OxygenOS, HyperOS)</option>
+            <option value="ios">iOS (Apple iPhone)</option>
+          </select>
+        </div>
+
+        <div style="margin-top: 24px; margin-bottom: 120px; padding-bottom: 40px;">
+          <button class="btn-primary" style="width: 100%; padding: 16px; font-size: 1.05rem; font-weight: 700; border-radius: 16px; box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);" onclick="applyAdvancedFilters();">✨ Apply Filters & Suggest Phones</button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- COMPARE BAR -->
-  <div class="compare-bar" id="compare-bar">
-    <div class="compare-bar-content">
-      <div class="compare-bar-text">
-        <span id="compare-count">0</span> phones selected for comparison (Max 3)
+    <!-- 11. SEARCH RESULTS -->
+    <div id="screen-search" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">Search Devices</h2>
+        <div style="width: 24px;"></div>
       </div>
-      <div class="compare-bar-actions">
-        <button class="compare-btn-outline" onclick="clearCompare()">Clear</button>
-        <button class="compare-btn-primary" onclick="openCompareModal()">Compare Now</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- COMPARE MODAL -->
-  <div class="modal-overlay" id="compare-modal-overlay" onclick="closeCompareModal(event)">
-    <div class="modal-box compare-box" id="compare-modal-box">
-      <button class="modal-close" onclick="closeCompareModal(null)">✕</button>
-      <div class="compare-content" id="compare-content">
-        <!-- Generated by JS -->
+      <div class="screen-content padding-standard">
+        <div class="search-bar-wrap mb-4">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="Search device, brand or processor..." oninput="handleSearch()" />
+          <span class="scan-icon" onclick="document.getElementById('search-input').value=''; handleSearch()">✕</span>
+        </div>
+        <p class="subtitle-text mb-2"><span id="search-count">0</span> Devices Found</p>
+        <div id="search-grid" class="vertical-list">
+          <!-- Populated by JS -->
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-logo">📱 Phone<span class="accent">Perfect</span></div>
-      <p class="footer-desc">Powered by real benchmark data from DXOMark, GSMArena, and manufacturer specifications. Prices are indicative Indian market rates.</p>
-      <p class="footer-copy">© 2024 PhonePerfect. For informational purposes only.</p>
-    </div>
-  </footer>
-
-  <!-- AI CHAT FLOATING BUTTON & PANEL -->
-  <button class="ai-chat-btn" onclick="toggleChat()">
-    <span class="chat-icon">✨</span> Ask AI
-  </button>
-
-  <div class="chat-panel" id="chat-panel">
-    <div class="chat-header">
-      <div class="chat-title">
-        <span class="chat-icon">✨</span> PhonePerfect AI
+    <!-- 12. MORE / APP PREFERENCES & SHOPPING UTILITIES -->
+    <div id="screen-more" class="app-screen">
+      <div class="app-header">
+        <button class="icon-btn" onclick="navigateBack()">←</button>
+        <h2 class="header-title">App Center & Preferences</h2>
+        <div style="width: 24px;"></div>
       </div>
-      <button class="chat-close" onclick="toggleChat()">✕</button>
+      <div class="screen-content padding-standard">
+        <!-- User App Card -->
+        <div class="profile-card mb-3">
+          <div class="profile-avatar">⚡</div>
+          <div class="profile-info">
+            <h4>PhonePerfect Pro</h4>
+            <p>1,597 Market Smartphones • Real-Time Price Tracking</p>
+          </div>
+        </div>
+
+        <!-- Smart Shopping Utilities Group -->
+        <div class="menu-group-label mt-3">Smart Shopping Utilities</div>
+        <div class="list-container mt-2">
+          <div class="list-item" style="justify-content:space-between;" onclick="togglePriceDropAlertsSetting()">
+            <div style="display:flex; align-items:center;">
+              <span class="list-icon">🔔</span>
+              <div class="list-text">
+                <div>Price Drop Alerts</div>
+                <div style="font-size:0.75rem; color:var(--text-2); font-weight:normal;">Notify when devices hit All-Time Low</div>
+              </div>
+            </div>
+            <span id="setting-alerts-status" style="font-size:0.8rem; font-weight:700; color:var(--success);">ACTIVE</span>
+          </div>
+
+          <div class="list-item" style="justify-content:space-between;" onclick="triggerLivePriceSync()">
+            <div style="display:flex; align-items:center;">
+              <span class="list-icon">🔄</span>
+              <div class="list-text">
+                <div>Market Data Refresh</div>
+                <div style="font-size:0.75rem; color:var(--text-2); font-weight:normal;">Sync live prices from Amazon & Flipkart</div>
+              </div>
+            </div>
+            <button class="btn-primary-small" style="font-size:0.75rem; padding:4px 10px;">Sync Now</button>
+          </div>
+
+          <div class="list-item" style="justify-content:space-between;" onclick="navigateTo('screen-favorites')">
+            <div style="display:flex; align-items:center;">
+              <span class="list-icon">❤️</span>
+              <div class="list-text">
+                <div>Saved Favorites & Watchlist</div>
+                <div style="font-size:0.75rem; color:var(--text-2); font-weight:normal;">View bookmarked devices</div>
+              </div>
+            </div>
+            <span class="chevron">›</span>
+          </div>
+        </div>
+
+        <!-- System Architecture & Diagnostics -->
+        <div class="menu-group-label mt-4">Decision System & AI Engine</div>
+        <div class="list-container mt-2">
+          <div class="list-item" onclick="runSystemEvaluation()">
+            <span class="list-icon">🧪</span>
+            <div class="list-text">
+              <div>Run System Diagnostics</div>
+              <div style="font-size:0.75rem; color:var(--text-2); font-weight:normal;">Evaluate Decision Engine accuracy</div>
+            </div>
+            <span class="chevron">›</span>
+          </div>
+
+          <div class="list-item" onclick="toggleChat()">
+            <span class="list-icon">🤖</span>
+            <div class="list-text">
+              <div>AI Buying Assistant</div>
+              <div style="font-size:0.75rem; color:var(--text-2); font-weight:normal;">Ask AI for recommendations</div>
+            </div>
+            <span class="chevron">›</span>
+          </div>
+        </div>
+
+        <div id="eval-results-container" class="mt-3"></div>
+
+        <!-- App Information -->
+        <div class="menu-group-label mt-4">App Details</div>
+        <div class="list-container mt-2">
+          <div class="list-item" style="justify-content:space-between;">
+            <div style="display:flex; align-items:center;">
+              <span class="list-icon">🇮🇳</span>
+              <span class="list-text">Region & Currency</span>
+            </div>
+            <span style="font-size:0.8rem; color:var(--text-2); font-weight:600;">India (₹ INR)</span>
+          </div>
+
+          <div class="list-item" style="justify-content:space-between;" onclick="window.open('privacy-policy.html', '_blank')">
+            <div style="display:flex; align-items:center;">
+              <span class="list-icon">🛡️</span>
+              <span class="list-text">Privacy Policy</span>
+            </div>
+            <span class="chevron">›</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="chat-messages" id="chat-messages">
-      <!-- Messages injected here -->
+
+    <!-- BOTTOM NAV -->
+    <div class="bottom-nav" id="main-bottom-nav">
+      <div class="nav-item active" onclick="navigateTo('screen-home')">
+        <div class="nav-icon">🏠</div>
+        <span>Home</span>
+      </div>
+      <div class="nav-item" onclick="navigateTo('screen-compare')">
+        <div class="nav-icon">⚖️</div>
+        <span>Compare</span>
+      </div>
+      <div class="nav-item" onclick="navigateTo('screen-favorites')">
+        <div class="nav-icon">❤️</div>
+        <span>Favorites</span>
+      </div>
+      <div class="nav-item" onclick="navigateTo('screen-filters')">
+        <div class="nav-icon">⚙️</div>
+        <span>Filters</span>
+      </div>
+      <div class="nav-item" onclick="navigateTo('screen-more')">
+        <div class="nav-icon">☰</div>
+        <span>More</span>
+      </div>
     </div>
-    <div class="chat-input-area">
-      <input type="text" class="chat-input" id="chat-input" placeholder="Ask about phones..." onkeydown="handleChatKeydown(event)" />
-      <button class="chat-send" onclick="sendChatMessage()">➤</button>
+
+    <!-- FLOATING AI CHAT BUTTON -->
+    <button class="ai-chat-fab" onclick="toggleChat()" title="PhonePerfect AI Assistant">
+      <span class="fab-icon">🤖</span>
+      <span class="fab-pulse"></span>
+    </button>
+
+    <!-- AI CHAT DRAWER -->
+    <div id="chat-panel" class="chat-panel">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar-lg">🤖</div>
+          <div>
+            <h3 class="chat-title">PhonePerfect AI</h3>
+            <span class="chat-status"><span class="status-dot"></span> Online & Database-Linked</span>
+          </div>
+        </div>
+        <button class="chat-close-btn" onclick="toggleChat()">✕</button>
+      </div>
+      
+      <div class="chat-suggestions">
+        <button class="chip" onclick="askSuggestion('Best camera phone under 30K')">📸 Best Camera &lt; 30K</button>
+        <button class="chip" onclick="askSuggestion('Compare iPhone 16 Pro vs Galaxy S24')">⚔️ iPhone 16 vs S24</button>
+        <button class="chip" onclick="askSuggestion('Top gaming phones')">🎮 Gaming Pick</button>
+      </div>
+
+      <div id="chat-messages" class="chat-messages"></div>
+
+      <div class="chat-input-bar">
+        <input type="text" id="chat-input" placeholder="Ask AI (e.g. best battery under 25k)..." onkeydown="handleChatKeydown(event)" />
+        <button class="chat-send-btn" onclick="sendChatMessage()">Send ➔</button>
+      </div>
     </div>
-  </div>
+
+  </div> <!-- End App Container -->
 
   <script src="phones.js"></script>
   <script src="price-tracker.js"></script>
   <script src="ai-chat.js"></script>
-  <script src="auto-updater.js"></script>
   <script src="app.js"></script>
+  <script src="auto-updater.js"></script>
   <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js').then(registration => {
-          console.log('SW registered: ', registration.scope);
-        }).catch(registrationError => {
-          console.log('SW registration failed: ', registrationError);
-        });
-      });
+    const appScreens = document.querySelectorAll('.app-screen');
+    const navItems = document.querySelectorAll('.bottom-nav .nav-item');
+    
+    // Screens where bottom nav is hidden
+    const hideNavOn = ['screen-splash', 'screen-priorities', 'screen-budget', 'screen-details', 'screen-purchase-analysis'];
+
+    let screenHistory = ['screen-home'];
+
+    function syncScreenState(screenId) {
+      if (typeof appState !== 'undefined') {
+        appState.currentScreen = screenId;
+        if (!appState.screenHistory) appState.screenHistory = screenHistory;
+      }
+      if (screenId === 'screen-priorities' && typeof renderPriorities === 'function') renderPriorities();
+      if (screenId === 'screen-budget' && typeof renderBudget === 'function') renderBudget();
+      if (typeof updateDebugPanel === 'function') updateDebugPanel();
     }
+
+    function navigateTo(screenId) {
+      const target = document.getElementById(screenId);
+      if (!target) return;
+
+      appScreens.forEach(s => s.classList.remove('active'));
+      target.classList.add('active');
+
+      if (screenHistory[screenHistory.length - 1] !== screenId) {
+        screenHistory.push(screenId);
+        try {
+          history.pushState({ screen: screenId }, '', '#' + screenId);
+        } catch(e){}
+      }
+
+      const bNav = document.getElementById('main-bottom-nav');
+      if (hideNavOn.includes(screenId)) {
+        bNav.style.display = 'none';
+      } else {
+        bNav.style.display = 'flex';
+        navItems.forEach(n => n.classList.remove('active'));
+        if(screenId === 'screen-home') navItems[0].classList.add('active');
+        if(screenId === 'screen-compare') navItems[1].classList.add('active');
+        if(screenId === 'screen-favorites') navItems[2].classList.add('active');
+        if(screenId === 'screen-filters') navItems[3].classList.add('active');
+        if(screenId === 'screen-more') navItems[4].classList.add('active');
+      }
+
+      // Execute screen-specific callbacks
+      if (screenId === 'screen-favorites' && typeof renderFavorites === 'function') renderFavorites();
+      if (screenId === 'screen-compare' && typeof renderCompareScreen === 'function') renderCompareScreen();
+      syncScreenState(screenId);
+    }
+
+    function navigateBack() {
+      if (screenHistory.length > 1) {
+        screenHistory.pop();
+        const prevScreen = screenHistory[screenHistory.length - 1];
+        
+        appScreens.forEach(s => s.classList.remove('active'));
+        const target = document.getElementById(prevScreen);
+        if (target) target.classList.add('active');
+
+        const bNav = document.getElementById('main-bottom-nav');
+        if (hideNavOn.includes(prevScreen)) {
+          bNav.style.display = 'none';
+        } else {
+          bNav.style.display = 'flex';
+        }
+        syncScreenState(prevScreen);
+      } else {
+        navigateTo('screen-home');
+      }
+    }
+
+    // Android Native Back Button Handler called via AndroidBridge
+    window.handleAndroidBack = function() {
+      const activeScreen = document.querySelector('.app-screen.active');
+      const activeId = activeScreen ? activeScreen.id : 'screen-home';
+      
+      if (activeId !== 'screen-home' && activeId !== 'screen-splash') {
+        navigateBack();
+        return true; // Handled back inside web app
+      }
+      return false; // On home screen, allow Android app exit
+    };
+
+    window.addEventListener('popstate', (e) => {
+      const targetScreen = (e.state && e.state.screen) ? e.state.screen : 'screen-home';
+      appScreens.forEach(s => s.classList.remove('active'));
+      const target = document.getElementById(targetScreen);
+      if (target) target.classList.add('active');
+
+      const bNav = document.getElementById('main-bottom-nav');
+      if (hideNavOn.includes(targetScreen)) {
+        bNav.style.display = 'none';
+      } else {
+        bNav.style.display = 'flex';
+      }
+      syncScreenState(targetScreen);
+    });
+
+    // Splash Screen Transition
+    setTimeout(() => {
+      navigateTo('screen-home');
+    }, 1800);
+
   </script>
 </body>
 </html>
